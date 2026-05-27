@@ -17,3 +17,4 @@ networkx==3.6.1
 joblib==1.5.3
 pillow==12.2.0
 pysam            # read counting only (reproduce/count_*.py); separate alignment env
+matplotlib       # figure rendering only (figures/*.py); not used by the numeric eval/baselines
