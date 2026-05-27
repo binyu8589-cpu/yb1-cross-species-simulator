@@ -86,7 +86,7 @@ regenerate Tables 1–2 and Figures 3–4 run from the in-repo + Zenodo artifact
 | Fig 2 (model-vs-experiment double-blind) | v4 Δ*asd*/YB1 prediction + measured tables |
 | Fig 3 (mRNA–sRNA complementarity) | `eval/eval_pathway_no_context_and_log2fc.py` + sRNA-category eval |
 | Fig 4 (three-strain DAP-matched) | `figures/` (count → log2FC → panel) |
-| no-graph ablation (Table 2, SI S5) | `baselines/run_nograph_seed.sh` + `run_log2fc_model_only.py` (3 seeds) |
+| no-graph ablation (Table 2, SI S5) | `baselines/run_nograph_seed.sh` + `baselines/run_log2fc_model_only.py` (3 seeds) |
 
 ## Reproduce
 ```bash
