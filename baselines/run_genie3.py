@@ -31,7 +31,7 @@ from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vector
 
 V5 = _REPO
 CKPT = _os.path.join(_CKPT, "checkpoints_stage3v2_1_cond_S42", "best.pt")
-PARQUET = _os.path.join(_DATA, "master_expression_matrix.parquet")
+PARQUET = _os.path.join(_DATA, "master_expression_matrix_v2.parquet")
 VOCAB = _os.path.join(_REF, "sl1344_vocab.tsv")
 INHOUSE = _os.path.join(_DATA, "mrna_counts_v1.tsv")
 ALL_7 = ["YB1_aer_MinION","YB1_aer_0508","YB1_ana_v2","YB1_ana_0507","YB1_ana_0508",

@@ -51,9 +51,10 @@ pip install --extra-index-url https://download.pytorch.org/whl/cu130 -r requirem
   metadata) and processed count matrices under `data/processed/*.tsv`; the nine Supplementary
   Data tables under `data/supplementary/`.
 - **From Zenodo** (DOI **[10.5281/zenodo.20411440](https://doi.org/10.5281/zenodo.20411440)**):
-  trained checkpoints (per curriculum stage × seed, incl. no-graph ablation) and the large
-  processed matrix. Extract so that `checkpoints/` and `data/processed/master_expression_matrix.parquet`
-  sit at the repo root.
+  trained checkpoints (per curriculum stage × seed, incl. no-graph ablation) and the processed
+  expression matrices — `master_expression_matrix.parquet` (cross-species training corpus) and
+  `master_expression_matrix_v2.parquet` (the curated corpus the GENIE3/floor baselines use).
+  Extract so that `checkpoints/` and `data/processed/*.parquet` sit at the repo root.
 - **Raw nanopore RNA-seq** (YB1, SL7207, Δ*asd*, PW): NCBI GEO **[GSE-XXXXXX]** / SRA **[PRJNA-XXXXXX]** (to be assigned).
 - **Public datasets**: *E. coli* compendium — Tjaden, *RNA Biology* 2023 (Harvard Dataverse
   [doi:10.7910/DVN/QBMC9D](https://doi.org/10.7910/DVN/QBMC9D)); *Salmonella* Kröger et al. 2013;
