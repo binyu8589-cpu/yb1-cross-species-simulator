@@ -33,10 +33,17 @@ reproduce/        end-to-end scripts: count matrices + checkpoints -> Tables 1-2
 ```
 
 ## Installation
+Training/evaluation environment: Python 3.12.3, PyTorch 2.12.0 + CUDA 13.0 (NVIDIA RTX 5090).
+
 ```bash
-conda create -n yb1sim python=3.11 && conda activate yb1sim
-pip install -r requirements.txt        # torch 2.12 (CUDA 13), scikit-learn, pandas, numpy, pysam, pyarrow, joblib
+# Conda (recommended)
+conda env create -f environment.yml && conda activate yb1sim
+
+# or pip into a venv (GPU, CUDA 13 wheels)
+python3.12 -m venv yb1sim && source yb1sim/bin/activate
+pip install --extra-index-url https://download.pytorch.org/whl/cu130 -r requirements.txt
 ```
+`requirements-lock.txt` gives a byte-exact lock (all transitive NVIDIA wheels) for GPU reproduction. For CPU-only, drop the index URL and the `+cu130` suffixes (`torch==2.12.0`, `torchvision==0.27.0`).
 
 ## Data and checkpoints
 - **Trained checkpoints** (per curriculum stage × seed, incl. no-graph ablation) and **processed

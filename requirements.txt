@@ -1,9 +1,19 @@
-# Core environment (server: PyTorch 2.12 + CUDA 13, NVIDIA RTX 5090)
-# Exact pins to be frozen from the training environment before release.
-torch==2.12.0
-numpy
-pandas
-pyarrow
-scikit-learn
-pysam
-joblib
+# Direct dependencies (training/evaluation env: Python 3.12, PyTorch 2.12 + CUDA 13,
+# NVIDIA RTX 5090). Versions pinned from the release environment.
+#
+# GPU install:
+#   pip install --extra-index-url https://download.pytorch.org/whl/cu130 -r requirements.txt
+# CPU-only: drop the index URL and the "+cu130" suffixes (torch==2.12.0, torchvision==0.27.0).
+# Byte-exact lock (all transitive NVIDIA wheels): requirements-lock.txt
+# Conda users: environment.yml
+torch==2.12.0+cu130
+torchvision==0.27.0+cu130
+numpy==2.4.4
+pandas==3.0.3
+pyarrow==24.0.0
+scikit-learn==1.8.0
+scipy==1.17.1
+networkx==3.6.1
+joblib==1.5.3
+pillow==12.2.0
+pysam            # read counting only (reproduce/count_*.py); separate alignment env

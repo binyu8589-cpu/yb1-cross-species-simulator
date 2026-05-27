@@ -1,0 +1,29 @@
+# Conda environment for the cross-species bacterial transcriptome simulator.
+# Pinned from the training/evaluation environment (NVIDIA RTX 5090, CUDA 13.0,
+# Python 3.12.3). Recreate with:
+#     conda env create -f environment.yml && conda activate yb1sim
+#
+# GPU build: the torch/torchvision pins below are CUDA 13.0 wheels.
+# CPU-only reproduction (no NVIDIA GPU): drop the "--extra-index-url" line and
+# the "+cu130" local-version suffixes (use torch==2.12.0, torchvision==0.27.0).
+# For byte-exact GPU reproduction including all transitive NVIDIA wheels, use
+# requirements-lock.txt instead.
+name: yb1sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.3
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu130
+      - torch==2.12.0+cu130
+      - torchvision==0.27.0+cu130
+      - numpy==2.4.4
+      - pandas==3.0.3
+      - pyarrow==24.0.0
+      - scikit-learn==1.8.0      # GENIE3/ExtraTrees baseline + utilities
+      - scipy==1.17.1
+      - networkx==3.6.1          # RegulonDB regulatory-graph handling
+      - joblib==1.5.3
+      - pillow==12.2.0
+      - pysam                    # read counting only (reproduce/count_*.py); separate alignment env, Linux/macOS
