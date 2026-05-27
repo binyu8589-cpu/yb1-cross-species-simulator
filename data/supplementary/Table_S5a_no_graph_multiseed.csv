@@ -1,0 +1,10 @@
+arm,seed,aerobic_log2FC_cosine,anaerobic_log2FC_cosine
+full-graph,42,0.744,0.669
+full-graph,0,0.75,0.631
+full-graph,1,0.663,0.583
+no-graph,42,0.63,0.535
+no-graph,0,0.719,0.659
+no-graph,1,0.74,0.654
+full-graph_mean±SD,n=3,0.719±0.049,0.628±0.043
+no-graph_mean±SD,n=3,0.696±0.059,0.616±0.070
+delta_full_minus_nograph,,+0.023,+0.012

@@ -1,0 +1,51 @@
+contrast,control,panel,n,up,down,mean_log2FC,sign_p
+DAPeffect_aerobic,WT_aer_noDAP,DAP cascade,6,1,5,-0.0954,0.2188
+DAPeffect_aerobic,WT_aer_noDAP,Peptidoglycan Mur cassette,8,2,6,-0.2109,0.2891
+DAPeffect_aerobic,WT_aer_noDAP,SPI-1 (invasion T3SS),31,1,30,-1.7511,2.98e-08
+DAPeffect_aerobic,WT_aer_noDAP,SPI-2 (intracellular T3SS),29,3,26,-1.8764,1.524e-05
+DAPeffect_aerobic,WT_aer_noDAP,Flagellar / chemotaxis,31,21,10,0.1609,0.07076
+DAPeffect_anaerobic,WT_ana_noDAP,DAP cascade,6,1,5,-0.4546,0.2188
+DAPeffect_anaerobic,WT_ana_noDAP,Peptidoglycan Mur cassette,8,1,7,-0.3346,0.07031
+DAPeffect_anaerobic,WT_ana_noDAP,SPI-1 (invasion T3SS),31,27,4,0.7306,3.395e-05
+DAPeffect_anaerobic,WT_ana_noDAP,SPI-2 (intracellular T3SS),29,1,28,-1.7610,1.118e-07
+DAPeffect_anaerobic,WT_ana_noDAP,Flagellar / chemotaxis,31,16,15,-0.0270,1
+YB1_aer,WT_aer_noDAP,DAP cascade,6,4,2,0.2153,0.6875
+YB1_aer,WT_aer_DAP,DAP cascade,6,5,1,0.3107,0.2188
+YB1_aer,WT_aer_noDAP,Peptidoglycan Mur cassette,8,1,7,-0.2723,0.07031
+YB1_aer,WT_aer_DAP,Peptidoglycan Mur cassette,8,3,5,-0.0614,0.7266
+YB1_aer,WT_aer_noDAP,SPI-1 (invasion T3SS),31,29,2,0.8506,4.629e-07
+YB1_aer,WT_aer_DAP,SPI-1 (invasion T3SS),31,31,0,2.6017,9.313e-10
+YB1_aer,WT_aer_noDAP,SPI-2 (intracellular T3SS),29,2,27,-1.5853,1.624e-06
+YB1_aer,WT_aer_DAP,SPI-2 (intracellular T3SS),29,20,8,0.2911,0.0357
+YB1_aer,WT_aer_noDAP,Flagellar / chemotaxis,31,30,1,1.5220,2.98e-08
+YB1_aer,WT_aer_DAP,Flagellar / chemotaxis,31,30,1,1.3611,2.98e-08
+YB1_ana,WT_ana_noDAP,DAP cascade,6,2,4,-0.1370,0.6875
+YB1_ana,WT_ana_DAP,DAP cascade,6,5,1,0.3177,0.2188
+YB1_ana,WT_ana_noDAP,Peptidoglycan Mur cassette,8,3,5,-0.1861,0.7266
+YB1_ana,WT_ana_DAP,Peptidoglycan Mur cassette,8,6,2,0.1486,0.2891
+YB1_ana,WT_ana_noDAP,SPI-1 (invasion T3SS),31,17,14,0.0039,0.7201
+YB1_ana,WT_ana_DAP,SPI-1 (invasion T3SS),31,5,26,-0.7268,0.0001922
+YB1_ana,WT_ana_noDAP,SPI-2 (intracellular T3SS),29,1,28,-1.4239,1.118e-07
+YB1_ana,WT_ana_DAP,SPI-2 (intracellular T3SS),29,20,7,0.3371,0.01916
+YB1_ana,WT_ana_noDAP,Flagellar / chemotaxis,31,21,10,0.2471,0.07076
+YB1_ana,WT_ana_DAP,Flagellar / chemotaxis,31,23,8,0.2741,0.01067
+PW_aer,WT_aer_noDAP,DAP cascade,6,1,5,-0.2927,0.2188
+PW_aer,WT_aer_DAP,DAP cascade,6,1,5,-0.1972,0.2188
+PW_aer,WT_aer_noDAP,Peptidoglycan Mur cassette,8,1,7,-0.4921,0.07031
+PW_aer,WT_aer_DAP,Peptidoglycan Mur cassette,8,1,7,-0.2812,0.07031
+PW_aer,WT_aer_noDAP,SPI-1 (invasion T3SS),31,17,14,-0.0317,0.7201
+PW_aer,WT_aer_DAP,SPI-1 (invasion T3SS),31,31,0,1.7194,9.313e-10
+PW_aer,WT_aer_noDAP,SPI-2 (intracellular T3SS),29,1,28,-2.0824,1.118e-07
+PW_aer,WT_aer_DAP,SPI-2 (intracellular T3SS),29,10,16,-0.2060,0.3269
+PW_aer,WT_aer_noDAP,Flagellar / chemotaxis,31,29,2,1.5951,4.629e-07
+PW_aer,WT_aer_DAP,Flagellar / chemotaxis,31,30,1,1.4342,2.98e-08
+PW_ana,WT_ana_noDAP,DAP cascade,6,2,4,-0.1339,0.6875
+PW_ana,WT_ana_DAP,DAP cascade,6,5,1,0.3207,0.2188
+PW_ana,WT_ana_noDAP,Peptidoglycan Mur cassette,8,0,8,-0.3832,0.007812
+PW_ana,WT_ana_DAP,Peptidoglycan Mur cassette,8,5,3,-0.0485,0.7266
+PW_ana,WT_ana_noDAP,SPI-1 (invasion T3SS),31,31,0,2.3310,9.313e-10
+PW_ana,WT_ana_DAP,SPI-1 (invasion T3SS),31,31,0,1.6003,9.313e-10
+PW_ana,WT_ana_noDAP,SPI-2 (intracellular T3SS),29,7,22,-0.8161,0.00813
+PW_ana,WT_ana_DAP,SPI-2 (intracellular T3SS),29,27,2,0.9449,1.624e-06
+PW_ana,WT_ana_noDAP,Flagellar / chemotaxis,31,30,1,1.2531,2.98e-08
+PW_ana,WT_ana_DAP,Flagellar / chemotaxis,31,31,0,1.2801,9.313e-10

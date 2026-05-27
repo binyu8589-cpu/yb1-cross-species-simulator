@@ -1,0 +1,20 @@
+# Large artifacts — archived on Zenodo, not tracked in git
+checkpoints/
+*.pt
+data/processed/*.parquet
+data/raw/
+
+# Raw sequencing — deposited at NCBI GEO/SRA
+*.bam
+*.bam.bai
+*.fq.gz
+*.fastq.gz
+*.pod5
+*.fast5
+*.sra
+
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

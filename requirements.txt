@@ -1,0 +1,9 @@
+# Core environment (server: PyTorch 2.12 + CUDA 13, NVIDIA RTX 5090)
+# Exact pins to be frozen from the training environment before release.
+torch==2.12.0
+numpy
+pandas
+pyarrow
+scikit-learn
+pysam
+joblib
