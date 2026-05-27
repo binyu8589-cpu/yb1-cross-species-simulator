@@ -89,10 +89,47 @@ regenerate Tables 1–2 and Figures 3–4 run from the in-repo + Zenodo artifact
 | Fig 4 (three-strain DAP-matched) | `figures/` (count → log2FC → panel) |
 | no-graph ablation (Table 2, SI S5) | `baselines/run_nograph_seed.sh` + `baselines/run_log2fc_model_only.py` (3 seeds) |
 
-## Reproduce
+## Reviewer reproduction (quick start)
+End-to-end regeneration of the main quantitative results (Tables 1–2, Fig 3–4) from the
+deposited checkpoints + count matrices. Verified from a clean checkout on a single
+NVIDIA RTX 5090 (CUDA 13); the GPU steps take ~5 min after the environment is built.
+
 ```bash
-bash reproduce/reproduce_all.sh   # from deposited count matrices + checkpoints -> all tables & figures
+# 1. Code
+git clone https://github.com/binyu8589-cpu/yb1-cross-species-simulator.git
+cd yb1-cross-species-simulator
+
+# 2. Environment (Python 3.12, PyTorch 2.12 + CUDA 13)
+python3.12 -m venv yb1sim && source yb1sim/bin/activate
+pip install --extra-index-url https://download.pytorch.org/whl/cu130 -r requirements.txt
+
+# 3. Data + checkpoints from Zenodo (DOI 10.5281/zenodo.20411440):
+#    extract the archive so that  checkpoints/  and  data/processed/*.parquet
+#    sit at the repo root (the small reference/count tables are already version-controlled).
+#    The archive contains both master_expression_matrix.parquet and
+#    master_expression_matrix_v2.parquet (the latter is required by the Table-1/2 baselines).
+
+# 4. Run
+bash reproduce/reproduce_all.sh
 ```
+
+The script prints results to stdout, writes per-eval JSON next to each checkpoint, and renders
+`figures/figure9_axis_control_framework.png` (Fig 4) and `figures/figure5d_dap_matched.png` (Fig 5d).
+
+### Expected key numbers (held-out YB1)
+| Quantity | Value |
+|---|---|
+| Table 1 — absolute mRNA cosine, n=7 BAMs: **v5** / GENIE3 / mean-floor | **+0.948** / +0.917 / +0.934 |
+| Table 2 — strain-specific log2FC cosine (aer / ana): **v5** | **+0.744 / +0.669** |
+| Table 2 — GENIE3 (aer / ana) | +0.653 / +0.600 |
+| Table 2 — mean-floor (aer / ana) | +0.594 / +0.543 |
+| Table 2 — v5 per seed S42 / S0 / S1 (aer) | +0.744 / +0.750 / +0.663 |
+| Fig 3 — context-Δ (full − no-context): Flagellar / SPI-2 / SPI-1 / Chemotaxis | +0.13 / +0.08 / +0.04 / +0.04 |
+
+Figures 1 (edge-holdout / causal-mask-removal) and 2 (model-vs-experiment double-blind) are
+summarized in Supplementary Tables S3 / S6 (see the script map above). Stage-1/2/3 *training*
+from scratch additionally needs the public *E. coli* compendium and the GEO raw BAMs (see
+**Data and checkpoints**); the reproduction above runs from the in-repo + Zenodo artifacts alone.
 
 ## Citation
 Yubin et al. *Small-RNA-aware cross-species models predict engineered bacterial cell states.* (under review). [DOI on publication]
