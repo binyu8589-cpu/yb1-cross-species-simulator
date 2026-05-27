@@ -14,12 +14,19 @@ Reads : v4_full_factorial/mrna_counts_v4_with_0525_0526.tsv
 Writes: v4_full_factorial/dap_matched_n2/  (panel_table.tsv, run.log via stdout)
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import csv
 import math
 from collections import OrderedDict
 from pathlib import Path
 
-FF = "/Users/yubin/v2_data/wetlab/nanopore/v4_full_factorial"
+FF = _os.environ.get("WETLAB_FACTORIAL", "/Users/yubin/v2_data/wetlab/nanopore/v4_full_factorial")
 MRNA_TSV = f"{FF}/mrna_counts_v4_with_0525_0526.tsv"
 OUT_DIR = f"{FF}/dap_matched_n2_aer"
 

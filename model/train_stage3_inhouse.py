@@ -9,6 +9,13 @@ After cross-vocab mapping to Stage 2 vocabulary (case-insensitive gene name),
 ~33 features overlap. Stage 3 trains on these conserved features only.
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import os
 import random
@@ -21,10 +28,10 @@ import torch.nn.functional as F
 
 from train_stage2_kroger import load_stage1_ckpt
 
-INHOUSE_TSV = "/home/razer/v5_pathD/wetlab_data/srna_counts_v2_with_0514.tsv"
+INHOUSE_TSV = _os.path.join(_DATA, "srna_counts_v2_with_0514.tsv")
 # Server fallback
 if not os.path.exists(INHOUSE_TSV):
-    INHOUSE_TSV = "/home/yb/v5_pathD/wetlab_data/srna_counts_v2_with_0514.tsv"
+    INHOUSE_TSV = _os.path.join(_DATA, "srna_counts_v2_with_0514.tsv")
 
 # Stage 3 train set: SL7207 × 3 + Δasd × 2 (YB1 is hold-out)
 STAGE3_TRAIN_BAMS = [
@@ -112,7 +119,7 @@ def main():
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--device", default="cpu")
     ap.add_argument("--ckpt-dir",
-                    default="/Users/yubin/v2_data/v5_pathD/checkpoints_stage3_inhouse")
+                    default=_os.path.join(_CKPT, "checkpoints_stage3_inhouse"))
     args = ap.parse_args()
     torch.manual_seed(args.seed)
     random.seed(args.seed)

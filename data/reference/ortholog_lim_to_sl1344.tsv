@@ -1,0 +1,4403 @@
+lim_idx	lim_name	lim_type	sl1344_idx	sl1344_name	sl1344_locus_tag	match_type
+0	thrL	mrna	0	thrL	SL1344_RS00005	exact_lower
+1	thrA	mrna	1	thrA	SL1344_RS00010	exact_lower
+2	thrB	mrna	2	thrB	SL1344_RS00015	exact_lower
+3	thrC	mrna	3	thrC	SL1344_RS00020	exact_lower
+4	yaaX	mrna	-1			none
+5	talB	mrna	-1			none
+6	mog	mrna	7	mog	SL1344_RS00040	exact_lower
+7	mbiA	mrna	-1			none
+8	dnaK	mrna	11	dnaK	SL1344_RS00060	exact_lower
+9	dnaJ	mrna	12	dnaJ	SL1344_RS00065	exact_lower
+10	insL1	mrna	-1			none
+11	nhaA	mrna	39	nhaA	SL1344_RS00200	exact_lower
+12	nhaR	mrna	40	nhaR	SL1344_RS00205	exact_lower
+13	yaaY	mrna	-1			none
+14	ribF	mrna	45	ribF	SL1344_RS00230	exact_lower
+15	ileS	mrna	46	ileS	SL1344_RS00235	exact_lower
+16	lspA	mrna	47	lspA	SL1344_RS00240	exact_lower
+17	fkpB	mrna	48	fkpB	SL1344_RS00245	exact_lower
+18	ispH	mrna	49	ispH	SL1344_RS00250	exact_lower
+19	rihC	mrna	51	rihC	SL1344_RS00260	exact_lower
+20	dapB	mrna	64	dapB	SL1344_RS00325	exact_lower
+21	carA	mrna	66	carA	SL1344_RS00335	exact_lower
+22	carB	mrna	67	carB	SL1344_RS00340	exact_lower
+23	caiF	mrna	68	caiF	SL1344_RS00345	exact_lower
+24	fixA	mrna	-1			none
+25	fixB	mrna	-1			none
+26	fixC	mrna	-1			none
+27	fixX	mrna	77	fixX	SL1344_RS00400	exact_lower
+28	yaaU	mrna	-1			none
+29	kefF	mrna	83	kefF	SL1344_RS00435	exact_lower
+30	kefC	mrna	84	kefC	SL1344_RS00440	exact_lower
+31	folA	mrna	85	folA	SL1344_RS00445	exact_lower
+32	djlA	mrna	92	djlA	SL1344_RS00480	exact_lower
+33	yabP	mrna	-1			none
+34	yabQ	mrna	-1			none
+35	araC	mrna	101	araC	SL1344_RS00525	exact_lower
+36	yabI	mrna	-1			none
+37	sgrT	mrna	107	sgrT	SL1344_RS00555	exact_lower
+38	setA	mrna	-1			none
+39	leuO	mrna	113	leuO	SL1344_RS00585	exact_lower
+40	ilvI	mrna	114	ilvI	SL1344_RS00590	exact_lower
+41	ilvH	mrna	-1			none
+42	cra	mrna	116	cra	SL1344_RS00600	exact_lower
+43	mraZ	mrna	117	mraZ	SL1344_RS00605	exact_lower
+44	rsmH	mrna	118	rsmH	SL1344_RS00610	exact_lower
+45	ftsL	mrna	119	ftsL	SL1344_RS00615	exact_lower
+46	ftsI	mrna	120	ftsI	SL1344_RS00620	exact_lower
+47	murE	mrna	121	murE	SL1344_RS00625	exact_lower
+48	murF	mrna	122	murF	SL1344_RS00630	exact_lower
+49	mraY	mrna	123	mraY	SL1344_RS00635	exact_lower
+50	murD	mrna	124	murD	SL1344_RS00640	exact_lower
+51	ftsW	mrna	125	ftsW	SL1344_RS00645	exact_lower
+52	murG	mrna	126	murG	SL1344_RS00650	exact_lower
+53	murC	mrna	127	murC	SL1344_RS00655	exact_lower
+54	ddlB	mrna	-1			none
+55	ftsQ	mrna	129	ftsQ	SL1344_RS00665	exact_lower
+56	ftsA	mrna	130	ftsA	SL1344_RS00670	exact_lower
+57	ftsZ	mrna	131	ftsZ	SL1344_RS00675	exact_lower
+58	lpxC	mrna	132	lpxC	SL1344_RS00680	exact_lower
+59	secM	mrna	133	secM	SL1344_RS00685	exact_lower
+60	secA	mrna	134	secA	SL1344_RS00690	exact_lower
+61	mutT	mrna	135	mutT	SL1344_RS00695	exact_lower
+62	yacM	mrna	-1			none
+63	guaC	mrna	-1			none
+64	ampD	mrna	144	ampD	SL1344_RS00745	exact_lower
+65	ampE	mrna	145	ampE	SL1344_RS00750	exact_lower
+66	pdhR	mrna	149	pdhR	SL1344_RS00770	exact_lower
+67	aceE	mrna	150	aceE	SL1344_RS00775	exact_lower
+68	aceF	mrna	151	aceF	SL1344_RS00780	exact_lower
+69	lpd	mrna	-1			none
+70	acnB	mrna	155	acnB	SL1344_RS00805	exact_lower
+71	yacL	mrna	157	yacL	SL1344_RS00815	exact_lower
+72	cueO	mrna	165	cueO	SL1344_RS00855	exact_lower
+73	hpt	mrna	167	hpt	SL1344_RS00865	exact_lower
+74	yadG	mrna	-1			none
+75	yadH	mrna	-1			none
+76	yadI	mrna	-1			none
+77	yadE	mrna	-1			none
+78	rpnC	mrna	-1			none
+79	hrpB	mrna	186	hrpB	SL1344_RS00960	exact_lower
+80	mrcB	mrna	187	mrcB	SL1344_RS00965	exact_lower
+81	fhuA	mrna	188	fhuA	SL1344_RS00970	exact_lower
+82	fhuC	mrna	189	fhuC	SL1344_RS00975	exact_lower
+83	fhuD	mrna	190	fhuD	SL1344_RS00980	exact_lower
+84	fhuB	mrna	191	fhuB	SL1344_RS00985	exact_lower
+85	yadX	mrna	-1			none
+86	clcA	mrna	200	clcA	SL1344_RS01030	exact_lower
+87	yadW	mrna	-1			none
+88	erpA	mrna	201	erpA	SL1344_RS01035	exact_lower
+89	dgt	mrna	205	dgt	SL1344_RS01055	exact_lower
+90	degP	mrna	206	degP	SL1344_RS01060	exact_lower
+91	cdaR	mrna	207	cdaR	SL1344_RS01065	exact_lower
+92	rpsB	mrna	213	rpsB	SL1344_RS01095	exact_lower
+93	tsf	mrna	214	tsf	SL1344_RS01100	exact_lower
+94	pyrH	mrna	215	pyrH	SL1344_RS01105	exact_lower
+95	frr	mrna	216	frr	SL1344_RS01110	exact_lower
+96	dxr	mrna	-1			none
+97	ispU	mrna	218	ispU	SL1344_RS01120	exact_lower
+98	cdsA	mrna	219	cdsA	SL1344_RS01125	exact_lower
+99	rseP	mrna	220	rseP	SL1344_RS01130	exact_lower
+100	bamA	mrna	221	bamA	SL1344_RS01135	exact_lower
+101	skp	mrna	222	skp	SL1344_RS01140	exact_lower
+102	lpxD	mrna	223	lpxD	SL1344_RS01145	exact_lower
+103	fabZ	mrna	224	fabZ	SL1344_RS01150	exact_lower
+104	lpxA	mrna	225	lpxA	SL1344_RS01155	exact_lower
+105	lpxB	mrna	226	lpxB	SL1344_RS01160	exact_lower
+106	rnhB	mrna	227	rnhB	SL1344_RS01165	exact_lower
+107	dnaE	mrna	228	dnaE	SL1344_RS01170	exact_lower
+108	accA	mrna	229	accA	SL1344_RS01175	exact_lower
+109	ldcC	mrna	231	ldcC	SL1344_RS01185	exact_lower
+110	yaeR	mrna	-1			none
+111	tilS	mrna	233	tilS	SL1344_RS01195	exact_lower
+112	yaeQ	mrna	-1			none
+113	arfB	mrna	237	arfB	SL1344_RS01215	exact_lower
+114	nlpE	mrna	238	nlpE	SL1344_RS01220	exact_lower
+115	gmhB	mrna	245	gmhB	SL1344_RS01255	exact_lower
+116	dkgB	mrna	246	dkgB	SL1344_RS01290	exact_lower
+117	yafD	mrna	-1			none
+118	yafE	mrna	-1			none
+119	yafS	mrna	-1			none
+120	dnaQ	mrna	255	dnaQ	SL1344_RS01335	exact_lower
+121	yafT	mrna	-1			none
+122	ivy	mrna	-1			none
+123	gmhA	mrna	-1			none
+124	yafJ	mrna	-1			none
+125	yafL	mrna	-1			none
+126	rayT	mrna	-1			none
+127	dinB	mrna	305	dinB	SL1344_RS01605	exact_lower
+128	yafN	mrna	-1			none
+129	yafO	mrna	-1			none
+130	yafP	mrna	-1			none
+131	gpt	mrna	308	gpt	SL1344_RS01625	exact_lower
+132	frsA	mrna	309	frsA	SL1344_RS01630	exact_lower
+133	crl	mrna	310	crl	SL1344_RS01635	exact_lower
+134	proB	mrna	312	proB	SL1344_RS01645	exact_lower
+135	proA	mrna	313	proA	SL1344_RS01650	exact_lower
+136	insI1	mrna	-1			none
+137	ykfC	mrna	-1			none
+138	mmuP	mrna	-1			none
+139	mmuM	mrna	-1			none
+140	yagE	mrna	-1			none
+141	yagF	mrna	-1			none
+142	yagG	mrna	-1			none
+143	yagH	mrna	-1			none
+144	ykgS	mrna	-1			none
+145	yagJ	mrna	-1			none
+146	yagU	mrna	-1			none
+147	ykgL	mrna	-1			none
+148	insE1	mrna	-1			none
+149	insF1	mrna	-1			none
+150	rclR	mrna	541	rclR	SL1344_RS02845	exact_lower
+151	ykgE	mrna	-1			none
+152	ykgF	mrna	-1			none
+153	ykgG	mrna	-1			none
+154	betT	mrna	-1			none
+155	yahV	mrna	-1			none
+156	pdeL	mrna	-1			none
+157	yahD	mrna	-1			none
+158	yahE	mrna	-1			none
+159	yahF	mrna	-1			none
+160	yahG	mrna	-1			none
+161	yahH	mrna	-1			none
+162	yahI	mrna	-1			none
+163	yahJ	mrna	-1			none
+164	yahK	mrna	-1			none
+165	yahL	mrna	-1			none
+166	yahM	mrna	-1			none
+167	yahO	mrna	351	yahO	SL1344_RS01875	exact_lower
+168	prpB	mrna	353	prpB	SL1344_RS01885	exact_lower
+169	prpC	mrna	354	prpC	SL1344_RS01890	exact_lower
+170	prpD	mrna	-1			none
+171	prpE	mrna	356	prpE	SL1344_RS01900	exact_lower
+172	codB	mrna	3304	codB	SL1344_RS17220	exact_lower
+173	codA	mrna	-1			none
+174	cynT	mrna	-1			none
+175	cynS	mrna	-1			none
+176	cynX	mrna	-1			none
+177	mhpA	mrna	-1			none
+178	mhpB	mrna	-1			none
+179	mhpC	mrna	-1			none
+180	mhpD	mrna	-1			none
+181	mhpF	mrna	-1			none
+182	mhpE	mrna	-1			none
+183	mhpT	mrna	-1			none
+184	yaiL	mrna	-1			none
+185	insC1	mrna	-1			none
+186	insD1	mrna	-1			none
+187	tauA	mrna	-1			none
+188	tauB	mrna	-1			none
+189	tauC	mrna	-1			none
+190	tauD	mrna	-1			none
+191	yaiT	mrna	-1			none
+192	iprA	mrna	359	iprA	SL1344_RS01915	exact_lower
+193	sbmA	mrna	361	sbmA	SL1344_RS01925	exact_lower
+194	yaiW	mrna	362	yaiW	SL1344_RS01930	exact_lower
+195	yaiZ	mrna	-1			none
+196	iraP	mrna	368	iraP	SL1344_RS01960	exact_lower
+197	phoA	mrna	-1			none
+198	psiF	mrna	369	psiF	SL1344_RS01965	exact_lower
+199	dgcC	mrna	-1			none
+200	yaiI	mrna	-1			none
+201	aroL	mrna	373	aroL	SL1344_RS01985	exact_lower
+202	yaiA	mrna	374	yaiA	SL1344_RS01990	exact_lower
+203	aroM	mrna	-1			none
+204	ppnP	mrna	376	ppnP	SL1344_RS02000	exact_lower
+205	ykiD	mrna	-1			none
+206	mak	mrna	378	mak	SL1344_RS02010	exact_lower
+207	phoB	mrna	382	phoB	SL1344_RS02035	exact_lower
+208	phoR	mrna	383	phoR	SL1344_RS02040	exact_lower
+209	brnQ	mrna	384	brnQ	SL1344_RS02045	exact_lower
+210	proY	mrna	385	proY	SL1344_RS02050	exact_lower
+211	malZ	mrna	386	malZ	SL1344_RS02055	exact_lower
+212	queA	mrna	389	queA	SL1344_RS02070	exact_lower
+213	tgt	mrna	390	tgt	SL1344_RS02075	exact_lower
+214	yajC	mrna	391	yajC	SL1344_RS02080	exact_lower
+215	secD	mrna	392	secD	SL1344_RS02085	exact_lower
+216	secF	mrna	393	secF	SL1344_RS02090	exact_lower
+217	yajD	mrna	396	yajD	SL1344_RS02105	exact_lower
+218	nrdR	mrna	400	nrdR	SL1344_RS02125	exact_lower
+219	ribD	mrna	401	ribD	SL1344_RS02130	exact_lower
+220	ribE	mrna	402	ribE	SL1344_RS02135	exact_lower
+221	nusB	mrna	403	nusB	SL1344_RS02140	exact_lower
+222	thiL	mrna	404	thiL	SL1344_RS02145	exact_lower
+223	pgpA	mrna	405	pgpA	SL1344_RS02150	exact_lower
+224	thiI	mrna	410	thiI	SL1344_RS02175	exact_lower
+225	yajQ	mrna	-1			none
+226	bolA	mrna	431	bolA	SL1344_RS02280	exact_lower
+227	tig	mrna	432	tig	SL1344_RS02285	exact_lower
+228	clpP	mrna	433	clpP	SL1344_RS02290	exact_lower
+229	clpX	mrna	434	clpX	SL1344_RS02295	exact_lower
+230	lon	mrna	435	lon	SL1344_RS02300	exact_lower
+231	hupB	mrna	436	hupB	SL1344_RS02305	exact_lower
+232	ppiD	mrna	437	ppiD	SL1344_RS02310	exact_lower
+233	ybaV	mrna	-1			none
+234	fadM	mrna	439	fadM	SL1344_RS02320	exact_lower
+235	cof	mrna	442	cof	SL1344_RS02335	exact_lower
+236	decR	mrna	444	decR	SL1344_RS02345	exact_lower
+237	mdlA	mrna	-1			none
+238	mdlB	mrna	-1			none
+239	glnK	mrna	447	glnK	SL1344_RS02360	exact_lower
+240	amtB	mrna	448	amtB	SL1344_RS02365	exact_lower
+241	ybaY	mrna	-1			none
+242	ybaA	mrna	-1			none
+243	acrR	mrna	461	acrR	SL1344_RS02430	exact_lower
+244	mscK	mrna	462	mscK	SL1344_RS02435	exact_lower
+245	ybaN	mrna	-1			none
+246	apt	mrna	467	apt	SL1344_RS02460	exact_lower
+247	dnaX	mrna	468	dnaX	SL1344_RS02465	exact_lower
+248	ybaB	mrna	-1			none
+249	recR	mrna	470	recR	SL1344_RS02475	exact_lower
+250	htpG	mrna	471	htpG	SL1344_RS02480	exact_lower
+251	adk	mrna	472	adk	SL1344_RS02485	exact_lower
+252	hemH	mrna	473	hemH	SL1344_RS02490	exact_lower
+253	gsk	mrna	475	gsk	SL1344_RS02500	exact_lower
+254	ushA	mrna	478	ushA	SL1344_RS02515	exact_lower
+255	ybaQ	mrna	-1			none
+256	glsA	mrna	-1			none
+257	ybaT	mrna	-1			none
+258	cueR	mrna	483	cueR	SL1344_RS02540	exact_lower
+259	fetA	mrna	486	fetA	SL1344_RS02555	exact_lower
+260	fetB	mrna	487	fetB	SL1344_RS02560	exact_lower
+261	ybbA	mrna	491	ybbA	SL1344_RS02580	exact_lower
+262	ybbP	mrna	492	ybbP	SL1344_RS02585	exact_lower
+263	rhsD	mrna	-1			none
+264	ybbC	mrna	-1			none
+265	allA	mrna	499	allA	SL1344_RS02620	exact_lower
+266	allR	mrna	500	allR	SL1344_RS02625	exact_lower
+267	gcl	mrna	501	gcl	SL1344_RS02630	exact_lower
+268	hyi	mrna	-1			none
+269	glxR	mrna	503	glxR	SL1344_RS02640	exact_lower
+270	ybbW	mrna	-1			none
+271	allB	mrna	506	allB	SL1344_RS02655	exact_lower
+272	ybbY	mrna	-1			none
+273	glxK	mrna	508	glxK	SL1344_RS02665	exact_lower
+274	fdrA	mrna	-1			none
+275	ylbE	mrna	-1			none
+276	ylbF	mrna	-1			none
+277	ybcF	mrna	-1			none
+278	cysS	mrna	520	cysS	SL1344_RS02725	exact_lower
+279	sfmA	mrna	-1			none
+280	sfmC	mrna	-1			none
+281	sfmD	mrna	-1			none
+282	sfmH	mrna	-1			none
+283	sfmF	mrna	531	sfmF	SL1344_RS02780	exact_lower
+284	insE3	mrna	-1			none
+285	insF3	mrna	-1			none
+286	emrE	mrna	-1			none
+287	ybcK	mrna	-1			none
+288	ybcL	mrna	-1			none
+289	ybcM	mrna	-1			none
+290	ylcH	mrna	-1			none
+291	ybcN	mrna	-1			none
+292	ninE	mrna	-1			none
+293	ybcO	mrna	-1			none
+294	rusA	mrna	-1			none
+295	ylcG	mrna	-1			none
+296	quuD	mrna	-1			none
+297	essD	mrna	-1			none
+298	rrrD	mrna	-1			none
+299	rzpD	mrna	-1			none
+300	rzoD	mrna	-1			none
+301	ybcW	mrna	-1			none
+302	nohD	mrna	-1			none
+303	tfaD	mrna	-1			none
+304	tfaX	mrna	-1			none
+305	appY	mrna	-1			none
+306	cusC	mrna	-1			none
+307	cusF	mrna	-1			none
+308	cusB	mrna	-1			none
+309	cusA	mrna	-1			none
+310	pheP	mrna	546	pheP	SL1344_RS02870	exact_lower
+311	hokE	mrna	-1			none
+312	insL2	mrna	-1			none
+313	fes	mrna	564	fes	SL1344_RS02960	exact_lower
+314	ybdZ	mrna	-1			none
+315	entF	mrna	566	entF	SL1344_RS02970	exact_lower
+316	fepE	mrna	-1			none
+317	entS	mrna	571	entS	SL1344_RS02995	exact_lower
+318	entC	mrna	573	entC	SL1344_RS03005	exact_lower
+319	entE	mrna	574	entE	SL1344_RS03010	exact_lower
+320	entB	mrna	-1			none
+321	entA	mrna	576	entA	SL1344_RS03020	exact_lower
+322	entH	mrna	577	entH	SL1344_RS03025	exact_lower
+323	cstA	mrna	578	cstA	SL1344_RS03030	exact_lower
+324	ybdD	mrna	-1			none
+325	ybdL	mrna	-1			none
+326	ahpC	mrna	586	ahpC	SL1344_RS03070	exact_lower
+327	ahpF	mrna	587	ahpF	SL1344_RS03075	exact_lower
+328	ybdR	mrna	-1			none
+329	dpiB	mrna	603	dpiB	SL1344_RS03155	exact_lower
+330	dpiA	mrna	604	dpiA	SL1344_RS03160	exact_lower
+331	pagP	mrna	606	pagP	SL1344_RS03170	exact_lower
+332	cspE	mrna	607	cspE	SL1344_RS03175	exact_lower
+333	tatE	mrna	610	tatE	SL1344_RS03190	exact_lower
+334	ybeL	mrna	-1			none
+335	ybeR	mrna	-1			none
+336	djlB	mrna	-1			none
+337	ybeU	mrna	-1			none
+338	djlC	mrna	-1			none
+339	ubiF	mrna	648	ubiF	SL1344_RS03390	exact_lower
+340	nagE	mrna	655	nagE	SL1344_RS03460	exact_lower
+341	glnS	mrna	656	glnS	SL1344_RS03465	exact_lower
+342	chiP	mrna	657	chiP	SL1344_RS03470	exact_lower
+343	chiQ	mrna	658	chiQ	SL1344_RS03475	exact_lower
+344	seqA	mrna	667	seqA	SL1344_RS03520	exact_lower
+345	pgm	mrna	668	pgm	SL1344_RS03525	exact_lower
+346	ybfP	mrna	-1			none
+347	ybfA	mrna	-1			none
+348	rhsC	mrna	-1			none
+349	ybfB	mrna	-1			none
+350	ybfC	mrna	-1			none
+351	ybfQ	mrna	-1			none
+352	ybfD	mrna	-1			none
+353	ybgA	mrna	-1			none
+354	phr	mrna	-1			none
+355	ybgI	mrna	682	ybgI	SL1344_RS03595	exact_lower
+356	pxpB	mrna	683	pxpB	SL1344_RS03600	exact_lower
+357	pxpC	mrna	684	pxpC	SL1344_RS03605	exact_lower
+358	pxpA	mrna	685	pxpA	SL1344_RS03610	exact_lower
+359	nei	mrna	698	nei	SL1344_RS03680	exact_lower
+360	sdhC	mrna	702	sdhC	SL1344_RS03700	exact_lower
+361	sdhD	mrna	703	sdhD	SL1344_RS03705	exact_lower
+362	sdhA	mrna	704	sdhA	SL1344_RS03710	exact_lower
+363	sdhB	mrna	705	sdhB	SL1344_RS03715	exact_lower
+364	sucA	mrna	706	sucA	SL1344_RS03720	exact_lower
+365	sucB	mrna	-1			none
+366	sucC	mrna	708	sucC	SL1344_RS03730	exact_lower
+367	sucD	mrna	709	sucD	SL1344_RS03735	exact_lower
+368	mngA	mrna	-1			none
+369	mngB	mrna	-1			none
+370	cydA	mrna	710	cydA	SL1344_RS03745	exact_lower
+371	cydB	mrna	346	cydB	SL1344_RS01850	exact_lower
+372	cydX	mrna	712	cydX	SL1344_RS03755	exact_lower
+373	ybgE	mrna	713	ybgE	SL1344_RS03765	exact_lower
+374	ybgC	mrna	714	ybgC	SL1344_RS03770	exact_lower
+375	tolQ	mrna	715	tolQ	SL1344_RS03775	exact_lower
+376	tolR	mrna	716	tolR	SL1344_RS03780	exact_lower
+377	tolA	mrna	717	tolA	SL1344_RS03785	exact_lower
+378	tolB	mrna	718	tolB	SL1344_RS03790	exact_lower
+379	pal	mrna	719	pal	SL1344_RS03795	exact_lower
+380	cpoB	mrna	720	cpoB	SL1344_RS03800	exact_lower
+381	nadA	mrna	721	nadA	SL1344_RS03830	exact_lower
+382	pnuC	mrna	722	pnuC	SL1344_RS03835	exact_lower
+383	aroG	mrna	725	aroG	SL1344_RS03850	exact_lower
+384	acrZ	mrna	-1			none
+385	modA	mrna	746	modA	SL1344_RS03955	exact_lower
+386	modB	mrna	747	modB	SL1344_RS03960	exact_lower
+387	modC	mrna	748	modC	SL1344_RS03965	exact_lower
+388	pgl	mrna	750	pgl	SL1344_RS03975	exact_lower
+389	ybhH	mrna	-1			none
+390	ybhI	mrna	-1			none
+391	ybhJ	mrna	-1			none
+392	bioB	mrna	759	bioB	SL1344_RS04020	exact_lower
+393	bioF	mrna	760	bioF	SL1344_RS04025	exact_lower
+394	bioC	mrna	761	bioC	SL1344_RS04030	exact_lower
+395	bioD	mrna	762	bioD	SL1344_RS04035	exact_lower
+396	uvrB	mrna	763	uvrB	SL1344_RS04040	exact_lower
+397	moaA	mrna	767	moaA	SL1344_RS04060	exact_lower
+398	moaB	mrna	768	moaB	SL1344_RS04065	exact_lower
+399	moaC	mrna	769	moaC	SL1344_RS04070	exact_lower
+400	moaD	mrna	770	moaD	SL1344_RS04075	exact_lower
+401	moaE	mrna	771	moaE	SL1344_RS04080	exact_lower
+402	ybhL	mrna	-1			none
+403	ybhM	mrna	-1			none
+404	ybhQ	mrna	-1			none
+405	rhlE	mrna	785	rhlE	SL1344_RS04150	exact_lower
+406	dinG	mrna	786	dinG	SL1344_RS04155	exact_lower
+407	ybiB	mrna	787	ybiB	SL1344_RS04160	exact_lower
+408	hcxB	mrna	-1			none
+409	ybiE	mrna	-1			none
+410	rlmF	mrna	790	rlmF	SL1344_RS04180	exact_lower
+411	yliM	mrna	-1			none
+412	ompX	mrna	797	ompX	SL1344_RS04215	exact_lower
+413	mntR	mrna	800	mntR	SL1344_RS04225	exact_lower
+414	ybiR	mrna	-1			none
+415	ybiT	mrna	-1			none
+416	fsaA	mrna	-1			none
+417	iaaA	mrna	811	iaaA	SL1344_RS04285	exact_lower
+418	gsiA	mrna	812	gsiA	SL1344_RS04290	exact_lower
+419	gsiB	mrna	813	gsiB	SL1344_RS04295	exact_lower
+420	gsiC	mrna	814	gsiC	SL1344_RS04300	exact_lower
+421	gsiD	mrna	815	gsiD	SL1344_RS04305	exact_lower
+422	pdeI	mrna	-1			none
+423	dgcI	mrna	-1			none
+424	bssR	mrna	817	bssR	SL1344_RS04315	exact_lower
+425	yliI	mrna	-1			none
+426	dacC	mrna	827	dacC	SL1344_RS04370	exact_lower
+427	mdfA	mrna	-1			none
+428	rcdA	mrna	-1			none
+429	ybjM	mrna	-1			none
+430	ybjC	mrna	-1			none
+431	nfsA	mrna	-1			none
+432	rimK	mrna	838	rimK	SL1344_RS04430	exact_lower
+433	ybjN	mrna	-1			none
+434	potF	mrna	840	potF	SL1344_RS04440	exact_lower
+435	potG	mrna	841	potG	SL1344_RS04445	exact_lower
+436	potH	mrna	842	potH	SL1344_RS04450	exact_lower
+437	potI	mrna	843	potI	SL1344_RS04455	exact_lower
+438	ybjO	mrna	-1			none
+439	rlmC	mrna	845	rlmC	SL1344_RS04465	exact_lower
+440	ybjQ	mrna	-1			none
+441	amiD	mrna	-1			none
+442	ybjD	mrna	-1			none
+443	macA	mrna	866	macA	SL1344_RS04570	exact_lower
+444	macB	mrna	867	macB	SL1344_RS04575	exact_lower
+445	yljB	mrna	-1			none
+446	clpS	mrna	870	clpS	SL1344_RS04585	exact_lower
+447	clpA	mrna	871	clpA	SL1344_RS04590	exact_lower
+448	lrp	mrna	882	lrp	SL1344_RS04660	exact_lower
+449	ftsK	mrna	883	ftsK	SL1344_RS04665	exact_lower
+450	lolA	mrna	884	lolA	SL1344_RS04670	exact_lower
+451	rarA	mrna	885	rarA	SL1344_RS04675	exact_lower
+452	serS	mrna	886	serS	SL1344_RS04680	exact_lower
+453	dmsA	mrna	887	dmsA	SL1344_RS04685	exact_lower
+454	dmsB	mrna	888	dmsB	SL1344_RS04690	exact_lower
+455	dmsC	mrna	-1			none
+456	ycaD	mrna	-1			none
+457	ycaM	mrna	-1			none
+458	ycaK	mrna	-1			none
+459	ycaP	mrna	-1			none
+460	serC	mrna	899	serC	SL1344_RS04750	exact_lower
+461	aroA	mrna	900	aroA	SL1344_RS04755	exact_lower
+462	ycaL	mrna	-1			none
+463	cmk	mrna	902	cmk	SL1344_RS04765	exact_lower
+464	rpsA	mrna	903	rpsA	SL1344_RS04770	exact_lower
+465	ihfB	mrna	904	ihfB	SL1344_RS04775	exact_lower
+466	ycaI	mrna	-1			none
+467	msbA	mrna	906	msbA	SL1344_RS04785	exact_lower
+468	lpxK	mrna	907	lpxK	SL1344_RS04790	exact_lower
+469	ycaQ	mrna	-1			none
+470	ycaR	mrna	909	ycaR	SL1344_RS04800	exact_lower
+471	kdsB	mrna	910	kdsB	SL1344_RS04805	exact_lower
+472	ycbJ	mrna	-1			none
+473	cmoM	mrna	913	cmoM	SL1344_RS04820	exact_lower
+474	mukF	mrna	914	mukF	SL1344_RS04825	exact_lower
+475	mukE	mrna	915	mukE	SL1344_RS04830	exact_lower
+476	mukB	mrna	916	mukB	SL1344_RS04835	exact_lower
+477	ldtD	mrna	917	ldtD	SL1344_RS04840	exact_lower
+478	mepK	mrna	-1			none
+479	gloC	mrna	-1			none
+480	pepN	mrna	984	pepN	SL1344_RS05190	exact_lower
+481	elfA	mrna	-1			none
+482	elfD	mrna	-1			none
+483	elfC	mrna	-1			none
+484	elfG	mrna	-1			none
+485	ycbU	mrna	-1			none
+486	ycbV	mrna	-1			none
+487	ycbF	mrna	-1			none
+488	pyrD	mrna	985	pyrD	SL1344_RS05195	exact_lower
+489	zapC	mrna	986	zapC	SL1344_RS05200	exact_lower
+490	rlmL	mrna	-1			none
+491	uup	mrna	-1			none
+492	pqiA	mrna	990	pqiA	SL1344_RS05220	exact_lower
+493	pqiB	mrna	991	pqiB	SL1344_RS05225	exact_lower
+494	pqiC	mrna	992	pqiC	SL1344_RS05230	exact_lower
+495	rmf	mrna	993	rmf	SL1344_RS05235	exact_lower
+496	matP	mrna	996	matP	SL1344_RS05250	exact_lower
+497	sxy	mrna	-1			none
+498	helD	mrna	1002	helD	SL1344_RS05280	exact_lower
+499	yccU	mrna	-1			none
+500	yccX	mrna	1010	yccX	SL1344_RS05320	exact_lower
+501	hyaA	mrna	1709	hyaA	SL1344_RS08915	exact_lower
+502	hyaB	mrna	1710	hyaB	SL1344_RS08920	exact_lower
+503	hyaC	mrna	1711	hyaC	SL1344_RS08925	exact_lower
+504	hyaD	mrna	1712	hyaD	SL1344_RS08930	exact_lower
+505	hyaE	mrna	1713	hyaE	SL1344_RS08935	exact_lower
+506	hyaF	mrna	-1			none
+507	appC	mrna	1715	appC	SL1344_RS08945	exact_lower
+508	appB	mrna	1716	appB	SL1344_RS08950	exact_lower
+509	appX	mrna	-1			none
+510	appA	mrna	-1			none
+511	insA4	mrna	-1			none
+512	insB4	mrna	-1			none
+513	cspG	mrna	-1			none
+514	ymcF	mrna	-1			none
+515	ymcE	mrna	-1			none
+516	gnsA	mrna	-1			none
+517	torT	mrna	3782	torT	SL1344_RS19690	exact_lower
+518	torC	mrna	3780	torC	SL1344_RS19680	exact_lower
+519	torA	mrna	3779	torA	SL1344_RS19675	exact_lower
+520	torD	mrna	3778	torD	SL1344_RS19670	exact_lower
+521	yccE	mrna	-1			none
+522	agp	mrna	1043	agp	SL1344_RS05490	exact_lower
+523	ymdF	mrna	-1			none
+524	rutR	mrna	1047	rutR	SL1344_RS05510	exact_lower
+525	ymdG	mrna	-1			none
+526	putP	mrna	1050	putP	SL1344_RS05525	exact_lower
+527	efeO	mrna	-1			none
+528	efeB	mrna	-1			none
+529	phoH	mrna	1051	phoH	SL1344_RS05535	exact_lower
+530	dgcT	mrna	-1			none
+531	ycdU	mrna	-1			none
+532	ghrA	mrna	1059	ghrA	SL1344_RS05590	exact_lower
+533	ycdX	mrna	-1			none
+534	ycdY	mrna	-1			none
+535	ycdZ	mrna	-1			none
+536	csgB	mrna	1067	csgB	SL1344_RS05630	exact_lower
+537	csgA	mrna	1068	csgA	SL1344_RS05635	exact_lower
+538	csgC	mrna	1069	csgC	SL1344_RS05640	exact_lower
+539	ymdA	mrna	-1			none
+540	ymdB	mrna	1071	ymdB	SL1344_RS05650	exact_lower
+541	clsC	mrna	-1			none
+542	opgG	mrna	-1			none
+543	opgH	mrna	-1			none
+544	yceK	mrna	-1			none
+545	trhO	mrna	-1			none
+546	rimJ	mrna	1091	rimJ	SL1344_RS05750	exact_lower
+547	yceH	mrna	-1			none
+548	yceM	mrna	-1			none
+549	murJ	mrna	1094	murJ	SL1344_RS05765	exact_lower
+550	flgB	mrna	1098	flgB	SL1344_RS05785	exact_lower
+551	flgC	mrna	1099	flgC	SL1344_RS05790	exact_lower
+552	flgD	mrna	1100	flgD	SL1344_RS05795	exact_lower
+553	flgE	mrna	1101	flgE	SL1344_RS05800	exact_lower
+554	flgF	mrna	-1			none
+555	flgG	mrna	1103	flgG	SL1344_RS05810	exact_lower
+556	flgH	mrna	1104	flgH	SL1344_RS05815	exact_lower
+557	flgI	mrna	-1			none
+558	flgJ	mrna	1106	flgJ	SL1344_RS05825	exact_lower
+559	flgK	mrna	1107	flgK	SL1344_RS05830	exact_lower
+560	flgL	mrna	1108	flgL	SL1344_RS05835	exact_lower
+561	yceQ	mrna	-1			none
+562	rluC	mrna	1110	rluC	SL1344_RS05850	exact_lower
+563	yceD	mrna	1114	yceD	SL1344_RS05870	exact_lower
+564	rpmF	mrna	1115	rpmF	SL1344_RS05875	exact_lower
+565	plsX	mrna	1116	plsX	SL1344_RS05880	exact_lower
+566	fabH	mrna	1117	fabH	SL1344_RS05885	exact_lower
+567	fabD	mrna	1118	fabD	SL1344_RS05890	exact_lower
+568	fabG	mrna	1119	fabG	SL1344_RS05895	exact_lower
+569	acpP	mrna	1120	acpP	SL1344_RS05900	exact_lower
+570	fabF	mrna	1121	fabF	SL1344_RS05905	exact_lower
+571	pabC	mrna	1122	pabC	SL1344_RS05910	exact_lower
+572	mltG	mrna	-1			none
+573	tmk	mrna	1124	tmk	SL1344_RS05920	exact_lower
+574	holB	mrna	1125	holB	SL1344_RS05925	exact_lower
+575	ycfH	mrna	-1			none
+576	ptsG	mrna	1127	ptsG	SL1344_RS05935	exact_lower
+577	hinT	mrna	1129	hinT	SL1344_RS05945	exact_lower
+578	ycfL	mrna	-1			none
+579	lpoB	mrna	1131	lpoB	SL1344_RS05955	exact_lower
+580	thiK	mrna	1132	thiK	SL1344_RS05960	exact_lower
+581	nagZ	mrna	1133	nagZ	SL1344_RS05965	exact_lower
+582	ycfP	mrna	1134	ycfP	SL1344_RS05970	exact_lower
+583	ndh	mrna	1135	ndh	SL1344_RS05975	exact_lower
+584	ycfJ	mrna	-1			none
+585	bhsA	mrna	1138	bhsA	SL1344_RS05990	exact_lower
+586	lolC	mrna	1141	lolC	SL1344_RS06005	exact_lower
+587	lolD	mrna	1142	lolD	SL1344_RS06010	exact_lower
+588	lolE	mrna	1143	lolE	SL1344_RS06015	exact_lower
+589	nagK	mrna	1144	nagK	SL1344_RS06020	exact_lower
+590	cobB	mrna	1145	cobB	SL1344_RS06025	exact_lower
+591	pepT	mrna	1151	pepT	SL1344_RS06055	exact_lower
+592	icd	mrna	1163	icd	SL1344_RS06115	exact_lower
+593	lit	mrna	-1			none
+594	ymfI	mrna	-1			none
+595	ymfT	mrna	-1			none
+596	ymfL	mrna	-1			none
+597	ymfM	mrna	-1			none
+598	ymfN	mrna	-1			none
+599	ymfR	mrna	1935	ymfR	SL1344_RS10110	exact_lower
+600	beeE	mrna	-1			none
+601	ymfQ	mrna	-1			none
+602	ycfK	mrna	-1			none
+603	tfaP	mrna	-1			none
+604	pinE	mrna	-1			none
+605	mcrA	mrna	-1			none
+606	ycgZ	mrna	-1			none
+607	ymgA	mrna	-1			none
+608	ariR	mrna	-1			none
+609	ymgC	mrna	-1			none
+610	pdeG	mrna	-1			none
+611	ymgF	mrna	-1			none
+612	ymgJ	mrna	-1			none
+613	ycgJ	mrna	-1			none
+614	ymgN	mrna	-1			none
+615	ycgL	mrna	-1			none
+616	ycgM	mrna	-1			none
+617	ycgN	mrna	-1			none
+618	umuD	mrna	4679	umuD	SL1344_RS23910	exact_lower
+619	umuC	mrna	-1			none
+620	fadR	mrna	1727	fadR	SL1344_RS09010	exact_lower
+621	dadA	mrna	-1			none
+622	dadX	mrna	1724	dadX	SL1344_RS08995	exact_lower
+623	ymgM	mrna	-1			none
+624	emtA	mrna	1722	emtA	SL1344_RS08980	exact_lower
+625	ymgE	mrna	-1			none
+626	ycgY	mrna	-1			none
+627	dhaR	mrna	-1			none
+628	ychH	mrna	1705	ychH	SL1344_RS08895	exact_lower
+629	hemA	mrna	1700	hemA	SL1344_RS08870	exact_lower
+630	prfA	mrna	1699	prfA	SL1344_RS08865	exact_lower
+631	prmC	mrna	1698	prmC	SL1344_RS08860	exact_lower
+632	ychQ	mrna	-1			none
+633	ychA	mrna	-1			none
+634	kdsA	mrna	1695	kdsA	SL1344_RS08845	exact_lower
+635	chaB	mrna	1693	chaB	SL1344_RS08835	exact_lower
+636	chaC	mrna	-1			none
+637	ychO	mrna	-1			none
+638	narK	mrna	1688	narK	SL1344_RS08810	exact_lower
+639	narG	mrna	-1			none
+640	narH	mrna	1499	narH	SL1344_RS07865	exact_lower
+641	narJ	mrna	1685	narJ	SL1344_RS08795	exact_lower
+642	narI	mrna	1501	narI	SL1344_RS07875	exact_lower
+643	ychS	mrna	-1			none
+644	rssA	mrna	1680	rssA	SL1344_RS08760	exact_lower
+645	rssB	mrna	1679	rssB	SL1344_RS08755	exact_lower
+646	galU	mrna	1678	galU	SL1344_RS08750	exact_lower
+647	tdk	mrna	1676	tdk	SL1344_RS08740	exact_lower
+648	ychT	mrna	-1			none
+649	ychE	mrna	-1			none
+650	insH21	mrna	-1			none
+651	oppA	mrna	1673	oppA	SL1344_RS08725	exact_lower
+652	oppB	mrna	1672	oppB	SL1344_RS08720	exact_lower
+653	oppC	mrna	1671	oppC	SL1344_RS08715	exact_lower
+654	oppD	mrna	-1			none
+655	oppF	mrna	1669	oppF	SL1344_RS08705	exact_lower
+656	yciY	mrna	-1			none
+657	tonB	mrna	1663	tonB	SL1344_RS08680	exact_lower
+658	ompW	mrna	1658	ompW	SL1344_RS08655	exact_lower
+659	rnm	mrna	1647	rnm	SL1344_RS08605	exact_lower
+660	yciO	mrna	-1			none
+661	yciQ	mrna	-1			none
+662	rluB	mrna	1645	rluB	SL1344_RS08595	exact_lower
+663	sohB	mrna	1642	sohB	SL1344_RS08580	exact_lower
+664	topA	mrna	1640	topA	SL1344_RS08570	exact_lower
+665	cysB	mrna	1639	cysB	SL1344_RS08565	exact_lower
+666	ymiA	mrna	-1			none
+667	yciX	mrna	-1			none
+668	ymiC	mrna	1636	ymiC	SL1344_RS27660	exact_lower
+669	acnA	mrna	1635	acnA	SL1344_RS08555	exact_lower
+670	pgpB	mrna	1633	pgpB	SL1344_RS08545	exact_lower
+671	lapA	mrna	-1			none
+672	lapB	mrna	1631	lapB	SL1344_RS08535	exact_lower
+673	pyrF	mrna	1630	pyrF	SL1344_RS08530	exact_lower
+674	yciH	mrna	1629	yciH	SL1344_RS08525	exact_lower
+675	ymiD	mrna	-1			none
+676	ymiB	mrna	-1			none
+677	puuD	mrna	-1			none
+678	puuR	mrna	-1			none
+679	puuC	mrna	-1			none
+680	puuB	mrna	-1			none
+681	puuE	mrna	-1			none
+682	pspA	mrna	1612	pspA	SL1344_RS08435	exact_lower
+683	pspB	mrna	1611	pspB	SL1344_RS08430	exact_lower
+684	pspC	mrna	1610	pspC	SL1344_RS08425	exact_lower
+685	pspD	mrna	1609	pspD	SL1344_RS08420	exact_lower
+686	pspE	mrna	1608	pspE	SL1344_RS08415	exact_lower
+687	ycjM	mrna	-1			none
+688	ycjN	mrna	-1			none
+689	ycjO	mrna	-1			none
+690	ycjP	mrna	-1			none
+691	ycjQ	mrna	-1			none
+692	ycjR	mrna	-1			none
+693	ycjS	mrna	-1			none
+694	ycjT	mrna	-1			none
+695	ycjU	mrna	-1			none
+696	ompG	mrna	-1			none
+697	ycjX	mrna	-1			none
+698	ycjF	mrna	-1			none
+699	tyrR	mrna	1605	tyrR	SL1344_RS08400	exact_lower
+700	ycjG	mrna	1603	ycjG	SL1344_RS08390	exact_lower
+701	pgrR	mrna	-1			none
+702	mppA	mrna	-1			none
+703	insH4	mrna	-1			none
+704	ynaJ	mrna	-1			none
+705	abgR	mrna	-1			none
+706	smrA	mrna	1582	smrA	SL1344_RS08275	exact_lower
+707	ynaN	mrna	-1			none
+708	zntB	mrna	1580	zntB	SL1344_RS08265	exact_lower
+709	ynaL	mrna	-1			none
+710	dbpA	mrna	1578	dbpA	SL1344_RS08260	exact_lower
+711	sieB	mrna	-1			none
+712	ydaS	mrna	-1			none
+713	ydaT	mrna	-1			none
+714	ydaU	mrna	-1			none
+715	ydaV	mrna	-1			none
+716	ydaW	mrna	-1			none
+717	rzoR	mrna	-1			none
+718	trkG	mrna	-1			none
+719	ynaK	mrna	-1			none
+720	ydaY	mrna	-1			none
+721	ynaA	mrna	-1			none
+722	stfR	mrna	-1			none
+723	tfaR	mrna	-1			none
+724	ydbJ	mrna	-1			none
+725	ydbH	mrna	-1			none
+726	ynbE	mrna	-1			none
+727	ydbL	mrna	-1			none
+728	feaB	mrna	-1			none
+729	paaA	mrna	-1			none
+730	paaB	mrna	-1			none
+731	paaC	mrna	-1			none
+732	paaD	mrna	-1			none
+733	paaE	mrna	-1			none
+734	paaF	mrna	-1			none
+735	paaG	mrna	-1			none
+736	paaH	mrna	-1			none
+737	paaI	mrna	-1			none
+738	paaJ	mrna	-1			none
+739	paaK	mrna	-1			none
+740	paaX	mrna	-1			none
+741	paaY	mrna	-1			none
+742	insI2	mrna	-1			none
+743	pdxI	mrna	-1			none
+744	ydbD	mrna	-1			none
+745	ynbA	mrna	-1			none
+746	ynbB	mrna	-1			none
+747	ynbC	mrna	-1			none
+748	ynbD	mrna	-1			none
+749	hrpA	mrna	1563	hrpA	SL1344_RS08175	exact_lower
+750	ydcF	mrna	-1			none
+751	aldA	mrna	-1			none
+752	cybB	mrna	1561	cybB	SL1344_RS08165	exact_lower
+753	ydcA	mrna	-1			none
+754	yncP	mrna	-1			none
+755	trg	mrna	-1			none
+756	ydcJ	mrna	-1			none
+757	opgD	mrna	-1			none
+758	ydcH	mrna	-1			none
+759	rimL	mrna	1533	rimL	SL1344_RS08030	exact_lower
+760	tehA	mrna	1531	tehA	SL1344_RS08020	exact_lower
+761	tehB	mrna	1530	tehB	SL1344_RS08015	exact_lower
+762	ydcL	mrna	-1			none
+763	insQ	mrna	-1			none
+764	sutR	mrna	-1			none
+765	rlhA	mrna	-1			none
+766	hicA	mrna	-1			none
+767	hicB	mrna	-1			none
+768	ydcR	mrna	-1			none
+769	ydcS	mrna	-1			none
+770	ydcT	mrna	-1			none
+771	ydcU	mrna	-1			none
+772	ydcV	mrna	-1			none
+773	patD	mrna	1519	patD	SL1344_RS07960	exact_lower
+774	ortT	mrna	-1			none
+775	ydcY	mrna	-1			none
+776	curA	mrna	-1			none
+777	mcbR	mrna	1509	mcbR	SL1344_RS07915	exact_lower
+778	yncE	mrna	-1			none
+779	yncG	mrna	-1			none
+780	yncH	mrna	-1			none
+781	ydcD	mrna	-1			none
+782	ydcC	mrna	-1			none
+783	pptA	mrna	-1			none
+784	nhoA	mrna	1503	nhoA	SL1344_RS07885	exact_lower
+785	fdnG	mrna	1491	fdnG	SL1344_RS07820	exact_lower
+786	fdnH	mrna	-1			none
+787	fdnI	mrna	1489	fdnI	SL1344_RS07810	exact_lower
+788	osmC	mrna	-1			none
+789	yneP	mrna	-1			none
+790	lsrA	mrna	4013	lsrA	SL1344_RS20935	exact_lower
+791	lsrC	mrna	4014	lsrC	SL1344_RS20940	exact_lower
+792	lsrD	mrna	4015	lsrD	SL1344_RS20945	exact_lower
+793	lsrB	mrna	4016	lsrB	SL1344_RS20950	exact_lower
+794	lsrF	mrna	4017	lsrF	SL1344_RS20955	exact_lower
+795	lsrG	mrna	4018	lsrG	SL1344_RS20960	exact_lower
+796	tam	mrna	-1			none
+797	yneJ	mrna	-1			none
+798	yneK	mrna	-1			none
+799	ydeA	mrna	-1			none
+800	marR	mrna	1442	marR	SL1344_RS07560	exact_lower
+801	marA	mrna	1441	marA	SL1344_RS07555	exact_lower
+802	marB	mrna	1440	marB	SL1344_RS07550	exact_lower
+803	ydeE	mrna	1438	ydeE	SL1344_RS07540	exact_lower
+804	mgtS	mrna	1437	mgtS	SL1344_RS27040	exact_lower
+805	mgtT	mrna	-1			none
+806	ydeJ	mrna	-1			none
+807	ydfG	mrna	1432	ydfG	SL1344_RS07510	exact_lower
+808	rspR	mrna	-1			none
+809	ydfZ	mrna	1430	ydfZ	SL1344_RS07500	exact_lower
+810	ynfT	mrna	-1			none
+811	ydfK	mrna	-1			none
+812	pinQ	mrna	-1			none
+813	ynfO	mrna	-1			none
+814	ydfO	mrna	-1			none
+815	ynfU	mrna	-1			none
+816	cspF	mrna	1169	cspF	SL1344_RS06145	exact_lower
+817	ynfS	mrna	-1			none
+818	ydfV	mrna	-1			none
+819	flxA	mrna	-1			none
+820	dicA	mrna	-1			none
+821	ydfA	mrna	-1			none
+822	ydfB	mrna	-1			none
+823	ydfC	mrna	-1			none
+824	ydfD	mrna	-1			none
+825	ynfB	mrna	-1			none
+826	speG	mrna	1424	speG	SL1344_RS07465	exact_lower
+827	ynfD	mrna	-1			none
+828	ynfE	mrna	1421	ynfE	SL1344_RS07450	exact_lower
+829	ynfF	mrna	1420	ynfF	SL1344_RS07445	exact_lower
+830	ynfG	mrna	-1			none
+831	ynfH	mrna	-1			none
+832	dmsD	mrna	1417	dmsD	SL1344_RS07430	exact_lower
+833	clcB	mrna	1412	clcB	SL1344_RS07405	exact_lower
+834	ynfM	mrna	-1			none
+835	asr	mrna	1406	asr	SL1344_RS07380	exact_lower
+836	ydgU	mrna	-1			none
+837	ydgD	mrna	-1			none
+838	tqsA	mrna	-1			none
+839	ydgH	mrna	1398	ydgH	SL1344_RS07345	exact_lower
+840	ydgI	mrna	-1			none
+841	folM	mrna	-1			none
+842	rstA	mrna	1395	rstA	SL1344_RS07330	exact_lower
+843	rstB	mrna	1392	rstB	SL1344_RS07310	exact_lower
+844	tus	mrna	1391	tus	SL1344_RS07305	exact_lower
+845	manA	mrna	1388	manA	SL1344_RS07290	exact_lower
+846	ydgA	mrna	-1			none
+847	malX	mrna	-1			none
+848	malY	mrna	-1			none
+849	add	mrna	1386	add	SL1344_RS07275	exact_lower
+850	blr	mrna	1384	blr	SL1344_RS07265	exact_lower
+851	cnu	mrna	-1			none
+852	ydgK	mrna	-1			none
+853	rsxA	mrna	1381	rsxA	SL1344_RS07250	exact_lower
+854	rsxB	mrna	1380	rsxB	SL1344_RS07245	exact_lower
+855	rsxC	mrna	1379	rsxC	SL1344_RS07240	exact_lower
+856	rsxD	mrna	1378	rsxD	SL1344_RS07235	exact_lower
+857	rsxG	mrna	1377	rsxG	SL1344_RS07230	exact_lower
+858	rsxE	mrna	-1			none
+859	nth	mrna	1375	nth	SL1344_RS07220	exact_lower
+860	dtpA	mrna	1374	dtpA	SL1344_RS07215	exact_lower
+861	gstA	mrna	1373	gstA	SL1344_RS07210	exact_lower
+862	slyB	mrna	1367	slyB	SL1344_RS07180	exact_lower
+863	ydhI	mrna	-1			none
+864	ydhJ	mrna	-1			none
+865	ydhK	mrna	-1			none
+866	nemR	mrna	-1			none
+867	nemA	mrna	-1			none
+868	gloA	mrna	1357	gloA	SL1344_RS07130	exact_lower
+869	rnt	mrna	1356	rnt	SL1344_RS07125	exact_lower
+870	lhr	mrna	-1			none
+871	mepH	mrna	-1			none
+872	sodB	mrna	1353	sodB	SL1344_RS07110	exact_lower
+873	purR	mrna	1351	purR	SL1344_RS07105	exact_lower
+874	punC	mrna	1349	punC	SL1344_RS07095	exact_lower
+875	cfa	mrna	1348	cfa	SL1344_RS07090	exact_lower
+876	mdtK	mrna	1346	mdtK	SL1344_RS07080	exact_lower
+877	ydhR	mrna	-1			none
+878	ydhS	mrna	-1			none
+879	ynhH	mrna	-1			none
+880	pykF	mrna	1300	pykF	SL1344_RS06845	exact_lower
+881	lpp	mrna	1299	lpp	SL1344_RS06840	exact_lower
+882	ydiK	mrna	1286	ydiK	SL1344_RS06775	exact_lower
+883	ydiL	mrna	-1			none
+884	ydiM	mrna	-1			none
+885	ydiN	mrna	-1			none
+886	ydiB	mrna	1283	ydiB	SL1344_RS06755	exact_lower
+887	aroD	mrna	1282	aroD	SL1344_RS06750	exact_lower
+888	ydiF	mrna	-1			none
+889	ydiO	mrna	-1			none
+890	ydiQ	mrna	-1			none
+891	ydiR	mrna	-1			none
+892	ydiS	mrna	-1			none
+893	ydiT	mrna	-1			none
+894	fadK	mrna	1274	fadK	SL1344_RS06710	exact_lower
+895	ppsR	mrna	1272	ppsR	SL1344_RS06700	exact_lower
+896	aroH	mrna	1271	aroH	SL1344_RS06695	exact_lower
+897	ydiE	mrna	-1			none
+898	yniD	mrna	-1			none
+899	pfkB	mrna	1249	pfkB	SL1344_RS06590	exact_lower
+900	ydiZ	mrna	-1			none
+901	yniA	mrna	-1			none
+902	hxpB	mrna	1245	hxpB	SL1344_RS06570	exact_lower
+903	ydjM	mrna	-1			none
+904	tcyP	mrna	1243	tcyP	SL1344_RS06560	exact_lower
+905	katE	mrna	1241	katE	SL1344_RS06550	exact_lower
+906	nadE	mrna	1233	nadE	SL1344_RS06510	exact_lower
+907	cho	mrna	1232	cho	SL1344_RS06505	exact_lower
+908	xthA	mrna	1225	xthA	SL1344_RS06470	exact_lower
+909	ydjX	mrna	-1			none
+910	ydjY	mrna	-1			none
+911	ydjZ	mrna	-1			none
+912	ynjA	mrna	-1			none
+913	ynjB	mrna	-1			none
+914	ynjC	mrna	-1			none
+915	ynjD	mrna	-1			none
+916	ynjE	mrna	-1			none
+917	nudG	mrna	-1			none
+918	gdhA	mrna	1222	gdhA	SL1344_RS06455	exact_lower
+919	sppA	mrna	1218	sppA	SL1344_RS06435	exact_lower
+920	ansA	mrna	1217	ansA	SL1344_RS06430	exact_lower
+921	pncA	mrna	1216	pncA	SL1344_RS06425	exact_lower
+922	gapA	mrna	1213	gapA	SL1344_RS06410	exact_lower
+923	yeaD	mrna	-1			none
+924	yeaG	mrna	1208	yeaG	SL1344_RS06385	exact_lower
+925	yeaH	mrna	-1			none
+926	cdgI	mrna	-1			none
+927	dgcJ	mrna	1205	dgcJ	SL1344_RS06375	exact_lower
+928	yeaK	mrna	-1			none
+929	yeaL	mrna	-1			none
+930	nimT	mrna	-1			none
+931	yeaO	mrna	-1			none
+932	dgcP	mrna	-1			none
+933	yoaK	mrna	-1			none
+934	yoaJ	mrna	-1			none
+935	dmlA	mrna	-1			none
+936	yeaV	mrna	-1			none
+937	yeaW	mrna	-1			none
+938	yeaX	mrna	-1			none
+939	yoaB	mrna	-1			none
+940	yoaC	mrna	-1			none
+941	pabB	mrna	1747	pabB	SL1344_RS09110	exact_lower
+942	nudL	mrna	-1			none
+943	sdaA	mrna	1749	sdaA	SL1344_RS09120	exact_lower
+944	pdeD	mrna	-1			none
+945	manX	mrna	1753	manX	SL1344_RS09140	exact_lower
+946	manY	mrna	1754	manY	SL1344_RS09145	exact_lower
+947	manZ	mrna	-1			none
+948	yobD	mrna	-1			none
+949	mntP	mrna	1757	mntP	SL1344_RS09160	exact_lower
+950	yobH	mrna	1764	yobH	SL1344_RS09195	exact_lower
+951	yebQ	mrna	-1			none
+952	letA	mrna	-1			none
+953	letB	mrna	-1			none
+954	rsmF	mrna	1773	rsmF	SL1344_RS09240	exact_lower
+955	yebV	mrna	-1			none
+956	yebW	mrna	-1			none
+957	holE	mrna	-1			none
+958	yobB	mrna	-1			none
+959	exoX	mrna	1798	exoX	SL1344_RS09395	exact_lower
+960	purT	mrna	1803	purT	SL1344_RS09420	exact_lower
+961	yebK	mrna	-1			none
+962	pykA	mrna	-1			none
+963	znuC	mrna	1812	znuC	SL1344_RS09465	exact_lower
+964	znuB	mrna	1813	znuB	SL1344_RS09470	exact_lower
+965	yebB	mrna	-1			none
+966	yecD	mrna	-1			none
+967	yecE	mrna	-1			none
+968	yecN	mrna	-1			none
+969	cmoA	mrna	1824	cmoA	SL1344_RS09530	exact_lower
+970	cmoB	mrna	1825	cmoB	SL1344_RS09535	exact_lower
+971	argS	mrna	1828	argS	SL1344_RS09550	exact_lower
+972	yecT	mrna	-1			none
+973	uspC	mrna	1846	uspC	SL1344_RS09640	exact_lower
+974	ftnB	mrna	-1			none
+975	yecR	mrna	-1			none
+976	ftnA	mrna	1853	ftnA	SL1344_RS09680	exact_lower
+977	tyrP	mrna	1855	tyrP	SL1344_RS09690	exact_lower
+978	yecU	mrna	-1			none
+979	yecF	mrna	-1			none
+980	fliD	mrna	1875	fliD	SL1344_RS09805	exact_lower
+981	fliS	mrna	1876	fliS	SL1344_RS09810	exact_lower
+982	fliT	mrna	1877	fliT	SL1344_RS09815	exact_lower
+983	amyA	mrna	1878	amyA	SL1344_RS09820	exact_lower
+984	yedE	mrna	1880	yedE	SL1344_RS09830	exact_lower
+985	yedF	mrna	1881	yedF	SL1344_RS09835	exact_lower
+986	yedK	mrna	-1			none
+987	yedL	mrna	-1			none
+988	fliF	mrna	1884	fliF	SL1344_RS09850	exact_lower
+989	fliG	mrna	1885	fliG	SL1344_RS09855	exact_lower
+990	fliH	mrna	1886	fliH	SL1344_RS09860	exact_lower
+991	fliI	mrna	1887	fliI	SL1344_RS09865	exact_lower
+992	fliJ	mrna	1888	fliJ	SL1344_RS09870	exact_lower
+993	fliK	mrna	1889	fliK	SL1344_RS09875	exact_lower
+994	fliL	mrna	1890	fliL	SL1344_RS09880	exact_lower
+995	fliM	mrna	1891	fliM	SL1344_RS09885	exact_lower
+996	fliN	mrna	1892	fliN	SL1344_RS09890	exact_lower
+997	fliO	mrna	1893	fliO	SL1344_RS09895	exact_lower
+998	fliP	mrna	1894	fliP	SL1344_RS09900	exact_lower
+999	fliQ	mrna	1895	fliQ	SL1344_RS09905	exact_lower
+1000	fliR	mrna	1896	fliR	SL1344_RS09910	exact_lower
+1001	rcsA	mrna	1897	rcsA	SL1344_RS09915	exact_lower
+1002	yodD	mrna	1899	yodD	SL1344_RS09925	exact_lower
+1003	yedP	mrna	-1			none
+1004	yedA	mrna	1904	yedA	SL1344_RS09950	exact_lower
+1005	hchA	mrna	-1			none
+1006	hiuH	mrna	1023	hiuH	SL1344_RS05390	exact_lower
+1007	msrP	mrna	3348	msrP	SL1344_RS17445	exact_lower
+1008	msrQ	mrna	3349	msrQ	SL1344_RS17450	exact_lower
+1009	zinT	mrna	1185	zinT	SL1344_RS06270	exact_lower
+1010	yodB	mrna	-1			none
+1011	mtfA	mrna	1967	mtfA	SL1344_RS10280	exact_lower
+1012	yeeJ	mrna	-1			none
+1013	shiA	mrna	-1			none
+1014	amn	mrna	-1			none
+1015	yeeN	mrna	-1			none
+1016	yoeA	mrna	-1			none
+1017	flu	mrna	-1			none
+1018	yeeR	mrna	-1			none
+1019	yeeS	mrna	-1			none
+1020	yeeT	mrna	-1			none
+1021	cbeA	mrna	-1			none
+1022	cbtA	mrna	-1			none
+1023	yeeW	mrna	-1			none
+1024	yoeF	mrna	-1			none
+1025	sbcB	mrna	2028	sbcB	SL1344_RS10635	exact_lower
+1026	hisL	mrna	2033	hisL	SL1344_RS27070	exact_lower
+1027	hisG	mrna	2034	hisG	SL1344_RS10655	exact_lower
+1028	hisD	mrna	2035	hisD	SL1344_RS10660	exact_lower
+1029	hisC	mrna	2036	hisC	SL1344_RS10665	exact_lower
+1030	hisB	mrna	2037	hisB	SL1344_RS10670	exact_lower
+1031	hisH	mrna	2038	hisH	SL1344_RS10675	exact_lower
+1032	hisA	mrna	2039	hisA	SL1344_RS10680	exact_lower
+1033	hisF	mrna	2040	hisF	SL1344_RS10685	exact_lower
+1034	hisI	mrna	-1			none
+1035	yegH	mrna	-1			none
+1036	dgcE	mrna	-1			none
+1037	yegD	mrna	2088	yegD	SL1344_RS10925	exact_lower
+1038	yegJ	mrna	-1			none
+1039	mdtA	mrna	2090	mdtA	SL1344_RS10930	exact_lower
+1040	mdtB	mrna	2091	mdtB	SL1344_RS10935	exact_lower
+1041	mdtC	mrna	2092	mdtC	SL1344_RS10940	exact_lower
+1042	mdtD	mrna	-1			none
+1043	baeS	mrna	2094	baeS	SL1344_RS10950	exact_lower
+1044	baeR	mrna	2095	baeR	SL1344_RS10955	exact_lower
+1045	yegP	mrna	-1			none
+1046	trhP	mrna	-1			none
+1047	yegS	mrna	2103	yegS	SL1344_RS11000	exact_lower
+1048	insE5	mrna	-1			none
+1049	insF5	mrna	-1			none
+1050	yegT	mrna	-1			none
+1051	yegU	mrna	-1			none
+1052	yegV	mrna	-1			none
+1053	rcnA	mrna	-1			none
+1054	rcnB	mrna	2111	rcnB	SL1344_RS11040	exact_lower
+1055	metG	mrna	2118	metG	SL1344_RS11075	exact_lower
+1056	yehF	mrna	-1			none
+1057	yehI	mrna	-1			none
+1058	yehK	mrna	-1			none
+1059	yehL	mrna	-1			none
+1060	yehM	mrna	-1			none
+1061	yehP	mrna	-1			none
+1062	yehQ	mrna	-1			none
+1063	yehR	mrna	-1			none
+1064	mlrA	mrna	2124	mlrA	SL1344_RS11105	exact_lower
+1065	yohO	mrna	-1			none
+1066	dld	mrna	2131	dld	SL1344_RS11140	exact_lower
+1067	yohD	mrna	-1			none
+1068	yohP	mrna	2137	yohP	SL1344_RS25545	exact_lower
+1069	yohJ	mrna	-1			none
+1070	yohK	mrna	-1			none
+1071	cdd	mrna	2147	cdd	SL1344_RS11215	exact_lower
+1072	sanA	mrna	2148	sanA	SL1344_RS11220	exact_lower
+1073	yeiS	mrna	-1			none
+1074	preT	mrna	-1			none
+1075	preA	mrna	2151	preA	SL1344_RS11235	exact_lower
+1076	yeiG	mrna	-1			none
+1077	yeiH	mrna	-1			none
+1078	nfo	mrna	2167	nfo	SL1344_RS11315	exact_lower
+1079	yeiI	mrna	-1			none
+1080	yeiL	mrna	-1			none
+1081	setB	mrna	2171	setB	SL1344_RS11335	exact_lower
+1082	yeiP	mrna	2175	yeiP	SL1344_RS11355	exact_lower
+1083	yeiQ	mrna	-1			none
+1084	yeiR	mrna	-1			none
+1085	lpxT	mrna	-1			none
+1086	mepS	mrna	2178	mepS	SL1344_RS11370	exact_lower
+1087	pdeN	mrna	-1			none
+1088	yejA	mrna	-1			none
+1089	yejB	mrna	-1			none
+1090	yejE	mrna	-1			none
+1091	yejF	mrna	2183	yejF	SL1344_RS11395	exact_lower
+1092	radD	mrna	-1			none
+1093	rplY	mrna	2188	rplY	SL1344_RS11425	exact_lower
+1094	yejL	mrna	-1			none
+1095	lapC	mrna	-1			none
+1096	narP	mrna	2206	narP	SL1344_RS11540	exact_lower
+1097	yojO	mrna	-1			none
+1098	eco	mrna	2222	eco	SL1344_RS11620	exact_lower
+1099	rcsD	mrna	2228	rcsD	SL1344_RS11650	exact_lower
+1100	rcsB	mrna	2229	rcsB	SL1344_RS11655	exact_lower
+1101	atoS	mrna	-1			none
+1102	atoC	mrna	-1			none
+1103	atoD	mrna	-1			none
+1104	atoA	mrna	-1			none
+1105	atoE	mrna	-1			none
+1106	atoB	mrna	-1			none
+1107	ubiG	mrna	2235	ubiG	SL1344_RS11685	exact_lower
+1108	nrdA	mrna	2236	nrdA	SL1344_RS11690	exact_lower
+1109	nrdB	mrna	2237	nrdB	SL1344_RS11695	exact_lower
+1110	yfaE	mrna	2238	yfaE	SL1344_RS11700	exact_lower
+1111	glpA	mrna	2243	glpA	SL1344_RS11725	exact_lower
+1112	glpB	mrna	2244	glpB	SL1344_RS11730	exact_lower
+1113	glpC	mrna	2245	glpC	SL1344_RS11735	exact_lower
+1114	rpnE	mrna	-1			none
+1115	nudI	mrna	2254	nudI	SL1344_RS11780	exact_lower
+1116	arnB	mrna	2256	arnB	SL1344_RS11790	exact_lower
+1117	arnC	mrna	2257	arnC	SL1344_RS11795	exact_lower
+1118	arnA	mrna	2258	arnA	SL1344_RS11800	exact_lower
+1119	arnD	mrna	2259	arnD	SL1344_RS11805	exact_lower
+1120	arnT	mrna	2260	arnT	SL1344_RS11810	exact_lower
+1121	arnE	mrna	2261	arnE	SL1344_RS11815	exact_lower
+1122	arnF	mrna	2262	arnF	SL1344_RS11820	exact_lower
+1123	rbn	mrna	2272	rbn	SL1344_RS11870	exact_lower
+1124	elaD	mrna	-1			none
+1125	yfbL	mrna	-1			none
+1126	yfbM	mrna	-1			none
+1127	yfbO	mrna	-1			none
+1128	yfbP	mrna	-1			none
+1129	alaA	mrna	2291	alaA	SL1344_RS11960	exact_lower
+1130	yfbR	mrna	2292	yfbR	SL1344_RS11965	exact_lower
+1131	ackA	mrna	2297	ackA	SL1344_RS11990	exact_lower
+1132	pta	mrna	2298	pta	SL1344_RS11995	exact_lower
+1133	yfcC	mrna	2299	yfcC	SL1344_RS12000	exact_lower
+1134	yfcG	mrna	2309	yfcG	SL1344_RS12055	exact_lower
+1135	folX	mrna	-1			none
+1136	yfcH	mrna	-1			none
+1137	flk	mrna	2331	flk	SL1344_RS12165	exact_lower
+1138	mnmC	mrna	2339	mnmC	SL1344_RS12205	exact_lower
+1139	smrB	mrna	2346	smrB	SL1344_RS12240	exact_lower
+1140	fadL	mrna	2351	fadL	SL1344_RS12265	exact_lower
+1141	yfdF	mrna	-1			none
+1142	yfdC	mrna	-1			none
+1143	intS	mrna	-1			none
+1144	yfdG	mrna	-1			none
+1145	yfdH	mrna	-1			none
+1146	yfdI	mrna	-1			none
+1147	yfdP	mrna	-1			none
+1148	yfdQ	mrna	-1			none
+1149	yfdR	mrna	-1			none
+1150	yfdS	mrna	-1			none
+1151	yfdT	mrna	-1			none
+1152	ypdJ	mrna	-1			none
+1153	torI	mrna	-1			none
+1154	dsdX	mrna	3759	dsdX	SL1344_RS19575	exact_lower
+1155	dsdA	mrna	3760	dsdA	SL1344_RS19580	exact_lower
+1156	evgL	mrna	-1			none
+1157	evgA	mrna	-1			none
+1158	evgS	mrna	-1			none
+1159	ypdI	mrna	-1			none
+1160	lpxP	mrna	2360	lpxP	SL1344_RS12325	exact_lower
+1161	ypdK	mrna	2361	ypdK	SL1344_RS27100	exact_lower
+1162	pyrS	mrna	-1			none
+1163	pyrR	mrna	-1			none
+1164	ypdC	mrna	-1			none
+1165	yfeO	mrna	-1			none
+1166	ypeC	mrna	2367	ypeC	SL1344_RS12355	exact_lower
+1167	nupC	mrna	2370	nupC	SL1344_RS12365	exact_lower
+1168	insL3	mrna	-1			none
+1169	yfeC	mrna	-1			none
+1170	yfeD	mrna	-1			none
+1171	yfeN	mrna	-1			none
+1172	yfeH	mrna	-1			none
+1173	cysZ	mrna	2385	cysZ	SL1344_RS12470	exact_lower
+1174	cysK	mrna	2386	cysK	SL1344_RS12475	exact_lower
+1175	ptsH	mrna	2387	ptsH	SL1344_RS12485	exact_lower
+1176	ptsI	mrna	2388	ptsI	SL1344_RS12490	exact_lower
+1177	crr	mrna	2389	crr	SL1344_RS12495	exact_lower
+1178	yfeK	mrna	-1			none
+1179	yfeS	mrna	-1			none
+1180	murQ	mrna	2525	murQ	SL1344_RS13175	exact_lower
+1181	murP	mrna	-1			none
+1182	yfeW	mrna	-1			none
+1183	amiA	mrna	2406	amiA	SL1344_RS12580	exact_lower
+1184	hemF	mrna	2407	hemF	SL1344_RS12585	exact_lower
+1185	intZ	mrna	-1			none
+1186	yffL	mrna	-1			none
+1187	yffM	mrna	-1			none
+1188	yffN	mrna	-1			none
+1189	yffO	mrna	-1			none
+1190	yffP	mrna	-1			none
+1191	yffQ	mrna	-1			none
+1192	yffR	mrna	-1			none
+1193	yffS	mrna	-1			none
+1194	talA	mrna	-1			none
+1195	tktB	mrna	-1			none
+1196	narQ	mrna	2436	narQ	SL1344_RS12730	exact_lower
+1197	acrD	mrna	2437	acrD	SL1344_RS12735	exact_lower
+1198	yffB	mrna	-1			none
+1199	dapE	mrna	2440	dapE	SL1344_RS12745	exact_lower
+1200	ypfN	mrna	-1			none
+1201	gcvR	mrna	-1			none
+1202	bcp	mrna	2448	bcp	SL1344_RS12785	exact_lower
+1203	hyfA	mrna	-1			none
+1204	hyfB	mrna	-1			none
+1205	hyfC	mrna	-1			none
+1206	hyfD	mrna	-1			none
+1207	hyfE	mrna	-1			none
+1208	hyfF	mrna	-1			none
+1209	hyfG	mrna	-1			none
+1210	hyfH	mrna	-1			none
+1211	hyfI	mrna	-1			none
+1212	hyfJ	mrna	-1			none
+1213	hyfR	mrna	-1			none
+1214	focB	mrna	-1			none
+1215	bepA	mrna	2450	bepA	SL1344_RS12800	exact_lower
+1216	yfgD	mrna	-1			none
+1217	purM	mrna	2455	purM	SL1344_RS12825	exact_lower
+1218	purN	mrna	2456	purN	SL1344_RS12830	exact_lower
+1219	ppk	mrna	-1			none
+1220	ppx	mrna	2458	ppx	SL1344_RS12840	exact_lower
+1221	yfgG	mrna	-1			none
+1222	yfgH	mrna	-1			none
+1223	yfgI	mrna	-1			none
+1224	xseA	mrna	2466	xseA	SL1344_RS12880	exact_lower
+1225	sseA	mrna	1320	sseA	SL1344_RS06940	exact_lower
+1226	timP	mrna	2488	timP	SL1344_RS27845	exact_lower
+1227	suhB	mrna	2500	suhB	SL1344_RS13050	exact_lower
+1228	yfhR	mrna	-1			none
+1229	csiE	mrna	2507	csiE	SL1344_RS13085	exact_lower
+1230	hcaE	mrna	-1			none
+1231	hcaF	mrna	-1			none
+1232	hcaC	mrna	-1			none
+1233	hcaB	mrna	-1			none
+1234	hcaD	mrna	-1			none
+1235	yphA	mrna	-1			none
+1236	yphH	mrna	-1			none
+1237	hmp	mrna	-1			none
+1238	mltF	mrna	2521	mltF	SL1344_RS13155	exact_lower
+1239	yfhH	mrna	-1			none
+1240	yfhL	mrna	-1			none
+1241	nadB	mrna	2602	nadB	SL1344_RS13565	exact_lower
+1242	srmB	mrna	2604	srmB	SL1344_RS13575	exact_lower
+1243	eamB	mrna	2606	eamB	SL1344_RS13585	exact_lower
+1244	ung	mrna	2608	ung	SL1344_RS13595	exact_lower
+1245	trxC	mrna	2610	trxC	SL1344_RS13605	exact_lower
+1246	tapT	mrna	2611	tapT	SL1344_RS13610	exact_lower
+1247	patZ	mrna	-1			none
+1248	pssL	mrna	-1			none
+1249	pssA	mrna	2613	pssA	SL1344_RS13620	exact_lower
+1250	yfiM	mrna	-1			none
+1251	yfiS	mrna	-1			none
+1252	bamD	mrna	2620	bamD	SL1344_RS13675	exact_lower
+1253	raiA	mrna	2621	raiA	SL1344_RS13680	exact_lower
+1254	pheL	mrna	2622	pheL	SL1344_RS27140	exact_lower
+1255	pheA	mrna	2623	pheA	SL1344_RS13685	exact_lower
+1256	yfiL	mrna	-1			none
+1257	yfiR	mrna	-1			none
+1258	dgcN	mrna	2628	dgcN	SL1344_RS13710	exact_lower
+1259	yfiB	mrna	-1			none
+1260	ypjD	mrna	-1			none
+1261	yfjD	mrna	-1			none
+1262	nadK	mrna	2653	nadK	SL1344_RS13830	exact_lower
+1263	recN	mrna	2654	recN	SL1344_RS13835	exact_lower
+1264	bamE	mrna	2655	bamE	SL1344_RS13840	exact_lower
+1265	smpB	mrna	2658	smpB	SL1344_RS13855	exact_lower
+1266	intA	mrna	-1			none
+1267	alpA	mrna	-1			none
+1268	yfjI	mrna	-1			none
+1269	yfjJ	mrna	-1			none
+1270	rnlA	mrna	-1			none
+1271	rnlB	mrna	-1			none
+1272	yfjP	mrna	-1			none
+1273	yfjQ	mrna	-1			none
+1274	yfjR	mrna	-1			none
+1275	ypjK	mrna	-1			none
+1276	yfjS	mrna	-1			none
+1277	yfjT	mrna	-1			none
+1278	yfjW	mrna	-1			none
+1279	yfjX	mrna	-1			none
+1280	yfjY	mrna	-1			none
+1281	ypjJ	mrna	-1			none
+1282	yfjZ	mrna	-1			none
+1283	ypjF	mrna	-1			none
+1284	glaH	mrna	2766	glaH	SL1344_RS14440	exact_lower
+1285	lhgD	mrna	-1			none
+1286	gabD	mrna	2768	gabD	SL1344_RS14450	exact_lower
+1287	gabT	mrna	2769	gabT	SL1344_RS14455	exact_lower
+1288	gabP	mrna	2770	gabP	SL1344_RS14460	exact_lower
+1289	glaR	mrna	-1			none
+1290	ygaV	mrna	-1			none
+1291	ygaP	mrna	-1			none
+1292	alaE	mrna	2778	alaE	SL1344_RS14500	exact_lower
+1293	ygaM	mrna	-1			none
+1294	nrdH	mrna	2783	nrdH	SL1344_RS14530	exact_lower
+1295	nrdI	mrna	2784	nrdI	SL1344_RS14535	exact_lower
+1296	nrdE	mrna	2785	nrdE	SL1344_RS14540	exact_lower
+1297	nrdF	mrna	2786	nrdF	SL1344_RS14545	exact_lower
+1298	proV	mrna	2787	proV	SL1344_RS14550	exact_lower
+1299	proW	mrna	2788	proW	SL1344_RS14555	exact_lower
+1300	proX	mrna	2789	proX	SL1344_RS14560	exact_lower
+1301	ygaZ	mrna	-1			none
+1302	ygaH	mrna	-1			none
+1303	mprA	mrna	2791	mprA	SL1344_RS14570	exact_lower
+1304	emrA	mrna	2792	emrA	SL1344_RS14575	exact_lower
+1305	emrB	mrna	2793	emrB	SL1344_RS14580	exact_lower
+1306	srlA	mrna	2806	srlA	SL1344_RS14665	exact_lower
+1307	srlE	mrna	-1			none
+1308	srlB	mrna	2808	srlB	SL1344_RS14675	exact_lower
+1309	srlD	mrna	2809	srlD	SL1344_RS14680	exact_lower
+1310	gutM	mrna	2810	gutM	SL1344_RS14685	exact_lower
+1311	srlR	mrna	2811	srlR	SL1344_RS14695	exact_lower
+1312	gutQ	mrna	2812	gutQ	SL1344_RS14700	exact_lower
+1313	norV	mrna	2814	norV	SL1344_RS14710	exact_lower
+1314	norW	mrna	2815	norW	SL1344_RS14715	exact_lower
+1315	ascF	mrna	-1			none
+1316	ascB	mrna	-1			none
+1317	hypA	mrna	1452	hypA	SL1344_RS07610	exact_lower
+1318	hypB	mrna	2829	hypB	SL1344_RS14785	exact_lower
+1319	hypC	mrna	1456	hypC	SL1344_RS07630	exact_lower
+1320	hypD	mrna	2831	hypD	SL1344_RS14795	exact_lower
+1321	hypE	mrna	2832	hypE	SL1344_RS14800	exact_lower
+1322	fhlA	mrna	-1			none
+1323	mutS	mrna	2882	mutS	SL1344_RS15055	exact_lower
+1324	pphB	mrna	2880	pphB	SL1344_RS15045	exact_lower
+1325	ygbJ	mrna	-1			none
+1326	ygbK	mrna	-1			none
+1327	ygbL	mrna	-1			none
+1328	ygbM	mrna	-1			none
+1329	ygbN	mrna	-1			none
+1330	iap	mrna	-1			none
+1331	queD	mrna	2923	queD	SL1344_RS15255	exact_lower
+1332	ygcN	mrna	-1			none
+1333	ygcO	mrna	-1			none
+1334	ygcP	mrna	-1			none
+1335	yqcE	mrna	-1			none
+1336	ygcE	mrna	-1			none
+1337	ygcG	mrna	-1			none
+1338	barA	mrna	2933	barA	SL1344_RS15305	exact_lower
+1339	queF	mrna	2943	queF	SL1344_RS15355	exact_lower
+1340	ppnN	mrna	2944	ppnN	SL1344_RS15360	exact_lower
+1341	sdaC	mrna	2945	sdaC	SL1344_RS15365	exact_lower
+1342	sdaB	mrna	2946	sdaB	SL1344_RS15370	exact_lower
+1343	ygdG	mrna	-1			none
+1344	fucP	mrna	2950	fucP	SL1344_RS15390	exact_lower
+1345	fucI	mrna	2951	fucI	SL1344_RS15395	exact_lower
+1346	fucK	mrna	2952	fucK	SL1344_RS15400	exact_lower
+1347	fucU	mrna	2953	fucU	SL1344_RS15405	exact_lower
+1348	fucR	mrna	2954	fucR	SL1344_RS15410	exact_lower
+1349	csdA	mrna	2959	csdA	SL1344_RS15435	exact_lower
+1350	csdE	mrna	2960	csdE	SL1344_RS15440	exact_lower
+1351	argA	mrna	2965	argA	SL1344_RS15475	exact_lower
+1352	mutH	mrna	2978	mutH	SL1344_RS15550	exact_lower
+1353	ygdQ	mrna	-1			none
+1354	ygdR	mrna	-1			none
+1355	tas	mrna	-1			none
+1356	galR	mrna	2984	galR	SL1344_RS15580	exact_lower
+1357	lysR	mrna	-1			none
+1358	yqeG	mrna	-1			none
+1359	yqeH	mrna	-1			none
+1360	yqeI	mrna	-1			none
+1361	yqeJ	mrna	-1			none
+1362	ygeG	mrna	-1			none
+1363	ygeH	mrna	-1			none
+1364	ygeI	mrna	-1			none
+1365	xdhA	mrna	-1			none
+1366	xdhB	mrna	-1			none
+1367	xdhC	mrna	-1			none
+1368	ygeW	mrna	-1			none
+1369	ygeX	mrna	-1			none
+1370	ygeY	mrna	-1			none
+1371	hyuA	mrna	-1			none
+1372	yqeA	mrna	-1			none
+1373	mocA	mrna	-1			none
+1374	ygfK	mrna	-1			none
+1375	ssnA	mrna	-1			none
+1376	ygfM	mrna	-1			none
+1377	xdhD	mrna	-1			none
+1378	xanQ	mrna	-1			none
+1379	guaD	mrna	-1			none
+1380	ghxQ	mrna	-1			none
+1381	uacT	mrna	-1			none
+1382	yqfG	mrna	-1			none
+1383	idi	mrna	3011	idi	SL1344_RS15720	exact_lower
+1384	fldB	mrna	3017	fldB	SL1344_RS15750	exact_lower
+1385	ygfZ	mrna	3020	ygfZ	SL1344_RS15770	exact_lower
+1386	bglA	mrna	3023	bglA	SL1344_RS15785	exact_lower
+1387	yqfI	mrna	-1			none
+1388	zapA	mrna	3032	zapA	SL1344_RS15830	exact_lower
+1389	fau	mrna	-1			none
+1390	argP	mrna	3036	argP	SL1344_RS15850	exact_lower
+1391	scpA	mrna	-1			none
+1392	argK	mrna	-1			none
+1393	scpB	mrna	-1			none
+1394	scpC	mrna	-1			none
+1395	loiP	mrna	-1			none
+1396	yqgC	mrna	-1			none
+1397	metK	mrna	3063	metK	SL1344_RS15985	exact_lower
+1398	galP	mrna	3064	galP	SL1344_RS15990	exact_lower
+1399	yggI	mrna	-1			none
+1400	endA	mrna	3066	endA	SL1344_RS16000	exact_lower
+1401	rsmE	mrna	3067	rsmE	SL1344_RS16005	exact_lower
+1402	gshB	mrna	3068	gshB	SL1344_RS16010	exact_lower
+1403	yqgE	mrna	-1			none
+1404	yqgF	mrna	-1			none
+1405	yggS	mrna	-1			none
+1406	yggT	mrna	-1			none
+1407	yggU	mrna	3075	yggU	SL1344_RS16045	exact_lower
+1408	rdgB	mrna	-1			none
+1409	hemW	mrna	3077	hemW	SL1344_RS16055	exact_lower
+1410	mutY	mrna	3083	mutY	SL1344_RS16085	exact_lower
+1411	yggX	mrna	-1			none
+1412	mltC	mrna	3085	mltC	SL1344_RS16095	exact_lower
+1413	nupG	mrna	-1			none
+1414	yqgA	mrna	-1			none
+1415	yqhJ	mrna	-1			none
+1416	glcC	mrna	-1			none
+1417	insH9	mrna	-1			none
+1418	yghT	mrna	-1			none
+1419	yghU	mrna	3112	yghU	SL1344_RS16240	exact_lower
+1420	gpr	mrna	-1			none
+1421	yghA	mrna	-1			none
+1422	metC	mrna	3132	metC	SL1344_RS16345	exact_lower
+1423	yghB	mrna	3133	yghB	SL1344_RS16350	exact_lower
+1424	yqhD	mrna	3135	yqhD	SL1344_RS16360	exact_lower
+1425	dkgA	mrna	3136	dkgA	SL1344_RS16365	exact_lower
+1426	yqhG	mrna	-1			none
+1427	yqhH	mrna	-1			none
+1428	qseB	mrna	3148	qseB	SL1344_RS16430	exact_lower
+1429	qseC	mrna	3149	qseC	SL1344_RS16435	exact_lower
+1430	mdaB	mrna	-1			none
+1431	ygiN	mrna	-1			none
+1432	tolC	mrna	3157	tolC	SL1344_RS16475	exact_lower
+1433	ygiB	mrna	-1			none
+1434	ygiC	mrna	-1			none
+1435	zupT	mrna	3161	zupT	SL1344_RS16495	exact_lower
+1436	ubiK	mrna	3167	ubiK	SL1344_RS16525	exact_lower
+1437	ygiL	mrna	-1			none
+1438	insC5	mrna	-1			none
+1439	insD5	mrna	-1			none
+1440	yqiH	mrna	-1			none
+1441	yqiI	mrna	-1			none
+1442	yqiJ	mrna	-1			none
+1443	yqiK	mrna	-1			none
+1444	ygiM	mrna	-1			none
+1445	cca	mrna	-1			none
+1446	plsY	mrna	3179	plsY	SL1344_RS16580	exact_lower
+1447	ttdA	mrna	3326	ttdA	SL1344_RS17330	exact_lower
+1448	ttdB	mrna	3325	ttdB	SL1344_RS17325	exact_lower
+1449	ttdT	mrna	-1			none
+1450	rpsU	mrna	3182	rpsU	SL1344_RS16590	exact_lower
+1451	dnaG	mrna	3183	dnaG	SL1344_RS16595	exact_lower
+1452	rpoD	mrna	3184	rpoD	SL1344_RS16600	exact_lower
+1453	nfeR	mrna	-1			none
+1454	patA	mrna	-1			none
+1455	ebgR	mrna	-1			none
+1456	ebgA	mrna	-1			none
+1457	ebgC	mrna	-1			none
+1458	ygjI	mrna	-1			none
+1459	ygjJ	mrna	-1			none
+1460	ygjK	mrna	-1			none
+1461	fadH	mrna	-1			none
+1462	ygjP	mrna	-1			none
+1463	ygjQ	mrna	-1			none
+1464	ygjR	mrna	-1			none
+1465	alx	mrna	-1			none
+1466	sstT	mrna	3197	sstT	SL1344_RS16670	exact_lower
+1467	exuT	mrna	-1			none
+1468	exuR	mrna	-1			none
+1469	yqiM	mrna	-1			none
+1470	yqjA	mrna	3198	yqjA	SL1344_RS16675	exact_lower
+1471	mzrA	mrna	3199	mzrA	SL1344_RS16680	exact_lower
+1472	yqjC	mrna	-1			none
+1473	yqjD	mrna	-1			none
+1474	yqjE	mrna	-1			none
+1475	yqjK	mrna	-1			none
+1476	yqjF	mrna	-1			none
+1477	yqjG	mrna	-1			none
+1478	yhaH	mrna	-1			none
+1479	yhaI	mrna	-1			none
+1480	yhaK	mrna	-1			none
+1481	yhaL	mrna	-1			none
+1482	yhaB	mrna	-1			none
+1483	yhaC	mrna	-1			none
+1484	garD	mrna	3221	garD	SL1344_RS16790	exact_lower
+1485	prlF	mrna	-1			none
+1486	yhaV	mrna	-1			none
+1487	kbaZ	mrna	-1			none
+1488	agaV	mrna	-1			none
+1489	agaS	mrna	-1			none
+1490	kbaY	mrna	-1			none
+1491	agaB	mrna	-1			none
+1492	agaC	mrna	-1			none
+1493	agaD	mrna	-1			none
+1494	agaI	mrna	-1			none
+1495	yraH	mrna	-1			none
+1496	yraI	mrna	-1			none
+1497	yraJ	mrna	-1			none
+1498	yraK	mrna	-1			none
+1499	lpoA	mrna	-1			none
+1500	yraN	mrna	-1			none
+1501	diaA	mrna	3237	diaA	SL1344_RS16870	exact_lower
+1502	dolP	mrna	3238	dolP	SL1344_RS16875	exact_lower
+1503	yhbO	mrna	3240	yhbO	SL1344_RS16885	exact_lower
+1504	yhbQ	mrna	-1			none
+1505	ubiU	mrna	3245	ubiU	SL1344_RS16910	exact_lower
+1506	ubiV	mrna	-1			none
+1507	yhbW	mrna	-1			none
+1508	argG	mrna	3261	argG	SL1344_RS16990	exact_lower
+1509	yhbY	mrna	3269	yhbY	SL1344_RS17035	exact_lower
+1510	dacB	mrna	3271	dacB	SL1344_RS17050	exact_lower
+1511	ispB	mrna	3276	ispB	SL1344_RS17075	exact_lower
+1512	sfsB	mrna	3277	sfsB	SL1344_RS17080	exact_lower
+1513	yrbG	mrna	-1			none
+1514	kdsD	mrna	3286	kdsD	SL1344_RS17125	exact_lower
+1515	kdsC	mrna	3287	kdsC	SL1344_RS17130	exact_lower
+1516	lptC	mrna	3288	lptC	SL1344_RS17135	exact_lower
+1517	lptA	mrna	3289	lptA	SL1344_RS17140	exact_lower
+1518	lptB	mrna	3290	lptB	SL1344_RS17145	exact_lower
+1519	rpoN	mrna	3291	rpoN	SL1344_RS17150	exact_lower
+1520	hpf	mrna	3292	hpf	SL1344_RS17155	exact_lower
+1521	ptsN	mrna	3293	ptsN	SL1344_RS17160	exact_lower
+1522	rapZ	mrna	3294	rapZ	SL1344_RS17165	exact_lower
+1523	npr	mrna	3295	npr	SL1344_RS17170	exact_lower
+1524	yrbL	mrna	3296	yrbL	SL1344_RS17175	exact_lower
+1525	gltB	mrna	3301	gltB	SL1344_RS17205	exact_lower
+1526	gltD	mrna	3302	gltD	SL1344_RS17210	exact_lower
+1527	gltF	mrna	-1			none
+1528	yhcA	mrna	-1			none
+1529	yhcD	mrna	-1			none
+1530	yhcF	mrna	-1			none
+1531	yhcG	mrna	-1			none
+1532	dcuD	mrna	-1			none
+1533	zapG	mrna	3318	zapG	SL1344_RS17290	exact_lower
+1534	degQ	mrna	3319	degQ	SL1344_RS17295	exact_lower
+1535	degS	mrna	3320	degS	SL1344_RS17300	exact_lower
+1536	argR	mrna	3331	argR	SL1344_RS17355	exact_lower
+1537	yhcN	mrna	3332	yhcN	SL1344_RS17360	exact_lower
+1538	aaeR	mrna	3338	aaeR	SL1344_RS17390	exact_lower
+1539	yhdH	mrna	-1			none
+1540	accB	mrna	3350	accB	SL1344_RS17455	exact_lower
+1541	accC	mrna	3351	accC	SL1344_RS17460	exact_lower
+1542	yhdT	mrna	-1			none
+1543	panF	mrna	3353	panF	SL1344_RS17470	exact_lower
+1544	prmA	mrna	3354	prmA	SL1344_RS17475	exact_lower
+1545	dusB	mrna	3355	dusB	SL1344_RS17480	exact_lower
+1546	fis	mrna	3356	fis	SL1344_RS17485	exact_lower
+1547	yhdJ	mrna	3357	yhdJ	SL1344_RS17490	exact_lower
+1548	yhdU	mrna	-1			none
+1549	acrE	mrna	-1			none
+1550	acrF	mrna	-1			none
+1551	yhdV	mrna	-1			none
+1552	yhdX	mrna	-1			none
+1553	yhdY	mrna	-1			none
+1554	yhdZ	mrna	-1			none
+1555	yrdA	mrna	-1			none
+1556	def	mrna	3372	def	SL1344_RS17590	exact_lower
+1557	fmt	mrna	3373	fmt	SL1344_RS17595	exact_lower
+1558	rsmB	mrna	3374	rsmB	SL1344_RS17600	exact_lower
+1559	trkA	mrna	3375	trkA	SL1344_RS17605	exact_lower
+1560	mscL	mrna	3376	mscL	SL1344_RS17610	exact_lower
+1561	gspC	mrna	-1			none
+1562	gspD	mrna	-1			none
+1563	gspE	mrna	141	gspE	SL1344_RS00730	exact_lower
+1564	gspF	mrna	-1			none
+1565	gspG	mrna	-1			none
+1566	gspH	mrna	-1			none
+1567	gspI	mrna	-1			none
+1568	gspJ	mrna	-1			none
+1569	gspK	mrna	-1			none
+1570	gspL	mrna	-1			none
+1571	gspM	mrna	-1			none
+1572	gspO	mrna	-1			none
+1573	slyX	mrna	-1			none
+1574	yheS	mrna	-1			none
+1575	yheT	mrna	-1			none
+1576	yheU	mrna	-1			none
+1577	prkB	mrna	-1			none
+1578	crp	mrna	3431	crp	SL1344_RS17890	exact_lower
+1579	yhfK	mrna	-1			none
+1580	tsgA	mrna	3438	tsgA	SL1344_RS17925	exact_lower
+1581	nirB	mrna	3439	nirB	SL1344_RS17930	exact_lower
+1582	nirD	mrna	3440	nirD	SL1344_RS17935	exact_lower
+1583	nirC	mrna	3441	nirC	SL1344_RS17940	exact_lower
+1584	cysG	mrna	3442	cysG	SL1344_RS17945	exact_lower
+1585	yhfL	mrna	-1			none
+1586	frlA	mrna	-1			none
+1587	frlB	mrna	-1			none
+1588	frlC	mrna	-1			none
+1589	frlD	mrna	-1			none
+1590	frlR	mrna	-1			none
+1591	mrcA	mrna	3458	mrcA	SL1344_RS18025	exact_lower
+1592	igaA	mrna	3460	igaA	SL1344_RS18035	exact_lower
+1593	yrfG	mrna	3461	yrfG	SL1344_RS18040	exact_lower
+1594	hslR	mrna	3462	hslR	SL1344_RS18045	exact_lower
+1595	hslO	mrna	3463	hslO	SL1344_RS18050	exact_lower
+1596	pck	mrna	-1			none
+1597	greB	mrna	3468	greB	SL1344_RS18075	exact_lower
+1598	yhgF	mrna	-1			none
+1599	feoA	mrna	3470	feoA	SL1344_RS18085	exact_lower
+1600	feoB	mrna	3471	feoB	SL1344_RS18090	exact_lower
+1601	feoC	mrna	3472	feoC	SL1344_RS18095	exact_lower
+1602	rpnA	mrna	-1			none
+1603	yhgH	mrna	-1			none
+1604	nfuA	mrna	3476	nfuA	SL1344_RS18115	exact_lower
+1605	gntT	mrna	3477	gntT	SL1344_RS18120	exact_lower
+1606	malT	mrna	3480	malT	SL1344_RS18135	exact_lower
+1607	rtcR	mrna	3486	rtcR	SL1344_RS18165	exact_lower
+1608	glpD	mrna	3489	glpD	SL1344_RS18185	exact_lower
+1609	yhgN	mrna	-1			none
+1610	yhhY	mrna	3509	yhhY	SL1344_RS18280	exact_lower
+1611	yhhZ	mrna	-1			none
+1612	insA6	mrna	-1			none
+1613	insB6	mrna	-1			none
+1614	yrhB	mrna	-1			none
+1615	yhhA	mrna	-1			none
+1616	panZ	mrna	-1			none
+1617	rsmD	mrna	3535	rsmD	SL1344_RS18410	exact_lower
+1618	yhhL	mrna	-1			none
+1619	yhhN	mrna	-1			none
+1620	zntA	mrna	3539	zntA	SL1344_RS18430	exact_lower
+1621	yhhQ	mrna	-1			none
+1622	dcrB	mrna	-1			none
+1623	yhhT	mrna	-1			none
+1624	acpT	mrna	3546	acpT	SL1344_RS18465	exact_lower
+1625	nikA	mrna	-1			none
+1626	nikB	mrna	4561	nikB	SL1344_RS24440	exact_lower
+1627	nikC	mrna	-1			none
+1628	nikD	mrna	-1			none
+1629	nikE	mrna	-1			none
+1630	nikR	mrna	3547	nikR	SL1344_RS18470	exact_lower
+1631	rhsB	mrna	-1			none
+1632	yhhH	mrna	-1			none
+1633	yhhI	mrna	-1			none
+1634	yhiM	mrna	-1			none
+1635	pitA	mrna	3552	pitA	SL1344_RS18495	exact_lower
+1636	uspA	mrna	3554	uspA	SL1344_RS18505	exact_lower
+1637	dtpB	mrna	3555	dtpB	SL1344_RS18510	exact_lower
+1638	rlmJ	mrna	-1			none
+1639	gor	mrna	-1			none
+1640	arsR	mrna	-1			none
+1641	arsB	mrna	-1			none
+1642	arsC	mrna	2451	arsC	SL1344_RS12805	exact_lower
+1643	slp	mrna	-1			none
+1644	dctR	mrna	-1			none
+1645	hdeD	mrna	-1			none
+1646	gadE	mrna	-1			none
+1647	mdtE	mrna	-1			none
+1648	mdtF	mrna	-1			none
+1649	treF	mrna	-1			none
+1650	rcdB	mrna	-1			none
+1651	yhjD	mrna	3571	yhjD	SL1344_RS18590	exact_lower
+1652	yhjE	mrna	-1			none
+1653	kdgK	mrna	-1			none
+1654	bcsE	mrna	3585	bcsE	SL1344_RS18660	exact_lower
+1655	bcsF	mrna	3586	bcsF	SL1344_RS18665	exact_lower
+1656	bcsG	mrna	3587	bcsG	SL1344_RS18670	exact_lower
+1657	yhjV	mrna	-1			none
+1658	tag	mrna	3604	tag	SL1344_RS18775	exact_lower
+1659	yiaC	mrna	-1			none
+1660	yiaD	mrna	-1			none
+1661	ghrB	mrna	3608	ghrB	SL1344_RS18795	exact_lower
+1662	yiaG	mrna	-1			none
+1663	cspA	mrna	3611	cspA	SL1344_RS18810	exact_lower
+1664	ysaE	mrna	-1			none
+1665	insJ	mrna	-1			none
+1666	insK	mrna	-1			none
+1667	wecH	mrna	-1			none
+1668	xylF	mrna	-1			none
+1669	xylG	mrna	-1			none
+1670	xylH	mrna	-1			none
+1671	xylR	mrna	3623	xylR	SL1344_RS18870	exact_lower
+1672	malS	mrna	-1			none
+1673	avtA	mrna	3626	avtA	SL1344_RS18890	exact_lower
+1674	yiaK	mrna	3629	yiaK	SL1344_RS18905	exact_lower
+1675	yiaL	mrna	-1			none
+1676	yiaM	mrna	3632	yiaM	SL1344_RS18920	exact_lower
+1677	yiaN	mrna	3633	yiaN	SL1344_RS18925	exact_lower
+1678	yiaO	mrna	3634	yiaO	SL1344_RS18930	exact_lower
+1679	lyxK	mrna	-1			none
+1680	sgbH	mrna	-1			none
+1681	sgbU	mrna	-1			none
+1682	sgbE	mrna	-1			none
+1683	yiaU	mrna	-1			none
+1684	rhsA	mrna	-1			none
+1685	yibA	mrna	-1			none
+1686	yibG	mrna	-1			none
+1687	yibV	mrna	-1			none
+1688	mtlA	mrna	3646	mtlA	SL1344_RS18990	exact_lower
+1689	mtlD	mrna	3647	mtlD	SL1344_RS18995	exact_lower
+1690	mtlR	mrna	3648	mtlR	SL1344_RS19000	exact_lower
+1691	yibL	mrna	-1			none
+1692	lldP	mrna	3653	lldP	SL1344_RS19025	exact_lower
+1693	lldR	mrna	3654	lldR	SL1344_RS19030	exact_lower
+1694	lldD	mrna	3655	lldD	SL1344_RS19035	exact_lower
+1695	trmL	mrna	3656	trmL	SL1344_RS19040	exact_lower
+1696	gpmM	mrna	3664	gpmM	SL1344_RS19085	exact_lower
+1697	envC	mrna	3665	envC	SL1344_RS19090	exact_lower
+1698	yibQ	mrna	-1			none
+1699	rfaD	mrna	3670	rfaD	SL1344_RS19115	exact_lower
+1700	waaF	mrna	-1			none
+1701	waaC	mrna	-1			none
+1702	waaL	mrna	-1			none
+1703	waaA	mrna	3683	waaA	SL1344_RS19185	exact_lower
+1704	coaD	mrna	3684	coaD	SL1344_RS19190	exact_lower
+1705	dfp	mrna	-1			none
+1706	dut	mrna	3690	dut	SL1344_RS19220	exact_lower
+1707	slmA	mrna	3691	slmA	SL1344_RS19225	exact_lower
+1708	yicC	mrna	-1			none
+1709	dinD	mrna	-1			none
+1710	yicG	mrna	-1			none
+1711	gmk	mrna	3699	gmk	SL1344_RS19265	exact_lower
+1712	rpoZ	mrna	3700	rpoZ	SL1344_RS19270	exact_lower
+1713	spoT	mrna	3701	spoT	SL1344_RS19275	exact_lower
+1714	trmH	mrna	3702	trmH	SL1344_RS19280	exact_lower
+1715	recG	mrna	3703	recG	SL1344_RS19285	exact_lower
+1716	xanP	mrna	3706	xanP	SL1344_RS19300	exact_lower
+1717	yicH	mrna	-1			none
+1718	setC	mrna	-1			none
+1719	yicL	mrna	-1			none
+1720	yicS	mrna	-1			none
+1721	adeD	mrna	-1			none
+1722	tisB	mrna	3755	tisB	SL1344_RS19550	exact_lower
+1723	emrD	mrna	3756	emrD	SL1344_RS19560	exact_lower
+1724	yidI	mrna	-1			none
+1725	yidL	mrna	-1			none
+1726	yidP	mrna	-1			none
+1727	yidQ	mrna	-1			none
+1728	cbrA	mrna	-1			none
+1729	yidX	mrna	-1			none
+1730	ysdD	mrna	-1			none
+1731	rpmH	mrna	3798	rpmH	SL1344_RS19765	exact_lower
+1732	rnpA	mrna	3799	rnpA	SL1344_RS19770	exact_lower
+1733	yidD	mrna	3800	yidD	SL1344_RS19775	exact_lower
+1734	yidC	mrna	3801	yidC	SL1344_RS19780	exact_lower
+1735	mnmE	mrna	3802	mnmE	SL1344_RS19785	exact_lower
+1736	tnaC	mrna	-1			none
+1737	tnaA	mrna	-1			none
+1738	tnaB	mrna	-1			none
+1739	mdtL	mrna	-1			none
+1740	yidZ	mrna	3806	yidZ	SL1344_RS19815	exact_lower
+1741	yieE	mrna	2165	yieE	SL1344_RS11305	exact_lower
+1742	yieF	mrna	-1			none
+1743	yieH	mrna	3810	yieH	SL1344_RS19835	exact_lower
+1744	cbrB	mrna	-1			none
+1745	cbrC	mrna	-1			none
+1746	asnA	mrna	3835	asnA	SL1344_RS19960	exact_lower
+1747	kup	mrna	3838	kup	SL1344_RS19975	exact_lower
+1748	rbsD	mrna	3839	rbsD	SL1344_RS19980	exact_lower
+1749	rbsA	mrna	3840	rbsA	SL1344_RS19985	exact_lower
+1750	rbsC	mrna	3841	rbsC	SL1344_RS19990	exact_lower
+1751	rbsB	mrna	3842	rbsB	SL1344_RS19995	exact_lower
+1752	rbsK	mrna	3750	rbsK	SL1344_RS19525	exact_lower
+1753	rbsR	mrna	3844	rbsR	SL1344_RS20005	exact_lower
+1754	maoP	mrna	3847	maoP	SL1344_RS20060	exact_lower
+1755	ilvL	mrna	3849	ilvL	SL1344_RS20070	exact_lower
+1756	ilvX	mrna	3850	ilvX	SL1344_RS27585	exact_lower
+1757	ilvM	mrna	3852	ilvM	SL1344_RS20080	exact_lower
+1758	ilvE	mrna	3853	ilvE	SL1344_RS20085	exact_lower
+1759	ilvD	mrna	3494	ilvD	SL1344_RS18210	exact_lower
+1760	ilvA	mrna	3855	ilvA	SL1344_RS20095	exact_lower
+1761	ilvC	mrna	3859	ilvC	SL1344_RS20115	exact_lower
+1762	rep	mrna	3861	rep	SL1344_RS20130	exact_lower
+1763	trxA	mrna	3864	trxA	SL1344_RS20145	exact_lower
+1764	rhoL	mrna	-1			none
+1765	rho	mrna	3866	rho	SL1344_RS20150	exact_lower
+1766	rfe	mrna	-1			none
+1767	wzzE	mrna	3868	wzzE	SL1344_RS20160	exact_lower
+1768	wecB	mrna	3869	wecB	SL1344_RS20165	exact_lower
+1769	wecC	mrna	3870	wecC	SL1344_RS20170	exact_lower
+1770	rffG	mrna	3871	rffG	SL1344_RS20175	exact_lower
+1771	rffH	mrna	-1			none
+1772	rffC	mrna	3873	rffC	SL1344_RS20185	exact_lower
+1773	wecE	mrna	-1			none
+1774	wzxE	mrna	3875	wzxE	SL1344_RS20195	exact_lower
+1775	wecF	mrna	-1			none
+1776	wzyE	mrna	3877	wzyE	SL1344_RS20205	exact_lower
+1777	rffM	mrna	-1			none
+1778	yifK	mrna	-1			none
+1779	aslB	mrna	-1			none
+1780	cyaA	mrna	3884	cyaA	SL1344_RS20260	exact_lower
+1781	yzcX	mrna	-1			none
+1782	yifL	mrna	-1			none
+1783	dapF	mrna	3892	dapF	SL1344_RS20295	exact_lower
+1784	yigA	mrna	-1			none
+1785	xerC	mrna	3894	xerC	SL1344_RS20305	exact_lower
+1786	yigB	mrna	3895	yigB	SL1344_RS20310	exact_lower
+1787	uvrD	mrna	3896	uvrD	SL1344_RS20315	exact_lower
+1788	ysgD	mrna	3897	ysgD	SL1344_RS27780	exact_lower
+1789	corA	mrna	3898	corA	SL1344_RS20320	exact_lower
+1790	pldA	mrna	3903	pldA	SL1344_RS20345	exact_lower
+1791	recQ	mrna	3904	recQ	SL1344_RS20350	exact_lower
+1792	rhtC	mrna	3905	rhtC	SL1344_RS20355	exact_lower
+1793	pldB	mrna	3907	pldB	SL1344_RS20365	exact_lower
+1794	yigL	mrna	3908	yigL	SL1344_RS20370	exact_lower
+1795	bioP	mrna	-1			none
+1796	metE	mrna	3911	metE	SL1344_RS20385	exact_lower
+1797	udp	mrna	3914	udp	SL1344_RS20400	exact_lower
+1798	rmuC	mrna	3915	rmuC	SL1344_RS20405	exact_lower
+1799	ubiE	mrna	3916	ubiE	SL1344_RS20410	exact_lower
+1800	ubiJ	mrna	3917	ubiJ	SL1344_RS20415	exact_lower
+1801	ubiB	mrna	3918	ubiB	SL1344_RS20420	exact_lower
+1802	tatA	mrna	3919	tatA	SL1344_RS20425	exact_lower
+1803	tatB	mrna	3920	tatB	SL1344_RS20430	exact_lower
+1804	tatC	mrna	3921	tatC	SL1344_RS20435	exact_lower
+1805	tatD	mrna	3922	tatD	SL1344_RS20440	exact_lower
+1806	ubiD	mrna	3924	ubiD	SL1344_RS20450	exact_lower
+1807	fre	mrna	3925	fre	SL1344_RS20455	exact_lower
+1808	pepQ	mrna	3929	pepQ	SL1344_RS20475	exact_lower
+1809	yigZ	mrna	-1			none
+1810	trkH	mrna	3931	trkH	SL1344_RS20485	exact_lower
+1811	hemG	mrna	3932	hemG	SL1344_RS20490	exact_lower
+1812	yihD	mrna	-1			none
+1813	srkA	mrna	-1			none
+1814	dsbA	mrna	3937	dsbA	SL1344_RS20540	exact_lower
+1815	yihF	mrna	-1			none
+1816	polA	mrna	3939	polA	SL1344_RS20555	exact_lower
+1817	yihI	mrna	3942	yihI	SL1344_RS20570	exact_lower
+1818	hemN	mrna	3943	hemN	SL1344_RS20575	exact_lower
+1819	bipA	mrna	-1			none
+1820	yihL	mrna	-1			none
+1821	yihM	mrna	-1			none
+1822	yihN	mrna	-1			none
+1823	yihV	mrna	-1			none
+1824	csqR	mrna	-1			none
+1825	yihX	mrna	3965	yihX	SL1344_RS20680	exact_lower
+1826	yihY	mrna	-1			none
+1827	dtd	mrna	3967	dtd	SL1344_RS20690	exact_lower
+1828	fabY	mrna	3968	fabY	SL1344_RS20695	exact_lower
+1829	yiiE	mrna	-1			none
+1830	yiiF	mrna	-1			none
+1831	fdhD	mrna	3978	fdhD	SL1344_RS20750	exact_lower
+1832	yiiG	mrna	-1			none
+1833	rhaS	mrna	3989	rhaS	SL1344_RS20805	exact_lower
+1834	rhaR	mrna	3990	rhaR	SL1344_RS20810	exact_lower
+1835	sodA	mrna	3996	sodA	SL1344_RS20845	exact_lower
+1836	kdgT	mrna	-1			none
+1837	yiiM	mrna	3997	yiiM	SL1344_RS20850	exact_lower
+1838	cpxP	mrna	4001	cpxP	SL1344_RS20870	exact_lower
+1839	fieF	mrna	4002	fieF	SL1344_RS20875	exact_lower
+1840	pfkA	mrna	4003	pfkA	SL1344_RS20880	exact_lower
+1841	sbp	mrna	-1			none
+1842	cdh	mrna	-1			none
+1843	yiiR	mrna	-1			none
+1844	yiiS	mrna	-1			none
+1845	uspD	mrna	-1			none
+1846	zapB	mrna	4027	zapB	SL1344_RS21005	exact_lower
+1847	rpmE	mrna	4035	rpmE	SL1344_RS21045	exact_lower
+1848	metB	mrna	4039	metB	SL1344_RS21065	exact_lower
+1849	metL	mrna	4040	metL	SL1344_RS21070	exact_lower
+1850	metF	mrna	4044	metF	SL1344_RS21095	exact_lower
+1851	katG	mrna	4045	katG	SL1344_RS21100	exact_lower
+1852	yijE	mrna	-1			none
+1853	frwC	mrna	-1			none
+1854	frwB	mrna	-1			none
+1855	pflD	mrna	-1			none
+1856	pflC	mrna	-1			none
+1857	frwD	mrna	-1			none
+1858	argC	mrna	4059	argC	SL1344_RS21170	exact_lower
+1859	argB	mrna	4060	argB	SL1344_RS21175	exact_lower
+1860	argH	mrna	4061	argH	SL1344_RS21180	exact_lower
+1861	oxyR	mrna	4062	oxyR	SL1344_RS21185	exact_lower
+1862	fabR	mrna	4064	fabR	SL1344_RS21195	exact_lower
+1863	yijD	mrna	-1			none
+1864	btuB	mrna	4067	btuB	SL1344_RS21210	exact_lower
+1865	murI	mrna	4068	murI	SL1344_RS21215	exact_lower
+1866	murB	mrna	4069	murB	SL1344_RS21245	exact_lower
+1867	birA	mrna	4070	birA	SL1344_RS21250	exact_lower
+1868	tufB	mrna	-1			none
+1869	secE	mrna	4074	secE	SL1344_RS21290	exact_lower
+1870	nusG	mrna	4075	nusG	SL1344_RS21295	exact_lower
+1871	rplK	mrna	4076	rplK	SL1344_RS21300	exact_lower
+1872	rplA	mrna	4077	rplA	SL1344_RS21305	exact_lower
+1873	rplJ	mrna	4078	rplJ	SL1344_RS21310	exact_lower
+1874	rplL	mrna	4079	rplL	SL1344_RS21315	exact_lower
+1875	rpoB	mrna	4080	rpoB	SL1344_RS21320	exact_lower
+1876	rpoC	mrna	4081	rpoC	SL1344_RS21325	exact_lower
+1877	yjaZ	mrna	-1			none
+1878	nudC	mrna	4093	nudC	SL1344_RS21385	exact_lower
+1879	hemE	mrna	4094	hemE	SL1344_RS21390	exact_lower
+1880	nfi	mrna	4095	nfi	SL1344_RS21395	exact_lower
+1881	yjaG	mrna	-1			none
+1882	hupA	mrna	4097	hupA	SL1344_RS21405	exact_lower
+1883	yjaH	mrna	-1			none
+1884	zraS	mrna	4100	zraS	SL1344_RS21420	exact_lower
+1885	zraR	mrna	4101	zraR	SL1344_RS21425	exact_lower
+1886	yjaA	mrna	-1			none
+1887	metA	mrna	4105	metA	SL1344_RS21470	exact_lower
+1888	aceB	mrna	4106	aceB	SL1344_RS21475	exact_lower
+1889	aceA	mrna	4107	aceA	SL1344_RS21480	exact_lower
+1890	aceK	mrna	4108	aceK	SL1344_RS21485	exact_lower
+1891	metH	mrna	4111	metH	SL1344_RS21500	exact_lower
+1892	yjbB	mrna	-1			none
+1893	rluF	mrna	4116	rluF	SL1344_RS21525	exact_lower
+1894	pgi	mrna	4146	pgi	SL1344_RS21670	exact_lower
+1895	yjbE	mrna	4147	yjbE	SL1344_RS21675	exact_lower
+1896	yjbF	mrna	-1			none
+1897	yjbG	mrna	-1			none
+1898	yjbH	mrna	-1			none
+1899	psiE	mrna	4151	psiE	SL1344_RS21695	exact_lower
+1900	malK	mrna	4155	malK	SL1344_RS21715	exact_lower
+1901	lamB	mrna	-1			none
+1902	malM	mrna	4157	malM	SL1344_RS21725	exact_lower
+1903	ubiC	mrna	4158	ubiC	SL1344_RS21730	exact_lower
+1904	ubiA	mrna	4159	ubiA	SL1344_RS21735	exact_lower
+1905	dgkA	mrna	-1			none
+1906	lexA	mrna	4162	lexA	SL1344_RS21750	exact_lower
+1907	dinF	mrna	4163	dinF	SL1344_RS21755	exact_lower
+1908	yjbJ	mrna	-1			none
+1909	yjbL	mrna	-1			none
+1910	yjbM	mrna	-1			none
+1911	dusA	mrna	4168	dusA	SL1344_RS21780	exact_lower
+1912	pspG	mrna	4169	pspG	SL1344_RS21785	exact_lower
+1913	dnaB	mrna	4171	dnaB	SL1344_RS21795	exact_lower
+1914	alr	mrna	4172	alr	SL1344_RS21800	exact_lower
+1915	tyrB	mrna	4173	tyrB	SL1344_RS21805	exact_lower
+1916	aphA	mrna	4174	aphA	SL1344_RS21810	exact_lower
+1917	yjbQ	mrna	-1			none
+1918	yjbR	mrna	-1			none
+1919	ssb	mrna	-1			none
+1920	pdeC	mrna	-1			none
+1921	soxR	mrna	4190	soxR	SL1344_RS21895	exact_lower
+1922	ghxP	mrna	4192	ghxP	SL1344_RS21905	exact_lower
+1923	yjcE	mrna	-1			none
+1924	ytcB	mrna	-1			none
+1925	nrfA	mrna	4200	nrfA	SL1344_RS21950	exact_lower
+1926	nrfB	mrna	4201	nrfB	SL1344_RS21955	exact_lower
+1927	nrfC	mrna	4202	nrfC	SL1344_RS21960	exact_lower
+1928	nrfD	mrna	4203	nrfD	SL1344_RS21965	exact_lower
+1929	nrfE	mrna	-1			none
+1930	nrfF	mrna	-1			none
+1931	nrfG	mrna	4205	nrfG	SL1344_RS21975	exact_lower
+1932	gltP	mrna	4206	gltP	SL1344_RS21980	exact_lower
+1933	rpiB	mrna	-1			none
+1934	yjdP	mrna	-1			none
+1935	rdcA	mrna	-1			none
+1936	rdcB	mrna	-1			none
+1937	proP	mrna	4213	proP	SL1344_RS22020	exact_lower
+1938	pmrR	mrna	4214	pmrR	SL1344_RS27280	exact_lower
+1939	melA	mrna	4222	melA	SL1344_RS22070	exact_lower
+1940	melB	mrna	4223	melB	SL1344_RS22075	exact_lower
+1941	yjdI	mrna	-1			none
+1942	yjdJ	mrna	-1			none
+1943	ghoS	mrna	1248	ghoS	SL1344_RS06585	exact_lower
+1944	ghoT	mrna	-1			none
+1945	fxsA	mrna	-1			none
+1946	groS	mrna	-1			none
+1947	groL	mrna	4253	groL	SL1344_RS22235	exact_lower
+1948	yjeI	mrna	-1			none
+1949	efp	mrna	4257	efp	SL1344_RS22255	exact_lower
+1950	ecnA	mrna	-1			none
+1951	ecnB	mrna	4259	ecnB	SL1344_RS22265	exact_lower
+1952	gdx	mrna	-1			none
+1953	epmA	mrna	4267	epmA	SL1344_RS22305	exact_lower
+1954	yjeM	mrna	4268	yjeM	SL1344_RS22310	exact_lower
+1955	yjeN	mrna	-1			none
+1956	yjeO	mrna	-1			none
+1957	orn	mrna	4273	orn	SL1344_RS22335	exact_lower
+1958	yjeV	mrna	-1			none
+1959	nnr	mrna	4276	nnr	SL1344_RS22365	exact_lower
+1960	tsaE	mrna	4277	tsaE	SL1344_RS22370	exact_lower
+1961	amiB	mrna	4278	amiB	SL1344_RS22375	exact_lower
+1962	mutL	mrna	4279	mutL	SL1344_RS22380	exact_lower
+1963	miaA	mrna	4280	miaA	SL1344_RS22385	exact_lower
+1964	hfq	mrna	4281	hfq	SL1344_RS22390	exact_lower
+1965	hflX	mrna	4282	hflX	SL1344_RS22395	exact_lower
+1966	hflK	mrna	4283	hflK	SL1344_RS22400	exact_lower
+1967	hflC	mrna	4284	hflC	SL1344_RS22405	exact_lower
+1968	yjeT	mrna	-1			none
+1969	purA	mrna	4286	purA	SL1344_RS22415	exact_lower
+1970	nsrR	mrna	4287	nsrR	SL1344_RS22420	exact_lower
+1971	rnr	mrna	4288	rnr	SL1344_RS22425	exact_lower
+1972	rlmB	mrna	4289	rlmB	SL1344_RS22430	exact_lower
+1973	yjfI	mrna	-1			none
+1974	yjfJ	mrna	-1			none
+1975	yjfK	mrna	-1			none
+1976	yjfL	mrna	-1			none
+1977	yjfM	mrna	-1			none
+1978	yjfC	mrna	-1			none
+1979	aidB	mrna	-1			none
+1980	yjfP	mrna	4299	yjfP	SL1344_RS22485	exact_lower
+1981	ulaA	mrna	4302	ulaA	SL1344_RS22500	exact_lower
+1982	ulaB	mrna	4303	ulaB	SL1344_RS22505	exact_lower
+1983	ulaC	mrna	4304	ulaC	SL1344_RS22510	exact_lower
+1984	ulaD	mrna	3636	ulaD	SL1344_RS18940	exact_lower
+1985	ulaE	mrna	4306	ulaE	SL1344_RS22520	exact_lower
+1986	ulaF	mrna	-1			none
+1987	rpsF	mrna	4310	rpsF	SL1344_RS22540	exact_lower
+1988	priB	mrna	4311	priB	SL1344_RS22545	exact_lower
+1989	rpsR	mrna	4312	rpsR	SL1344_RS22550	exact_lower
+1990	rplI	mrna	4313	rplI	SL1344_RS22555	exact_lower
+1991	fklB	mrna	4316	fklB	SL1344_RS22570	exact_lower
+1992	cycA	mrna	4317	cycA	SL1344_RS22575	exact_lower
+1993	ytfH	mrna	-1			none
+1994	cysQ	mrna	4323	cysQ	SL1344_RS22605	exact_lower
+1995	ytfI	mrna	-1			none
+1996	ytfK	mrna	-1			none
+1997	tamA	mrna	4328	tamA	SL1344_RS22630	exact_lower
+1998	tamB	mrna	4329	tamB	SL1344_RS22635	exact_lower
+1999	ytfP	mrna	-1			none
+2000	chpS	mrna	-1			none
+2001	chpB	mrna	-1			none
+2002	ytfQ	mrna	-1			none
+2003	ytfR	mrna	-1			none
+2004	ytfT	mrna	-1			none
+2005	yjfF	mrna	-1			none
+2006	mpl	mrna	4335	mpl	SL1344_RS22665	exact_lower
+2007	tldE	mrna	-1			none
+2008	mgtL	mrna	4372	mgtL	SL1344_RS28075	exact_lower
+2009	mgtA	mrna	3721	mgtA	SL1344_RS19375	exact_lower
+2010	bdcR	mrna	-1			none
+2011	tabA	mrna	-1			none
+2012	yjgL	mrna	-1			none
+2013	rraB	mrna	4388	rraB	SL1344_RS22930	exact_lower
+2014	yjgN	mrna	-1			none
+2015	ytgB	mrna	-1			none
+2016	ytgA	mrna	-1			none
+2017	lptF	mrna	4397	lptF	SL1344_RS22975	exact_lower
+2018	lptG	mrna	4398	lptG	SL1344_RS22980	exact_lower
+2019	idnK	mrna	4403	idnK	SL1344_RS23005	exact_lower
+2020	insC6	mrna	-1			none
+2021	insD6	mrna	-1			none
+2022	yjgZ	mrna	-1			none
+2023	nanX	mrna	-1			none
+2024	nanY	mrna	-1			none
+2025	ythA	mrna	-1			none
+2026	ykiE	mrna	-1			none
+2027	insA7	mrna	-1			none
+2028	ythB	mrna	-1			none
+2029	fimB	mrna	-1			none
+2030	fimE	mrna	-1			none
+2031	fimA	mrna	526	fimA	SL1344_RS02755	exact_lower
+2032	fimI	mrna	527	fimI	SL1344_RS02760	exact_lower
+2033	fimC	mrna	528	fimC	SL1344_RS02765	exact_lower
+2034	fimD	mrna	-1			none
+2035	fimF	mrna	-1			none
+2036	fimG	mrna	-1			none
+2037	fimH	mrna	530	fimH	SL1344_RS02775	exact_lower
+2038	uxuA	mrna	3107	uxuA	SL1344_RS16215	exact_lower
+2039	uxuB	mrna	-1			none
+2040	uxuR	mrna	4425	uxuR	SL1344_RS23120	exact_lower
+2041	ytiC	mrna	-1			none
+2042	ytiD	mrna	-1			none
+2043	idlP	mrna	-1			none
+2044	iraD	mrna	3102	iraD	SL1344_RS16190	exact_lower
+2045	kptA	mrna	-1			none
+2046	yjiS	mrna	4438	yjiS	SL1344_RS23200	exact_lower
+2047	yjiT	mrna	-1			none
+2048	mrr	mrna	-1			none
+2049	tsr	mrna	4450	tsr	SL1344_RS23260	exact_lower
+2050	lgoD	mrna	-1			none
+2051	yjjQ	mrna	-1			none
+2052	bglJ	mrna	4465	bglJ	SL1344_RS23335	exact_lower
+2053	yjjZ	mrna	-1			none
+2054	holD	mrna	-1			none
+2055	rimI	mrna	4472	rimI	SL1344_RS23385	exact_lower
+2056	yjjG	mrna	4473	yjjG	SL1344_RS23390	exact_lower
+2057	prfC	mrna	4474	prfC	SL1344_RS23395	exact_lower
+2058	osmY	mrna	1416	osmY	SL1344_RS07425	exact_lower
+2059	ytjA	mrna	-1			none
+2060	yjjU	mrna	-1			none
+2061	yjjV	mrna	-1			none
+2062	deoC	mrna	4481	deoC	SL1344_RS23430	exact_lower
+2063	deoA	mrna	4482	deoA	SL1344_RS23435	exact_lower
+2064	deoB	mrna	4483	deoB	SL1344_RS23440	exact_lower
+2065	deoD	mrna	4484	deoD	SL1344_RS23445	exact_lower
+2066	yjjJ	mrna	-1			none
+2067	serB	mrna	2161	serB	SL1344_RS11285	exact_lower
+2068	radA	mrna	4493	radA	SL1344_RS23490	exact_lower
+2069	nadR	mrna	4494	nadR	SL1344_RS23495	exact_lower
+2070	slt	mrna	-1			none
+2071	trpR	mrna	4497	trpR	SL1344_RS23510	exact_lower
+2072	ytjC	mrna	-1			none
+2073	creA	mrna	4501	creA	SL1344_RS23530	exact_lower
+2074	creB	mrna	4502	creB	SL1344_RS23535	exact_lower
+2075	creC	mrna	4503	creC	SL1344_RS23540	exact_lower
+2076	creD	mrna	4504	creD	SL1344_RS23545	exact_lower
+2077	yjjY	mrna	4513	yjjY	SL1344_RS23590	exact_lower
+2078	ytjE	mrna	-1			none
+2079	yjtD	mrna	-1			none
+2080	yaaA	mrna	4	yaaA	SL1344_RS00025	exact_lower
+2081	yaaJ	mrna	-1			none
+2082	satP	mrna	8	satP	SL1344_RS00045	exact_lower
+2083	yaaW	mrna	-1			none
+2084	yaaI	mrna	-1			none
+2085	mokC	mrna	-1			none
+2086	insB1	mrna	-1			none
+2087	insA1	mrna	-1			none
+2088	rpsT	mrna	43	rpsT	SL1344_RS00220	exact_lower
+2089	caiE	mrna	69	caiE	SL1344_RS00350	exact_lower
+2090	caiD	mrna	70	caiD	SL1344_RS00355	exact_lower
+2091	caiC	mrna	71	caiC	SL1344_RS00360	exact_lower
+2092	caiB	mrna	-1			none
+2093	caiA	mrna	72	caiA	SL1344_RS00370	exact_lower
+2094	caiT	mrna	73	caiT	SL1344_RS00375	exact_lower
+2095	apaH	mrna	86	apaH	SL1344_RS00450	exact_lower
+2096	apaG	mrna	87	apaG	SL1344_RS00455	exact_lower
+2097	rsmA	mrna	88	rsmA	SL1344_RS00460	exact_lower
+2098	pdxA	mrna	89	pdxA	SL1344_RS00465	exact_lower
+2099	surA	mrna	90	surA	SL1344_RS00470	exact_lower
+2100	lptD	mrna	91	lptD	SL1344_RS00475	exact_lower
+2101	rluA	mrna	93	rluA	SL1344_RS00485	exact_lower
+2102	rapA	mrna	94	rapA	SL1344_RS00490	exact_lower
+2103	polB	mrna	95	polB	SL1344_RS00495	exact_lower
+2104	araD	mrna	98	araD	SL1344_RS00510	exact_lower
+2105	araA	mrna	99	araA	SL1344_RS00515	exact_lower
+2106	araB	mrna	100	araB	SL1344_RS00520	exact_lower
+2107	thiQ	mrna	103	thiQ	SL1344_RS00535	exact_lower
+2108	thiP	mrna	104	thiP	SL1344_RS00540	exact_lower
+2109	thiB	mrna	105	thiB	SL1344_RS00545	exact_lower
+2110	sgrR	mrna	106	sgrR	SL1344_RS00550	exact_lower
+2111	leuD	mrna	108	leuD	SL1344_RS00560	exact_lower
+2112	leuC	mrna	109	leuC	SL1344_RS00565	exact_lower
+2113	leuB	mrna	110	leuB	SL1344_RS00570	exact_lower
+2114	leuA	mrna	111	leuA	SL1344_RS00575	exact_lower
+2115	leuL	mrna	112	leuL	SL1344_RS00580	exact_lower
+2116	yacG	mrna	136	yacG	SL1344_RS00705	exact_lower
+2117	zapD	mrna	137	zapD	SL1344_RS00710	exact_lower
+2118	coaE	mrna	138	coaE	SL1344_RS00715	exact_lower
+2119	hofC	mrna	140	hofC	SL1344_RS00725	exact_lower
+2120	hofB	mrna	-1			none
+2121	ppdD	mrna	142	ppdD	SL1344_RS00735	exact_lower
+2122	nadC	mrna	143	nadC	SL1344_RS00740	exact_lower
+2123	aroP	mrna	148	aroP	SL1344_RS00765	exact_lower
+2124	yacH	mrna	-1			none
+2125	speD	mrna	162	speD	SL1344_RS00840	exact_lower
+2126	speE	mrna	163	speE	SL1344_RS00845	exact_lower
+2127	yacC	mrna	-1			none
+2128	gcd	mrna	-1			none
+2129	can	mrna	168	can	SL1344_RS00870	exact_lower
+2130	panD	mrna	177	panD	SL1344_RS00915	exact_lower
+2131	panC	mrna	178	panC	SL1344_RS00920	exact_lower
+2132	panB	mrna	179	panB	SL1344_RS00925	exact_lower
+2133	yadC	mrna	-1			none
+2134	yadK	mrna	-1			none
+2135	yadL	mrna	-1			none
+2136	yadM	mrna	-1			none
+2137	htrE	mrna	-1			none
+2138	yadV	mrna	-1			none
+2139	yadN	mrna	-1			none
+2140	folK	mrna	180	folK	SL1344_RS00930	exact_lower
+2141	pcnB	mrna	181	pcnB	SL1344_RS00935	exact_lower
+2142	gluQ	mrna	-1			none
+2143	dksA	mrna	183	dksA	SL1344_RS00945	exact_lower
+2144	sfsA	mrna	184	sfsA	SL1344_RS00950	exact_lower
+2145	thpR	mrna	185	thpR	SL1344_RS00955	exact_lower
+2146	hemL	mrna	199	hemL	SL1344_RS01025	exact_lower
+2147	yadS	mrna	-1			none
+2148	btuF	mrna	203	btuF	SL1344_RS01045	exact_lower
+2149	mtn	mrna	-1			none
+2150	yaeH	mrna	-1			none
+2151	yaeI	mrna	-1			none
+2152	dapD	mrna	210	dapD	SL1344_RS01080	exact_lower
+2153	glnD	mrna	211	glnD	SL1344_RS01085	exact_lower
+2154	map	mrna	212	map	SL1344_RS01090	exact_lower
+2155	rof	mrna	234	rof	SL1344_RS01200	exact_lower
+2156	yaeP	mrna	-1			none
+2157	yaeF	mrna	-1			none
+2158	proS	mrna	239	proS	SL1344_RS01225	exact_lower
+2159	trmO	mrna	-1			none
+2160	rcsF	mrna	241	rcsF	SL1344_RS01235	exact_lower
+2161	metQ	mrna	242	metQ	SL1344_RS01240	exact_lower
+2162	metI	mrna	-1			none
+2163	metN	mrna	244	metN	SL1344_RS01250	exact_lower
+2164	yafC	mrna	247	yafC	SL1344_RS01295	exact_lower
+2165	mltD	mrna	251	mltD	SL1344_RS01315	exact_lower
+2166	gloB	mrna	252	gloB	SL1344_RS01320	exact_lower
+2167	rnhA	mrna	254	rnhA	SL1344_RS01330	exact_lower
+2168	yafV	mrna	-1			none
+2169	fadE	mrna	301	fadE	SL1344_RS01585	exact_lower
+2170	dpaA	mrna	304	dpaA	SL1344_RS01600	exact_lower
+2171	yafQ	mrna	-1			none
+2172	dinJ	mrna	-1			none
+2173	pepD	mrna	307	pepD	SL1344_RS01620	exact_lower
+2174	insB9	mrna	-1			none
+2175	insA9	mrna	-1			none
+2176	phoE	mrna	311	phoE	SL1344_RS01640	exact_lower
+2177	ykfI	mrna	-1			none
+2178	yafW	mrna	-1			none
+2179	ykfH	mrna	-1			none
+2180	ykfG	mrna	-1			none
+2181	yafX	mrna	-1			none
+2182	ykfF	mrna	-1			none
+2183	ykfB	mrna	-1			none
+2184	yafY	mrna	-1			none
+2185	yafZ	mrna	-1			none
+2186	ykfA	mrna	-1			none
+2187	perR	mrna	-1			none
+2188	insH1	mrna	-1			none
+2189	afuC	mrna	-1			none
+2190	insB2	mrna	-1			none
+2191	insA2	mrna	-1			none
+2192	yagB	mrna	-1			none
+2193	yagA	mrna	4523	yagA	SL1344_RS24245	exact_lower
+2194	xynR	mrna	-1			none
+2195	argF	mrna	4382	argF	SL1344_RS22905	exact_lower
+2196	argL	mrna	4387	argL	SL1344_RS28080	exact_lower
+2197	insB3	mrna	-1			none
+2198	insA3	mrna	-1			none
+2199	yagK	mrna	-1			none
+2200	yagL	mrna	-1			none
+2201	yagM	mrna	-1			none
+2202	ykgV	mrna	-1			none
+2203	yagN	mrna	-1			none
+2204	intF	mrna	-1			none
+2205	yagP	mrna	-1			none
+2206	paoD	mrna	-1			none
+2207	paoC	mrna	-1			none
+2208	paoB	mrna	-1			none
+2209	paoA	mrna	-1			none
+2210	ykgJ	mrna	-1			none
+2211	ecpE	mrna	-1			none
+2212	ecpD	mrna	-1			none
+2213	ecpC	mrna	-1			none
+2214	ecpB	mrna	-1			none
+2215	ecpA	mrna	-1			none
+2216	matA	mrna	-1			none
+2217	ykgO	mrna	454	ykgO	SL1344_RS02395	exact_lower
+2218	ykgM	mrna	-1			none
+2219	ykgR	mrna	-1			none
+2220	rclC	mrna	544	rclC	SL1344_RS02860	exact_lower
+2221	rclB	mrna	543	rclB	SL1344_RS02855	exact_lower
+2222	rclA	mrna	542	rclA	SL1344_RS02850	exact_lower
+2223	ykgH	mrna	-1			none
+2224	betA	mrna	-1			none
+2225	betB	mrna	-1			none
+2226	betI	mrna	-1			none
+2227	yahB	mrna	-1			none
+2228	yahC	mrna	-1			none
+2229	yahN	mrna	-1			none
+2230	prpR	mrna	352	prpR	SL1344_RS01880	exact_lower
+2231	cynR	mrna	-1			none
+2232	lacA	mrna	-1			none
+2233	lacY	mrna	-1			none
+2234	lacZ	mrna	-1			none
+2235	lacI	mrna	-1			none
+2236	mhpR	mrna	-1			none
+2237	frmB	mrna	-1			none
+2238	frmA	mrna	-1			none
+2239	frmR	mrna	-1			none
+2240	yaiO	mrna	-1			none
+2241	yaiP	mrna	-1			none
+2242	yaiS	mrna	-1			none
+2243	hemB	mrna	357	hemB	SL1344_RS01905	exact_lower
+2244	ytiB	mrna	-1			none
+2245	insF2	mrna	-1			none
+2246	insE2	mrna	-1			none
+2247	ampH	mrna	360	ampH	SL1344_RS01920	exact_lower
+2248	yaiY	mrna	-1			none
+2249	ddlA	mrna	365	ddlA	SL1344_RS01945	exact_lower
+2250	proC	mrna	371	proC	SL1344_RS01975	exact_lower
+2251	rdgC	mrna	377	rdgC	SL1344_RS02005	exact_lower
+2252	araJ	mrna	379	araJ	SL1344_RS02015	exact_lower
+2253	sbcC	mrna	380	sbcC	SL1344_RS02020	exact_lower
+2254	sbcD	mrna	381	sbcD	SL1344_RS02025	exact_lower
+2255	acpH	mrna	388	acpH	SL1344_RS02065	exact_lower
+2256	tsx	mrna	-1			none
+2257	yajI	mrna	-1			none
+2258	yajO	mrna	-1			none
+2259	dxs	mrna	407	dxs	SL1344_RS02160	exact_lower
+2260	ispA	mrna	408	ispA	SL1344_RS02165	exact_lower
+2261	xseB	mrna	409	xseB	SL1344_RS02170	exact_lower
+2262	yajL	mrna	418	yajL	SL1344_RS02215	exact_lower
+2263	panE	mrna	419	panE	SL1344_RS02220	exact_lower
+2264	yajR	mrna	-1			none
+2265	cyoE	mrna	424	cyoE	SL1344_RS02245	exact_lower
+2266	cyoD	mrna	-1			none
+2267	cyoC	mrna	-1			none
+2268	cyoB	mrna	427	cyoB	SL1344_RS02260	exact_lower
+2269	cyoA	mrna	428	cyoA	SL1344_RS02265	exact_lower
+2270	ampG	mrna	429	ampG	SL1344_RS02270	exact_lower
+2271	yajG	mrna	-1			none
+2272	queC	mrna	440	queC	SL1344_RS02325	exact_lower
+2273	ybaE	mrna	-1			none
+2274	tesB	mrna	449	tesB	SL1344_RS02370	exact_lower
+2275	ybaZ	mrna	-1			none
+2276	pdeB	mrna	-1			none
+2277	ylaC	mrna	-1			none
+2278	maa	mrna	456	maa	SL1344_RS02405	exact_lower
+2279	hha	mrna	-1			none
+2280	tomB	mrna	458	tomB	SL1344_RS02415	exact_lower
+2281	acrB	mrna	459	acrB	SL1344_RS02420	exact_lower
+2282	acrA	mrna	460	acrA	SL1344_RS02425	exact_lower
+2283	ybaM	mrna	-1			none
+2284	priC	mrna	465	priC	SL1344_RS02450	exact_lower
+2285	aes	mrna	474	aes	SL1344_RS02495	exact_lower
+2286	ybaL	mrna	476	ybaL	SL1344_RS02505	exact_lower
+2287	fsr	mrna	-1			none
+2288	ybaK	mrna	479	ybaK	SL1344_RS02520	exact_lower
+2289	ybaP	mrna	-1			none
+2290	copA	mrna	482	copA	SL1344_RS02535	exact_lower
+2291	ybbJ	mrna	-1			none
+2292	qmcA	mrna	-1			none
+2293	cnoX	mrna	488	cnoX	SL1344_RS02565	exact_lower
+2294	ybbO	mrna	-1			none
+2295	tesA	mrna	490	tesA	SL1344_RS02575	exact_lower
+2296	ylbG	mrna	-1			none
+2297	selU	mrna	-1			none
+2298	allS	mrna	498	allS	SL1344_RS02615	exact_lower
+2299	allE	mrna	509	allE	SL1344_RS02670	exact_lower
+2300	allC	mrna	510	allC	SL1344_RS02675	exact_lower
+2301	allD	mrna	511	allD	SL1344_RS02680	exact_lower
+2302	purK	mrna	516	purK	SL1344_RS02705	exact_lower
+2303	purE	mrna	517	purE	SL1344_RS02710	exact_lower
+2304	lpxH	mrna	518	lpxH	SL1344_RS02715	exact_lower
+2305	ppiB	mrna	519	ppiB	SL1344_RS02720	exact_lower
+2306	ybcI	mrna	-1			none
+2307	ybcJ	mrna	524	ybcJ	SL1344_RS02745	exact_lower
+2308	folD	mrna	525	folD	SL1344_RS02750	exact_lower
+2309	fimZ	mrna	532	fimZ	SL1344_RS02785	exact_lower
+2310	intD	mrna	-1			none
+2311	insH2	mrna	-1			none
+2312	borD	mrna	-1			none
+2313	ylcI	mrna	-1			none
+2314	ompT	mrna	-1			none
+2315	envY	mrna	-1			none
+2316	ybcH	mrna	-1			none
+2317	nfrA	mrna	-1			none
+2318	nfrB	mrna	-1			none
+2319	cusS	mrna	-1			none
+2320	cusR	mrna	-1			none
+2321	ybdG	mrna	-1			none
+2322	nfsB	mrna	556	nfsB	SL1344_RS02920	exact_lower
+2323	ybdF	mrna	-1			none
+2324	ybdJ	mrna	-1			none
+2325	ybdK	mrna	-1			none
+2326	entD	mrna	562	entD	SL1344_RS02950	exact_lower
+2327	fepA	mrna	-1			none
+2328	fepC	mrna	568	fepC	SL1344_RS02980	exact_lower
+2329	fepG	mrna	569	fepG	SL1344_RS02985	exact_lower
+2330	fepD	mrna	570	fepD	SL1344_RS02990	exact_lower
+2331	fepB	mrna	572	fepB	SL1344_RS03000	exact_lower
+2332	hcxA	mrna	-1			none
+2333	ybdM	mrna	-1			none
+2334	ybdN	mrna	-1			none
+2335	ybdO	mrna	-1			none
+2336	dsbG	mrna	585	dsbG	SL1344_RS03065	exact_lower
+2337	uspG	mrna	592	uspG	SL1344_RS03100	exact_lower
+2338	yldA	mrna	-1			none
+2339	rnk	mrna	594	rnk	SL1344_RS03110	exact_lower
+2340	rna	mrna	595	rna	SL1344_RS03115	exact_lower
+2341	citT	mrna	596	citT	SL1344_RS03120	exact_lower
+2342	citG	mrna	63	citG	SL1344_RS00320	exact_lower
+2343	citX	mrna	62	citX	SL1344_RS00315	exact_lower
+2344	citF	mrna	61	citF	SL1344_RS00310	exact_lower
+2345	citE	mrna	60	citE	SL1344_RS00305	exact_lower
+2346	citD	mrna	59	citD	SL1344_RS00300	exact_lower
+2347	citC	mrna	58	citC	SL1344_RS00295	exact_lower
+2348	dcuC	mrna	605	dcuC	SL1344_RS03165	exact_lower
+2349	crcB	mrna	608	crcB	SL1344_RS03180	exact_lower
+2350	lipA	mrna	611	lipA	SL1344_RS03195	exact_lower
+2351	ybeF	mrna	-1			none
+2352	lipB	mrna	613	lipB	SL1344_RS03205	exact_lower
+2353	ybeD	mrna	614	ybeD	SL1344_RS03210	exact_lower
+2354	dacA	mrna	615	dacA	SL1344_RS03215	exact_lower
+2355	rlpA	mrna	616	rlpA	SL1344_RS03220	exact_lower
+2356	mrdB	mrna	617	mrdB	SL1344_RS03225	exact_lower
+2357	mrdA	mrna	618	mrdA	SL1344_RS03230	exact_lower
+2358	rlmH	mrna	619	rlmH	SL1344_RS03235	exact_lower
+2359	rsfS	mrna	620	rsfS	SL1344_RS03240	exact_lower
+2360	cobC	mrna	-1			none
+2361	nadD	mrna	623	nadD	SL1344_RS03260	exact_lower
+2362	holA	mrna	624	holA	SL1344_RS03265	exact_lower
+2363	lptE	mrna	625	lptE	SL1344_RS03270	exact_lower
+2364	leuS	mrna	626	leuS	SL1344_RS03275	exact_lower
+2365	ybeQ	mrna	-1			none
+2366	ybeT	mrna	-1			none
+2367	hscC	mrna	636	hscC	SL1344_RS03330	exact_lower
+2368	rihA	mrna	638	rihA	SL1344_RS03340	exact_lower
+2369	gltL	mrna	639	gltL	SL1344_RS03345	exact_lower
+2370	gltK	mrna	640	gltK	SL1344_RS03350	exact_lower
+2371	gltJ	mrna	641	gltJ	SL1344_RS03355	exact_lower
+2372	gltI	mrna	-1			none
+2373	insH3	mrna	-1			none
+2374	lnt	mrna	643	lnt	SL1344_RS03365	exact_lower
+2375	ybeX	mrna	-1			none
+2376	ybeY	mrna	645	ybeY	SL1344_RS03375	exact_lower
+2377	ybeZ	mrna	-1			none
+2378	miaB	mrna	647	miaB	SL1344_RS03385	exact_lower
+2379	asnB	mrna	650	asnB	SL1344_RS03435	exact_lower
+2380	umpH	mrna	-1			none
+2381	nagC	mrna	652	nagC	SL1344_RS03445	exact_lower
+2382	nagA	mrna	653	nagA	SL1344_RS03450	exact_lower
+2383	nagB	mrna	654	nagB	SL1344_RS03455	exact_lower
+2384	fur	mrna	663	fur	SL1344_RS03500	exact_lower
+2385	uof	mrna	-1			none
+2386	fldA	mrna	664	fldA	SL1344_RS03505	exact_lower
+2387	ybfE	mrna	665	ybfE	SL1344_RS03510	exact_lower
+2388	ybfF	mrna	666	ybfF	SL1344_RS03515	exact_lower
+2389	potE	mrna	670	potE	SL1344_RS03535	exact_lower
+2390	speF	mrna	671	speF	SL1344_RS03540	exact_lower
+2391	kdpE	mrna	673	kdpE	SL1344_RS03550	exact_lower
+2392	kdpD	mrna	674	kdpD	SL1344_RS03555	exact_lower
+2393	kdpC	mrna	675	kdpC	SL1344_RS03560	exact_lower
+2394	kdpB	mrna	676	kdpB	SL1344_RS03565	exact_lower
+2395	kdpA	mrna	677	kdpA	SL1344_RS03570	exact_lower
+2396	kdpF	mrna	678	kdpF	SL1344_RS03575	exact_lower
+2397	dtpD	mrna	2514	dtpD	SL1344_RS13120	exact_lower
+2398	abrB	mrna	-1			none
+2399	ybgO	mrna	-1			none
+2400	ybgP	mrna	-1			none
+2401	ybgQ	mrna	-1			none
+2402	ybgD	mrna	-1			none
+2403	gltA	mrna	-1			none
+2404	ybgV	mrna	-1			none
+2405	ybgU	mrna	-1			none
+2406	mngR	mrna	-1			none
+2407	zitB	mrna	723	zitB	SL1344_RS03840	exact_lower
+2408	ybgS	mrna	-1			none
+2409	gpmA	mrna	737	gpmA	SL1344_RS03910	exact_lower
+2410	galM	mrna	738	galM	SL1344_RS03915	exact_lower
+2411	galK	mrna	739	galK	SL1344_RS03920	exact_lower
+2412	galT	mrna	740	galT	SL1344_RS03925	exact_lower
+2413	galE	mrna	741	galE	SL1344_RS03930	exact_lower
+2414	modF	mrna	743	modF	SL1344_RS03940	exact_lower
+2415	modE	mrna	744	modE	SL1344_RS03945	exact_lower
+2416	ybhA	mrna	-1			none
+2417	ybhD	mrna	-1			none
+2418	ybhC	mrna	-1			none
+2419	ybhB	mrna	-1			none
+2420	bioA	mrna	758	bioA	SL1344_RS04015	exact_lower
+2421	ybhK	mrna	-1			none
+2422	ybhN	mrna	-1			none
+2423	clsB	mrna	777	clsB	SL1344_RS04110	exact_lower
+2424	ybhP	mrna	-1			none
+2425	ybhR	mrna	-1			none
+2426	ybhS	mrna	-1			none
+2427	ybhF	mrna	-1			none
+2428	ybhG	mrna	-1			none
+2429	cecR	mrna	784	cecR	SL1344_RS04145	exact_lower
+2430	ybiA	mrna	-1			none
+2431	ybiJ	mrna	788	ybiJ	SL1344_RS04165	exact_lower
+2432	ybiI	mrna	-1			none
+2433	ybiX	mrna	-1			none
+2434	fiu	mrna	-1			none
+2435	mcbA	mrna	-1			none
+2436	ybiO	mrna	791	ybiO	SL1344_RS04185	exact_lower
+2437	glnQ	mrna	792	glnQ	SL1344_RS04190	exact_lower
+2438	glnP	mrna	793	glnP	SL1344_RS04195	exact_lower
+2439	glnH	mrna	794	glnH	SL1344_RS04200	exact_lower
+2440	dps	mrna	795	dps	SL1344_RS04205	exact_lower
+2441	rhtA	mrna	796	rhtA	SL1344_RS04210	exact_lower
+2442	opgE	mrna	-1			none
+2443	mntS	mrna	799	mntS	SL1344_RS25090	exact_lower
+2444	ldtB	mrna	802	ldtB	SL1344_RS04235	exact_lower
+2445	ybiU	mrna	-1			none
+2446	ybiV	mrna	-1			none
+2447	ybiW	mrna	-1			none
+2448	ybiY	mrna	-1			none
+2449	moeB	mrna	809	moeB	SL1344_RS04275	exact_lower
+2450	moeA	mrna	810	moeA	SL1344_RS04280	exact_lower
+2451	rimO	mrna	816	rimO	SL1344_RS04310	exact_lower
+2452	gstB	mrna	-1			none
+2453	deoR	mrna	828	deoR	SL1344_RS04375	exact_lower
+2454	ybjG	mrna	829	ybjG	SL1344_RS04380	exact_lower
+2455	ybjH	mrna	-1			none
+2456	ybjI	mrna	-1			none
+2457	ybjJ	mrna	-1			none
+2458	ybjL	mrna	-1			none
+2459	grxA	mrna	-1			none
+2460	artJ	mrna	849	artJ	SL1344_RS04485	exact_lower
+2461	artM	mrna	850	artM	SL1344_RS04490	exact_lower
+2462	artQ	mrna	851	artQ	SL1344_RS04495	exact_lower
+2463	artI	mrna	852	artI	SL1344_RS04500	exact_lower
+2464	artP	mrna	853	artP	SL1344_RS04505	exact_lower
+2465	ybjP	mrna	-1			none
+2466	ybjS	mrna	-1			none
+2467	ybjT	mrna	-1			none
+2468	ltaE	mrna	859	ltaE	SL1344_RS04535	exact_lower
+2469	poxB	mrna	860	poxB	SL1344_RS04540	exact_lower
+2470	hcr	mrna	861	hcr	SL1344_RS04545	exact_lower
+2471	hcp	mrna	862	hcp	SL1344_RS04550	exact_lower
+2472	lysO	mrna	-1			none
+2473	aqpZ	mrna	-1			none
+2474	ybjX	mrna	-1			none
+2475	cspD	mrna	868	cspD	SL1344_RS04580	exact_lower
+2476	infA	mrna	877	infA	SL1344_RS04630	exact_lower
+2477	aat	mrna	878	aat	SL1344_RS04640	exact_lower
+2478	cydC	mrna	879	cydC	SL1344_RS04645	exact_lower
+2479	cydD	mrna	880	cydD	SL1344_RS04650	exact_lower
+2480	trxB	mrna	881	trxB	SL1344_RS04655	exact_lower
+2481	ycaC	mrna	-1			none
+2482	ycaN	mrna	-1			none
+2483	pflA	mrna	892	pflA	SL1344_RS04715	exact_lower
+2484	pflB	mrna	895	pflB	SL1344_RS04730	exact_lower
+2485	focA	mrna	896	focA	SL1344_RS04735	exact_lower
+2486	ycaO	mrna	897	ycaO	SL1344_RS04740	exact_lower
+2487	elyC	mrna	912	elyC	SL1344_RS04815	exact_lower
+2488	aspC	mrna	920	aspC	SL1344_RS04855	exact_lower
+2489	ompF	mrna	921	ompF	SL1344_RS04860	exact_lower
+2490	asnS	mrna	922	asnS	SL1344_RS04865	exact_lower
+2491	pncB	mrna	926	pncB	SL1344_RS04890	exact_lower
+2492	ssuB	mrna	-1			none
+2493	ssuC	mrna	-1			none
+2494	ssuD	mrna	-1			none
+2495	ssuA	mrna	-1			none
+2496	ssuE	mrna	-1			none
+2497	ycbX	mrna	-1			none
+2498	fabA	mrna	994	fabA	SL1344_RS05240	exact_lower
+2499	ycbZ	mrna	-1			none
+2500	ompA	mrna	997	ompA	SL1344_RS05255	exact_lower
+2501	sulA	mrna	998	sulA	SL1344_RS05260	exact_lower
+2502	yccS	mrna	1000	yccS	SL1344_RS05270	exact_lower
+2503	yccF	mrna	-1			none
+2504	mgsA	mrna	1003	mgsA	SL1344_RS05285	exact_lower
+2505	yccT	mrna	-1			none
+2506	hspQ	mrna	1006	hspQ	SL1344_RS05300	exact_lower
+2507	rlmI	mrna	1007	rlmI	SL1344_RS05305	exact_lower
+2508	tusE	mrna	1011	tusE	SL1344_RS05325	exact_lower
+2509	yccA	mrna	1012	yccA	SL1344_RS05330	exact_lower
+2510	etk	mrna	-1			none
+2511	etp	mrna	-1			none
+2512	gfcE	mrna	-1			none
+2513	gfcD	mrna	-1			none
+2514	gfcC	mrna	-1			none
+2515	gfcB	mrna	-1			none
+2516	gfcA	mrna	-1			none
+2517	cspH	mrna	-1			none
+2518	yccM	mrna	-1			none
+2519	torS	mrna	3783	torS	SL1344_RS19695	exact_lower
+2520	torR	mrna	3781	torR	SL1344_RS19685	exact_lower
+2521	cbpM	mrna	1037	cbpM	SL1344_RS05460	exact_lower
+2522	cbpA	mrna	1038	cbpA	SL1344_RS05465	exact_lower
+2523	yccJ	mrna	-1			none
+2524	wrbA	mrna	1045	wrbA	SL1344_RS05500	exact_lower
+2525	rutG	mrna	-1			none
+2526	rutF	mrna	-1			none
+2527	rutE	mrna	-1			none
+2528	rutD	mrna	-1			none
+2529	rutC	mrna	-1			none
+2530	rutB	mrna	-1			none
+2531	rutA	mrna	-1			none
+2532	putA	mrna	1049	putA	SL1344_RS05520	exact_lower
+2533	pgaD	mrna	-1			none
+2534	pgaC	mrna	-1			none
+2535	pgaB	mrna	-1			none
+2536	pgaA	mrna	-1			none
+2537	insF4	mrna	-1			none
+2538	insE4	mrna	-1			none
+2539	csgG	mrna	1063	csgG	SL1344_RS05610	exact_lower
+2540	csgF	mrna	1064	csgF	SL1344_RS05615	exact_lower
+2541	csgE	mrna	1065	csgE	SL1344_RS05620	exact_lower
+2542	csgD	mrna	1066	csgD	SL1344_RS05625	exact_lower
+2543	opgC	mrna	-1			none
+2544	msyB	mrna	9	msyB	SL1344_RS00050	exact_lower
+2545	mdtG	mrna	1078	mdtG	SL1344_RS05685	exact_lower
+2546	lpxL	mrna	-1			none
+2547	yceI	mrna	-1			none
+2548	yceJ	mrna	-1			none
+2549	yceO	mrna	-1			none
+2550	solA	mrna	1084	solA	SL1344_RS05715	exact_lower
+2551	bssS	mrna	1085	bssS	SL1344_RS05720	exact_lower
+2552	dinI	mrna	1086	dinI	SL1344_RS05725	exact_lower
+2553	pyrC	mrna	1087	pyrC	SL1344_RS05730	exact_lower
+2554	yceB	mrna	-1			none
+2555	grxB	mrna	1089	grxB	SL1344_RS05740	exact_lower
+2556	mdtH	mrna	1090	mdtH	SL1344_RS05745	exact_lower
+2557	flgN	mrna	1095	flgN	SL1344_RS05770	exact_lower
+2558	flgM	mrna	1096	flgM	SL1344_RS05775	exact_lower
+2559	flgA	mrna	1097	flgA	SL1344_RS05780	exact_lower
+2560	rne	mrna	1109	rne	SL1344_RS05840	exact_lower
+2561	yceF	mrna	-1			none
+2562	fhuE	mrna	1128	fhuE	SL1344_RS05940	exact_lower
+2563	comR	mrna	1137	comR	SL1344_RS05985	exact_lower
+2564	ldtC	mrna	1139	ldtC	SL1344_RS05995	exact_lower
+2565	mfd	mrna	1140	mfd	SL1344_RS06000	exact_lower
+2566	ycfT	mrna	-1			none
+2567	ycfZ	mrna	-1			none
+2568	ymfA	mrna	-1			none
+2569	potD	mrna	1146	potD	SL1344_RS06030	exact_lower
+2570	potC	mrna	1147	potC	SL1344_RS06035	exact_lower
+2571	potB	mrna	1149	potB	SL1344_RS06045	exact_lower
+2572	potA	mrna	1150	potA	SL1344_RS06050	exact_lower
+2573	roxA	mrna	-1			none
+2574	phoQ	mrna	1155	phoQ	SL1344_RS06075	exact_lower
+2575	phoP	mrna	1156	phoP	SL1344_RS06080	exact_lower
+2576	purB	mrna	1157	purB	SL1344_RS06085	exact_lower
+2577	hflD	mrna	1158	hflD	SL1344_RS06090	exact_lower
+2578	mnmA	mrna	1159	mnmA	SL1344_RS06095	exact_lower
+2579	nudJ	mrna	-1			none
+2580	rluE	mrna	1162	rluE	SL1344_RS06110	exact_lower
+2581	ymfD	mrna	-1			none
+2582	ymfE	mrna	-1			none
+2583	intE	mrna	-1			none
+2584	xisE	mrna	-1			none
+2585	ymfH	mrna	-1			none
+2586	ymfJ	mrna	-1			none
+2587	ymfK	mrna	-1			none
+2588	tfaE	mrna	-1			none
+2589	iraM	mrna	-1			none
+2590	ymgL	mrna	-1			none
+2591	ycgX	mrna	-1			none
+2592	bluR	mrna	-1			none
+2593	bluF	mrna	-1			none
+2594	ymgD	mrna	-1			none
+2595	ymgG	mrna	-1			none
+2596	ymgI	mrna	-1			none
+2597	minE	mrna	1738	minE	SL1344_RS09065	exact_lower
+2598	minD	mrna	1737	minD	SL1344_RS09060	exact_lower
+2599	minC	mrna	1736	minC	SL1344_RS09055	exact_lower
+2600	pliG	mrna	2566	pliG	SL1344_RS13380	exact_lower
+2601	hlyE	mrna	-1			none
+2602	dsbB	mrna	1729	dsbB	SL1344_RS09020	exact_lower
+2603	nhaB	mrna	1728	nhaB	SL1344_RS09015	exact_lower
+2604	ycgB	mrna	-1			none
+2605	cvrA	mrna	-1			none
+2606	ldcA	mrna	1723	ldcA	SL1344_RS08985	exact_lower
+2607	ycgR	mrna	1721	ycgR	SL1344_RS08975	exact_lower
+2608	treA	mrna	-1			none
+2609	dhaM	mrna	-1			none
+2610	dhaL	mrna	-1			none
+2611	dhaK	mrna	-1			none
+2612	ycgV	mrna	-1			none
+2613	ychF	mrna	1707	ychF	SL1344_RS08905	exact_lower
+2614	pth	mrna	1706	pth	SL1344_RS08900	exact_lower
+2615	dauA	mrna	1704	dauA	SL1344_RS08890	exact_lower
+2616	prs	mrna	1703	prs	SL1344_RS08885	exact_lower
+2617	ispE	mrna	1702	ispE	SL1344_RS08880	exact_lower
+2618	lolB	mrna	1701	lolB	SL1344_RS08875	exact_lower
+2619	ldrA	mrna	-1			none
+2620	ldrB	mrna	-1			none
+2621	ldrC	mrna	-1			none
+2622	chaA	mrna	1694	chaA	SL1344_RS08840	exact_lower
+2623	ychN	mrna	-1			none
+2624	narL	mrna	1690	narL	SL1344_RS08820	exact_lower
+2625	narX	mrna	1689	narX	SL1344_RS08815	exact_lower
+2626	purU	mrna	1682	purU	SL1344_RS08770	exact_lower
+2627	ychJ	mrna	-1			none
+2628	hns	mrna	1677	hns	SL1344_RS08745	exact_lower
+2629	adhE	mrna	1675	adhE	SL1344_RS08735	exact_lower
+2630	yciU	mrna	-1			none
+2631	clsA	mrna	-1			none
+2632	kch	mrna	-1			none
+2633	yciI	mrna	-1			none
+2634	yciA	mrna	1662	yciA	SL1344_RS08675	exact_lower
+2635	yciB	mrna	-1			none
+2636	yciC	mrna	-1			none
+2637	yciE	mrna	-1			none
+2638	yciF	mrna	-1			none
+2639	yciG	mrna	-1			none
+2640	trpA	mrna	1653	trpA	SL1344_RS08630	exact_lower
+2641	trpB	mrna	1652	trpB	SL1344_RS08625	exact_lower
+2642	trpC	mrna	-1			none
+2643	trpD	mrna	1650	trpD	SL1344_RS08615	exact_lower
+2644	trpE	mrna	-1			none
+2645	trpL	mrna	1648	trpL	SL1344_RS25360	exact_lower
+2646	btuR	mrna	-1			none
+2647	yciK	mrna	-1			none
+2648	yciN	mrna	-1			none
+2649	ribA	mrna	1634	ribA	SL1344_RS08550	exact_lower
+2650	osmB	mrna	1628	osmB	SL1344_RS08520	exact_lower
+2651	yciT	mrna	-1			none
+2652	yciZ	mrna	-1			none
+2653	pdeR	mrna	1625	pdeR	SL1344_RS08505	exact_lower
+2654	rnb	mrna	-1			none
+2655	yciW	mrna	-1			none
+2656	fabI	mrna	1623	fabI	SL1344_RS08490	exact_lower
+2657	ycjD	mrna	-1			none
+2658	sapF	mrna	1618	sapF	SL1344_RS08465	exact_lower
+2659	sapD	mrna	1617	sapD	SL1344_RS08460	exact_lower
+2660	sapC	mrna	1616	sapC	SL1344_RS08455	exact_lower
+2661	sapB	mrna	1615	sapB	SL1344_RS08450	exact_lower
+2662	sapA	mrna	1614	sapA	SL1344_RS08445	exact_lower
+2663	ymjA	mrna	-1			none
+2664	puuP	mrna	-1			none
+2665	ymjE	mrna	-1			none
+2666	puuA	mrna	-1			none
+2667	pspF	mrna	1613	pspF	SL1344_RS08440	exact_lower
+2668	ycjW	mrna	-1			none
+2669	tpx	mrna	1604	tpx	SL1344_RS08395	exact_lower
+2670	mpaA	mrna	1602	mpaA	SL1344_RS08385	exact_lower
+2671	ymjC	mrna	-1			none
+2672	ymjD	mrna	-1			none
+2673	ycjY	mrna	-1			none
+2674	ynaI	mrna	-1			none
+2675	uspE	mrna	1585	uspE	SL1344_RS08290	exact_lower
+2676	fnr	mrna	1584	fnr	SL1344_RS08285	exact_lower
+2677	ogt	mrna	1583	ogt	SL1344_RS08280	exact_lower
+2678	abgT	mrna	-1			none
+2679	abgB	mrna	-1			none
+2680	abgA	mrna	-1			none
+2681	dgcM	mrna	-1			none
+2682	ttcA	mrna	1577	ttcA	SL1344_RS08255	exact_lower
+2683	intR	mrna	-1			none
+2684	xisR	mrna	-1			none
+2685	rcbA	mrna	-1			none
+2686	ralR	mrna	-1			none
+2687	recT	mrna	-1			none
+2688	recE	mrna	-1			none
+2689	racC	mrna	-1			none
+2690	ydaE	mrna	-1			none
+2691	ydaF	mrna	-1			none
+2692	ydaG	mrna	-1			none
+2693	racR	mrna	-1			none
+2694	insH5	mrna	-1			none
+2695	pinR	mrna	-1			none
+2696	ynaE	mrna	-1			none
+2697	ynaM	mrna	-1			none
+2698	uspF	mrna	1574	uspF	SL1344_RS08235	exact_lower
+2699	ompN	mrna	-1			none
+2700	ydbK	mrna	-1			none
+2701	hslJ	mrna	1570	hslJ	SL1344_RS08210	exact_lower
+2702	ldhA	mrna	1569	ldhA	SL1344_RS08205	exact_lower
+2703	feaR	mrna	-1			none
+2704	tynA	mrna	-1			none
+2705	paaZ	mrna	-1			none
+2706	insD2	mrna	-1			none
+2707	insC2	mrna	-1			none
+2708	azoR	mrna	1564	azoR	SL1344_RS08180	exact_lower
+2709	hokB	mrna	-1			none
+2710	mokB	mrna	-1			none
+2711	ydcI	mrna	-1			none
+2712	ydcK	mrna	1532	ydcK	SL1344_RS08025	exact_lower
+2713	ydcO	mrna	-1			none
+2714	yncJ	mrna	-1			none
+2715	yncL	mrna	1518	yncL	SL1344_RS24820	exact_lower
+2716	ydcZ	mrna	-1			none
+2717	mnaT	mrna	-1			none
+2718	yncD	mrna	-1			none
+2719	ansP	mrna	1505	ansP	SL1344_RS07895	exact_lower
+2720	yncO	mrna	-1			none
+2721	yddH	mrna	-1			none
+2722	yddE	mrna	-1			none
+2723	narV	mrna	-1			none
+2724	narW	mrna	1500	narW	SL1344_RS07870	exact_lower
+2725	narY	mrna	-1			none
+2726	narZ	mrna	-1			none
+2727	narU	mrna	-1			none
+2728	yddG	mrna	1492	yddG	SL1344_RS07830	exact_lower
+2729	yddM	mrna	-1			none
+2730	adhP	mrna	1488	adhP	SL1344_RS07805	exact_lower
+2731	maeA	mrna	-1			none
+2732	sra	mrna	1486	sra	SL1344_RS07795	exact_lower
+2733	bdm	mrna	1485	bdm	SL1344_RS07790	exact_lower
+2734	ddpF	mrna	-1			none
+2735	ddpD	mrna	-1			none
+2736	ddpC	mrna	-1			none
+2737	ddpB	mrna	-1			none
+2738	ddpA	mrna	-1			none
+2739	ddpX	mrna	-1			none
+2740	dosP	mrna	-1			none
+2741	dosC	mrna	-1			none
+2742	yddY	mrna	-1			none
+2743	digH	mrna	-1			none
+2744	gadC	mrna	-1			none
+2745	gadB	mrna	-1			none
+2746	pqqL	mrna	-1			none
+2747	yddB	mrna	-1			none
+2748	yddA	mrna	-1			none
+2749	ydeM	mrna	-1			none
+2750	ydeN	mrna	-1			none
+2751	ydeO	mrna	-1			none
+2752	ydeP	mrna	-1			none
+2753	ydeQ	mrna	-1			none
+2754	ydeR	mrna	-1			none
+2755	ydeS	mrna	-1			none
+2756	ydeT	mrna	-1			none
+2757	hipA	mrna	-1			none
+2758	hipB	mrna	-1			none
+2759	lsrK	mrna	4011	lsrK	SL1344_RS20925	exact_lower
+2760	lsrR	mrna	4012	lsrR	SL1344_RS20930	exact_lower
+2761	yneE	mrna	-1			none
+2762	uxaB	mrna	-1			none
+2763	dgcF	mrna	-1			none
+2764	yneG	mrna	-1			none
+2765	glsB	mrna	1447	glsB	SL1344_RS07585	exact_lower
+2766	sad	mrna	1446	sad	SL1344_RS07580	exact_lower
+2767	marC	mrna	-1			none
+2768	eamA	mrna	1439	eamA	SL1344_RS07545	exact_lower
+2769	dgcZ	mrna	-1			none
+2770	ydeI	mrna	-1			none
+2771	dcp	mrna	1433	dcp	SL1344_RS07515	exact_lower
+2772	ydfI	mrna	-1			none
+2773	ydfJ	mrna	-1			none
+2774	tfaQ	mrna	-1			none
+2775	stfQ	mrna	-1			none
+2776	nohA	mrna	-1			none
+2777	gnsB	mrna	-1			none
+2778	ynfR	mrna	-1			none
+2779	ynfQ	mrna	-1			none
+2780	cspI	mrna	-1			none
+2781	rzpQ	mrna	-1			none
+2782	rzoQ	mrna	-1			none
+2783	rrrQ	mrna	-1			none
+2784	ydfR	mrna	-1			none
+2785	essQ	mrna	-1			none
+2786	cspB	mrna	-1			none
+2787	ydfT	mrna	-1			none
+2788	ydfU	mrna	-1			none
+2789	rem	mrna	-1			none
+2790	hokD	mrna	-1			none
+2791	relE	mrna	-1			none
+2792	relB	mrna	-1			none
+2793	ydfW	mrna	-1			none
+2794	ydfX	mrna	-1			none
+2795	dicC	mrna	-1			none
+2796	ynfP	mrna	-1			none
+2797	rspB	mrna	-1			none
+2798	rspA	mrna	1427	rspA	SL1344_RS07480	exact_lower
+2799	ynfA	mrna	-1			none
+2800	ynfC	mrna	-1			none
+2801	bidA	mrna	-1			none
+2802	mlc	mrna	1410	mlc	SL1344_RS07395	exact_lower
+2803	ynfL	mrna	-1			none
+2804	mdtI	mrna	1404	mdtI	SL1344_RS07370	exact_lower
+2805	mdtJ	mrna	1403	mdtJ	SL1344_RS07365	exact_lower
+2806	mdtU	mrna	-1			none
+2807	pntB	mrna	1400	pntB	SL1344_RS07355	exact_lower
+2808	pntA	mrna	1399	pntA	SL1344_RS07350	exact_lower
+2809	ydgC	mrna	-1			none
+2810	fumC	mrna	1390	fumC	SL1344_RS07300	exact_lower
+2811	fumA	mrna	4224	fumA	SL1344_RS22080	exact_lower
+2812	uidC	mrna	-1			none
+2813	uidB	mrna	-1			none
+2814	uidA	mrna	-1			none
+2815	uidR	mrna	-1			none
+2816	hdhA	mrna	-1			none
+2817	malI	mrna	-1			none
+2818	ydgJ	mrna	-1			none
+2819	pdxY	mrna	1372	pdxY	SL1344_RS07205	exact_lower
+2820	tyrS	mrna	1371	tyrS	SL1344_RS07200	exact_lower
+2821	pdxH	mrna	1370	pdxH	SL1344_RS07195	exact_lower
+2822	mliC	mrna	1369	mliC	SL1344_RS07190	exact_lower
+2823	anmK	mrna	1368	anmK	SL1344_RS07185	exact_lower
+2824	slyA	mrna	1366	slyA	SL1344_RS07175	exact_lower
+2825	sodC	mrna	-1			none
+2826	ydhF	mrna	-1			none
+2827	ydhL	mrna	-1			none
+2828	grxD	mrna	1355	grxD	SL1344_RS07120	exact_lower
+2829	ydhP	mrna	-1			none
+2830	cydH	mrna	-1			none
+2831	punR	mrna	1350	punR	SL1344_RS07100	exact_lower
+2832	ribC	mrna	-1			none
+2833	ydhQ	mrna	-1			none
+2834	ydhT	mrna	-1			none
+2835	ydhU	mrna	-1			none
+2836	ydhX	mrna	-1			none
+2837	ydhW	mrna	-1			none
+2838	ydhV	mrna	-1			none
+2839	ydhY	mrna	-1			none
+2840	fumD	mrna	1311	fumD	SL1344_RS06895	exact_lower
+2841	ldtE	mrna	1297	ldtE	SL1344_RS06830	exact_lower
+2842	sufE	mrna	1296	sufE	SL1344_RS06825	exact_lower
+2843	sufS	mrna	1295	sufS	SL1344_RS06820	exact_lower
+2844	sufD	mrna	1294	sufD	SL1344_RS06815	exact_lower
+2845	sufC	mrna	1293	sufC	SL1344_RS06810	exact_lower
+2846	sufB	mrna	1292	sufB	SL1344_RS06805	exact_lower
+2847	sufA	mrna	1291	sufA	SL1344_RS06800	exact_lower
+2848	ydiH	mrna	-1			none
+2849	menI	mrna	1288	menI	SL1344_RS06785	exact_lower
+2850	ydiJ	mrna	-1			none
+2851	ydiP	mrna	-1			none
+2852	ppsA	mrna	1273	ppsA	SL1344_RS06705	exact_lower
+2853	selO	mrna	1269	selO	SL1344_RS06685	exact_lower
+2854	rflP	mrna	-1			none
+2855	nlpC	mrna	-1			none
+2856	btuD	mrna	1266	btuD	SL1344_RS06670	exact_lower
+2857	btuE	mrna	-1			none
+2858	btuC	mrna	1264	btuC	SL1344_RS06660	exact_lower
+2859	ihfA	mrna	1263	ihfA	SL1344_RS06655	exact_lower
+2860	pheT	mrna	1262	pheT	SL1344_RS06650	exact_lower
+2861	pheS	mrna	1261	pheS	SL1344_RS06645	exact_lower
+2862	pheM	mrna	1260	pheM	SL1344_RS27020	exact_lower
+2863	rplT	mrna	1259	rplT	SL1344_RS06640	exact_lower
+2864	rpmI	mrna	1258	rpmI	SL1344_RS06635	exact_lower
+2865	infC	mrna	1257	infC	SL1344_RS06630	exact_lower
+2866	thrS	mrna	1256	thrS	SL1344_RS06625	exact_lower
+2867	ydiY	mrna	-1			none
+2868	yniB	mrna	-1			none
+2869	ydjO	mrna	-1			none
+2870	cedA	mrna	1242	cedA	SL1344_RS06555	exact_lower
+2871	chbG	mrna	1240	chbG	SL1344_RS06545	exact_lower
+2872	chbF	mrna	-1			none
+2873	chbR	mrna	1238	chbR	SL1344_RS06535	exact_lower
+2874	chbA	mrna	1237	chbA	SL1344_RS06530	exact_lower
+2875	chbC	mrna	1236	chbC	SL1344_RS06525	exact_lower
+2876	chbB	mrna	1235	chbB	SL1344_RS06520	exact_lower
+2877	osmE	mrna	1234	osmE	SL1344_RS06515	exact_lower
+2878	ves	mrna	-1			none
+2879	spy	mrna	1231	spy	SL1344_RS06500	exact_lower
+2880	astE	mrna	1230	astE	SL1344_RS06495	exact_lower
+2881	astB	mrna	1229	astB	SL1344_RS06490	exact_lower
+2882	astD	mrna	1228	astD	SL1344_RS06485	exact_lower
+2883	astA	mrna	1227	astA	SL1344_RS06480	exact_lower
+2884	astC	mrna	-1			none
+2885	ynjF	mrna	-1			none
+2886	ynjH	mrna	-1			none
+2887	ynjI	mrna	-1			none
+2888	topB	mrna	1221	topB	SL1344_RS06450	exact_lower
+2889	selD	mrna	1220	selD	SL1344_RS06445	exact_lower
+2890	ydjA	mrna	-1			none
+2891	ydjE	mrna	-1			none
+2892	ydjF	mrna	-1			none
+2893	ydjG	mrna	-1			none
+2894	ydjH	mrna	-1			none
+2895	ydjI	mrna	-1			none
+2896	ydjJ	mrna	-1			none
+2897	ydjK	mrna	-1			none
+2898	ydjL	mrna	-1			none
+2899	yeaC	mrna	-1			none
+2900	msrB	mrna	1214	msrB	SL1344_RS06415	exact_lower
+2901	yeaE	mrna	-1			none
+2902	mipA	mrna	-1			none
+2903	yoaI	mrna	1203	yoaI	SL1344_RS06365	exact_lower
+2904	nimR	mrna	-1			none
+2905	yoaF	mrna	-1			none
+2906	yeaQ	mrna	-1			none
+2907	yoaG	mrna	-1			none
+2908	yeaR	mrna	-1			none
+2909	leuE	mrna	1192	leuE	SL1344_RS06305	exact_lower
+2910	dmlR	mrna	-1			none
+2911	rnd	mrna	1739	rnd	SL1344_RS09070	exact_lower
+2912	fadD	mrna	1741	fadD	SL1344_RS09080	exact_lower
+2913	yeaY	mrna	-1			none
+2914	tsaB	mrna	1743	tsaB	SL1344_RS09090	exact_lower
+2915	yoaA	mrna	-1			none
+2916	yoaH	mrna	-1			none
+2917	yoaE	mrna	1751	yoaE	SL1344_RS09130	exact_lower
+2918	yoaL	mrna	-1			none
+2919	rlmA	mrna	1758	rlmA	SL1344_RS09165	exact_lower
+2920	cspC	mrna	-1			none
+2921	yobF	mrna	-1			none
+2922	yebO	mrna	-1			none
+2923	mgrB	mrna	1763	mgrB	SL1344_RS09190	exact_lower
+2924	kdgR	mrna	1765	kdgR	SL1344_RS09200	exact_lower
+2925	htpX	mrna	1767	htpX	SL1344_RS09210	exact_lower
+2926	prc	mrna	1768	prc	SL1344_RS09215	exact_lower
+2927	proQ	mrna	1769	proQ	SL1344_RS09220	exact_lower
+2928	msrC	mrna	-1			none
+2929	pphA	mrna	1776	pphA	SL1344_RS09255	exact_lower
+2930	yebY	mrna	-1			none
+2931	yebZ	mrna	-1			none
+2932	yobA	mrna	1795	yobA	SL1344_RS09380	exact_lower
+2933	ptrB	mrna	1799	ptrB	SL1344_RS09400	exact_lower
+2934	yebE	mrna	-1			none
+2935	yebF	mrna	1801	yebF	SL1344_RS09410	exact_lower
+2936	yebG	mrna	1802	yebG	SL1344_RS09415	exact_lower
+2937	eda	mrna	-1			none
+2938	edd	mrna	1805	edd	SL1344_RS09430	exact_lower
+2939	zwf	mrna	1806	zwf	SL1344_RS09435	exact_lower
+2940	lpxM	mrna	1809	lpxM	SL1344_RS09450	exact_lower
+2941	mepM	mrna	1810	mepM	SL1344_RS09455	exact_lower
+2942	znuA	mrna	1811	znuA	SL1344_RS09460	exact_lower
+2943	ruvB	mrna	1814	ruvB	SL1344_RS09475	exact_lower
+2944	ruvA	mrna	1815	ruvA	SL1344_RS09480	exact_lower
+2945	ruvC	mrna	1817	ruvC	SL1344_RS09495	exact_lower
+2946	yebC	mrna	-1			none
+2947	nudB	mrna	1819	nudB	SL1344_RS09505	exact_lower
+2948	aspS	mrna	1820	aspS	SL1344_RS09510	exact_lower
+2949	torZ	mrna	-1			none
+2950	torY	mrna	-1			none
+2951	cutC	mrna	1826	cutC	SL1344_RS09540	exact_lower
+2952	yecM	mrna	-1			none
+2953	yecV	mrna	-1			none
+2954	flhE	mrna	1831	flhE	SL1344_RS09565	exact_lower
+2955	flhA	mrna	1832	flhA	SL1344_RS09570	exact_lower
+2956	flhB	mrna	1833	flhB	SL1344_RS09575	exact_lower
+2957	cheZ	mrna	1834	cheZ	SL1344_RS09580	exact_lower
+2958	cheY	mrna	1835	cheY	SL1344_RS09585	exact_lower
+2959	cheB	mrna	1836	cheB	SL1344_RS09590	exact_lower
+2960	cheR	mrna	1837	cheR	SL1344_RS09595	exact_lower
+2961	tap	mrna	4727	tap	SL1344_RS24170	exact_lower
+2962	tar	mrna	1838	tar	SL1344_RS09600	exact_lower
+2963	cheW	mrna	1839	cheW	SL1344_RS09605	exact_lower
+2964	cheA	mrna	1840	cheA	SL1344_RS09610	exact_lower
+2965	motB	mrna	1841	motB	SL1344_RS09615	exact_lower
+2966	motA	mrna	1842	motA	SL1344_RS09620	exact_lower
+2967	flhC	mrna	1843	flhC	SL1344_RS09625	exact_lower
+2968	flhD	mrna	1844	flhD	SL1344_RS09630	exact_lower
+2969	insB5	mrna	-1			none
+2970	insA5	mrna	-1			none
+2971	otsA	mrna	1847	otsA	SL1344_RS09645	exact_lower
+2972	otsB	mrna	1848	otsB	SL1344_RS09650	exact_lower
+2973	araH	mrna	-1			none
+2974	araG	mrna	-1			none
+2975	araF	mrna	-1			none
+2976	yecJ	mrna	-1			none
+2977	azuC	mrna	-1			none
+2978	yecH	mrna	-1			none
+2979	yecA	mrna	-1			none
+2980	pgsA	mrna	1860	pgsA	SL1344_RS09730	exact_lower
+2981	uvrC	mrna	1861	uvrC	SL1344_RS09735	exact_lower
+2982	uvrY	mrna	1862	uvrY	SL1344_RS09740	exact_lower
+2983	sdiA	mrna	1865	sdiA	SL1344_RS09755	exact_lower
+2984	tcyN	mrna	1866	tcyN	SL1344_RS09760	exact_lower
+2985	tcyL	mrna	1867	tcyL	SL1344_RS09765	exact_lower
+2986	dcyD	mrna	1868	dcyD	SL1344_RS09770	exact_lower
+2987	tcyJ	mrna	1869	tcyJ	SL1344_RS09775	exact_lower
+2988	fliZ	mrna	1870	fliZ	SL1344_RS09780	exact_lower
+2989	fliA	mrna	-1			none
+2990	fliC	mrna	-1			none
+2991	yedD	mrna	1879	yedD	SL1344_RS09825	exact_lower
+2992	fliE	mrna	1883	fliE	SL1344_RS09845	exact_lower
+2993	dsrB	mrna	1898	dsrB	SL1344_RS09920	exact_lower
+2994	dgcQ	mrna	1901	dgcQ	SL1344_RS09935	exact_lower
+2995	yodC	mrna	-1			none
+2996	yedI	mrna	-1			none
+2997	vsr	mrna	-1			none
+2998	dcm	mrna	-1			none
+2999	yedJ	mrna	-1			none
+3000	drpB	mrna	1908	drpB	SL1344_RS09970	exact_lower
+3001	hprS	mrna	-1			none
+3002	hprR	mrna	1022	hprR	SL1344_RS05385	exact_lower
+3003	yeeO	mrna	-1			none
+3004	cbl	mrna	-1			none
+3005	nac	mrna	-1			none
+3006	ldtA	mrna	1976	ldtA	SL1344_RS10375	exact_lower
+3007	cobT	mrna	1977	cobT	SL1344_RS10380	exact_lower
+3008	cobS	mrna	1978	cobS	SL1344_RS10385	exact_lower
+3009	cobU	mrna	1979	cobU	SL1344_RS10390	exact_lower
+3010	insH6	mrna	-1			none
+3011	insD3	mrna	-1			none
+3012	insC3	mrna	-1			none
+3013	tmaR	mrna	-1			none
+3014	yoeJ	mrna	-1			none
+3015	yeeA	mrna	-1			none
+3016	sbmC	mrna	2022	sbmC	SL1344_RS10605	exact_lower
+3017	dacD	mrna	2023	dacD	SL1344_RS10610	exact_lower
+3018	tsuB	mrna	-1			none
+3019	tsuA	mrna	-1			none
+3020	plaP	mrna	2029	plaP	SL1344_RS10640	exact_lower
+3021	yoeI	mrna	2030	yoeI	SL1344_RS27065	exact_lower
+3022	yeeY	mrna	-1			none
+3023	yeeZ	mrna	-1			none
+3024	yoeB	mrna	-1			none
+3025	yefM	mrna	-1			none
+3026	wzzB	mrna	2042	wzzB	SL1344_RS10695	exact_lower
+3027	ugd	mrna	2043	ugd	SL1344_RS10700	exact_lower
+3028	gnd	mrna	-1			none
+3029	insH7	mrna	-1			none
+3030	wbbK	mrna	-1			none
+3031	wbbJ	mrna	-1			none
+3032	wbbI	mrna	-1			none
+3033	wbbH	mrna	-1			none
+3034	glf	mrna	-1			none
+3035	rfbX	mrna	-1			none
+3036	rfbC	mrna	2057	rfbC	SL1344_RS10770	exact_lower
+3037	rfbA	mrna	2058	rfbA	SL1344_RS10775	exact_lower
+3038	rfbD	mrna	2059	rfbD	SL1344_RS10780	exact_lower
+3039	rfbB	mrna	2060	rfbB	SL1344_RS10785	exact_lower
+3040	galF	mrna	2061	galF	SL1344_RS10790	exact_lower
+3041	wcaM	mrna	2062	wcaM	SL1344_RS10795	exact_lower
+3042	wcaL	mrna	2063	wcaL	SL1344_RS10800	exact_lower
+3043	wcaK	mrna	2064	wcaK	SL1344_RS10805	exact_lower
+3044	wzxC	mrna	2065	wzxC	SL1344_RS10810	exact_lower
+3045	wcaJ	mrna	2066	wcaJ	SL1344_RS10815	exact_lower
+3046	cpsG	mrna	2067	cpsG	SL1344_RS10820	exact_lower
+3047	cpsB	mrna	2068	cpsB	SL1344_RS10825	exact_lower
+3048	wcaI	mrna	2069	wcaI	SL1344_RS10830	exact_lower
+3049	gmm	mrna	-1			none
+3050	fcl	mrna	2071	fcl	SL1344_RS10840	exact_lower
+3051	gmd	mrna	2072	gmd	SL1344_RS10845	exact_lower
+3052	wcaF	mrna	2073	wcaF	SL1344_RS10850	exact_lower
+3053	wcaE	mrna	2074	wcaE	SL1344_RS10855	exact_lower
+3054	wcaD	mrna	2075	wcaD	SL1344_RS10860	exact_lower
+3055	wcaC	mrna	2076	wcaC	SL1344_RS10865	exact_lower
+3056	wcaB	mrna	2077	wcaB	SL1344_RS10870	exact_lower
+3057	wcaA	mrna	2078	wcaA	SL1344_RS10875	exact_lower
+3058	wzc	mrna	2079	wzc	SL1344_RS10880	exact_lower
+3059	wzb	mrna	2080	wzb	SL1344_RS10885	exact_lower
+3060	wza	mrna	-1			none
+3061	asmA	mrna	2083	asmA	SL1344_RS10900	exact_lower
+3062	dcd	mrna	2084	dcd	SL1344_RS10905	exact_lower
+3063	udk	mrna	2085	udk	SL1344_RS10910	exact_lower
+3064	alkA	mrna	2087	alkA	SL1344_RS10920	exact_lower
+3065	yegI	mrna	-1			none
+3066	pphC	mrna	-1			none
+3067	yegL	mrna	-1			none
+3068	ogrK	mrna	-1			none
+3069	yegR	mrna	-1			none
+3070	gatD	mrna	3232	gatD	SL1344_RS16845	exact_lower
+3071	gatB	mrna	3230	gatB	SL1344_RS16835	exact_lower
+3072	gatA	mrna	3229	gatA	SL1344_RS16830	exact_lower
+3073	gatZ	mrna	3228	gatZ	SL1344_RS16825	exact_lower
+3074	gatY	mrna	-1			none
+3075	fbaB	mrna	2104	fbaB	SL1344_RS11005	exact_lower
+3076	yegW	mrna	-1			none
+3077	yegX	mrna	-1			none
+3078	thiD	mrna	2109	thiD	SL1344_RS11030	exact_lower
+3079	thiM	mrna	2110	thiM	SL1344_RS11035	exact_lower
+3080	rcnR	mrna	2996	rcnR	SL1344_RS15640	exact_lower
+3081	yehA	mrna	-1			none
+3082	yehB	mrna	-1			none
+3083	yehD	mrna	2115	yehD	SL1344_RS11060	exact_lower
+3084	yehE	mrna	-1			none
+3085	mrp	mrna	-1			none
+3086	yehS	mrna	-1			none
+3087	btsR	mrna	2122	btsR	SL1344_RS11095	exact_lower
+3088	btsS	mrna	-1			none
+3089	yehW	mrna	-1			none
+3090	yehX	mrna	-1			none
+3091	yehY	mrna	-1			none
+3092	osmF	mrna	-1			none
+3093	bglX	mrna	2130	bglX	SL1344_RS11135	exact_lower
+3094	pbpG	mrna	2132	pbpG	SL1344_RS11145	exact_lower
+3095	yohC	mrna	-1			none
+3096	yohF	mrna	-1			none
+3097	dusC	mrna	2138	dusC	SL1344_RS11170	exact_lower
+3098	mglC	mrna	2152	mglC	SL1344_RS11240	exact_lower
+3099	mglA	mrna	2153	mglA	SL1344_RS11245	exact_lower
+3100	mglB	mrna	2154	mglB	SL1344_RS11250	exact_lower
+3101	galS	mrna	2155	galS	SL1344_RS11255	exact_lower
+3102	yeiB	mrna	2156	yeiB	SL1344_RS11260	exact_lower
+3103	folE	mrna	2157	folE	SL1344_RS11265	exact_lower
+3104	cirA	mrna	2163	cirA	SL1344_RS11295	exact_lower
+3105	lysP	mrna	2164	lysP	SL1344_RS11300	exact_lower
+3106	yeiE	mrna	-1			none
+3107	nupX	mrna	-1			none
+3108	rihB	mrna	-1			none
+3109	psuT	mrna	-1			none
+3110	psuG	mrna	-1			none
+3111	fruA	mrna	2168	fruA	SL1344_RS11320	exact_lower
+3112	fruK	mrna	2169	fruK	SL1344_RS11325	exact_lower
+3113	fruB	mrna	2170	fruB	SL1344_RS11330	exact_lower
+3114	yeiW	mrna	-1			none
+3115	yejG	mrna	-1			none
+3116	bcr	mrna	-1			none
+3117	rsuA	mrna	2186	rsuA	SL1344_RS11415	exact_lower
+3118	yejK	mrna	2190	yejK	SL1344_RS11435	exact_lower
+3119	insH8	mrna	-1			none
+3120	ccmH	mrna	-1			none
+3121	ccmG	mrna	-1			none
+3122	ccmF	mrna	-1			none
+3123	ccmE	mrna	2210	ccmE	SL1344_RS11560	exact_lower
+3124	ccmD	mrna	2211	ccmD	SL1344_RS11565	exact_lower
+3125	ccmC	mrna	-1			none
+3126	ccmB	mrna	2213	ccmB	SL1344_RS11575	exact_lower
+3127	ccmA	mrna	2214	ccmA	SL1344_RS11580	exact_lower
+3128	napC	mrna	2215	napC	SL1344_RS11585	exact_lower
+3129	napB	mrna	2216	napB	SL1344_RS11590	exact_lower
+3130	napH	mrna	2217	napH	SL1344_RS11595	exact_lower
+3131	napG	mrna	2218	napG	SL1344_RS11600	exact_lower
+3132	napA	mrna	2219	napA	SL1344_RS11605	exact_lower
+3133	napD	mrna	2220	napD	SL1344_RS11610	exact_lower
+3134	napF	mrna	2221	napF	SL1344_RS11615	exact_lower
+3135	mqo	mrna	-1			none
+3136	yojI	mrna	-1			none
+3137	alkB	mrna	2224	alkB	SL1344_RS11630	exact_lower
+3138	ada	mrna	2225	ada	SL1344_RS11635	exact_lower
+3139	ftp	mrna	-1			none
+3140	ompC	mrna	1394	ompC	SL1344_RS07320	exact_lower
+3141	rcsC	mrna	2230	rcsC	SL1344_RS11660	exact_lower
+3142	yfaP	mrna	-1			none
+3143	yfaQ	mrna	-1			none
+3144	yfaT	mrna	-1			none
+3145	yfaA	mrna	-1			none
+3146	gyrA	mrna	2231	gyrA	SL1344_RS11665	exact_lower
+3147	yfaL	mrna	-1			none
+3148	ypaB	mrna	-1			none
+3149	yoaM	mrna	-1			none
+3150	inaA	mrna	-1			none
+3151	glpQ	mrna	2241	glpQ	SL1344_RS11715	exact_lower
+3152	glpT	mrna	2242	glpT	SL1344_RS11720	exact_lower
+3153	yfaU	mrna	2248	yfaU	SL1344_RS11750	exact_lower
+3154	yfaV	mrna	-1			none
+3155	rhmD	mrna	2250	rhmD	SL1344_RS11760	exact_lower
+3156	yfaX	mrna	-1			none
+3157	yfaY	mrna	-1			none
+3158	yfaZ	mrna	-1			none
+3159	ais	mrna	-1			none
+3160	pmrD	mrna	2263	pmrD	SL1344_RS11825	exact_lower
+3161	menE	mrna	2264	menE	SL1344_RS11830	exact_lower
+3162	menC	mrna	2265	menC	SL1344_RS11835	exact_lower
+3163	menB	mrna	2266	menB	SL1344_RS11840	exact_lower
+3164	menH	mrna	2267	menH	SL1344_RS11845	exact_lower
+3165	menD	mrna	2268	menD	SL1344_RS11850	exact_lower
+3166	menF	mrna	2269	menF	SL1344_RS11855	exact_lower
+3167	elaB	mrna	2270	elaB	SL1344_RS11860	exact_lower
+3168	elaA	mrna	-1			none
+3169	yfbK	mrna	-1			none
+3170	yfbN	mrna	-1			none
+3171	nuoN	mrna	2276	nuoN	SL1344_RS11885	exact_lower
+3172	nuoM	mrna	2277	nuoM	SL1344_RS11890	exact_lower
+3173	nuoL	mrna	2278	nuoL	SL1344_RS11895	exact_lower
+3174	nuoK	mrna	2279	nuoK	SL1344_RS11900	exact_lower
+3175	nuoJ	mrna	2280	nuoJ	SL1344_RS11905	exact_lower
+3176	nuoI	mrna	2281	nuoI	SL1344_RS11910	exact_lower
+3177	nuoH	mrna	2282	nuoH	SL1344_RS11915	exact_lower
+3178	nuoG	mrna	2283	nuoG	SL1344_RS11920	exact_lower
+3179	nuoF	mrna	2284	nuoF	SL1344_RS11925	exact_lower
+3180	nuoE	mrna	2285	nuoE	SL1344_RS11930	exact_lower
+3181	nuoC	mrna	2286	nuoC	SL1344_RS11935	exact_lower
+3182	nuoB	mrna	2287	nuoB	SL1344_RS11940	exact_lower
+3183	nuoA	mrna	2288	nuoA	SL1344_RS11945	exact_lower
+3184	lrhA	mrna	2290	lrhA	SL1344_RS11955	exact_lower
+3185	yfbS	mrna	-1			none
+3186	hxpA	mrna	-1			none
+3187	yfbU	mrna	-1			none
+3188	yfbV	mrna	2296	yfbV	SL1344_RS11985	exact_lower
+3189	yfcD	mrna	2306	yfcD	SL1344_RS12040	exact_lower
+3190	yfcE	mrna	2307	yfcE	SL1344_RS12045	exact_lower
+3191	yfcF	mrna	2308	yfcF	SL1344_RS12050	exact_lower
+3192	rpnB	mrna	-1			none
+3193	hisP	mrna	2311	hisP	SL1344_RS12065	exact_lower
+3194	hisM	mrna	2312	hisM	SL1344_RS12070	exact_lower
+3195	hisQ	mrna	-1			none
+3196	hisJ	mrna	2314	hisJ	SL1344_RS12080	exact_lower
+3197	argT	mrna	2315	argT	SL1344_RS12085	exact_lower
+3198	ubiX	mrna	-1			none
+3199	purF	mrna	2322	purF	SL1344_RS12120	exact_lower
+3200	cvpA	mrna	2323	cvpA	SL1344_RS12125	exact_lower
+3201	dedD	mrna	2324	dedD	SL1344_RS12130	exact_lower
+3202	folC	mrna	2325	folC	SL1344_RS12135	exact_lower
+3203	accD	mrna	2326	accD	SL1344_RS12140	exact_lower
+3204	dedA	mrna	-1			none
+3205	truA	mrna	2328	truA	SL1344_RS12150	exact_lower
+3206	usg	mrna	-1			none
+3207	pdxB	mrna	2330	pdxB	SL1344_RS12160	exact_lower
+3208	yfcJ	mrna	-1			none
+3209	fabB	mrna	2338	fabB	SL1344_RS12200	exact_lower
+3210	yfcL	mrna	-1			none
+3211	epmC	mrna	-1			none
+3212	yfcA	mrna	-1			none
+3213	mepA	mrna	2343	mepA	SL1344_RS12225	exact_lower
+3214	aroC	mrna	2344	aroC	SL1344_RS12230	exact_lower
+3215	prmB	mrna	2345	prmB	SL1344_RS12235	exact_lower
+3216	yfcO	mrna	-1			none
+3217	yfcP	mrna	-1			none
+3218	yfcQ	mrna	-1			none
+3219	yfcR	mrna	-1			none
+3220	yfcS	mrna	-1			none
+3221	yfcV	mrna	-1			none
+3222	sixA	mrna	2347	sixA	SL1344_RS12245	exact_lower
+3223	fadJ	mrna	2348	fadJ	SL1344_RS12250	exact_lower
+3224	fadI	mrna	2349	fadI	SL1344_RS12255	exact_lower
+3225	yfcZ	mrna	-1			none
+3226	mlaA	mrna	2352	mlaA	SL1344_RS12270	exact_lower
+3227	yodE	mrna	-1			none
+3228	yfdK	mrna	-1			none
+3229	yfdM	mrna	-1			none
+3230	yfdN	mrna	-1			none
+3231	dsdC	mrna	3758	dsdC	SL1344_RS19570	exact_lower
+3232	emrY	mrna	-1			none
+3233	emrK	mrna	-1			none
+3234	yfdE	mrna	-1			none
+3235	yfdV	mrna	-1			none
+3236	oxc	mrna	-1			none
+3237	frc	mrna	-1			none
+3238	yfdX	mrna	-1			none
+3239	yfdY	mrna	-1			none
+3240	alaC	mrna	2362	alaC	SL1344_RS12330	exact_lower
+3241	fryA	mrna	-1			none
+3242	ypdE	mrna	-1			none
+3243	ypdF	mrna	-1			none
+3244	fryC	mrna	-1			none
+3245	fryB	mrna	-1			none
+3246	glk	mrna	2363	glk	SL1344_RS12335	exact_lower
+3247	mntH	mrna	-1			none
+3248	ypeD	mrna	-1			none
+3249	pdeA	mrna	-1			none
+3250	gltX	mrna	2374	gltX	SL1344_RS12395	exact_lower
+3251	xapR	mrna	-1			none
+3252	xapB	mrna	-1			none
+3253	xapA	mrna	2378	xapA	SL1344_RS12435	exact_lower
+3254	yfeR	mrna	-1			none
+3255	ypeB	mrna	-1			none
+3256	ligA	mrna	2383	ligA	SL1344_RS12460	exact_lower
+3257	zipA	mrna	2384	zipA	SL1344_RS12465	exact_lower
+3258	pdxK	mrna	2391	pdxK	SL1344_RS12505	exact_lower
+3259	cysM	mrna	2396	cysM	SL1344_RS12530	exact_lower
+3260	cysA	mrna	2397	cysA	SL1344_RS12535	exact_lower
+3261	cysW	mrna	2398	cysW	SL1344_RS12540	exact_lower
+3262	cysU	mrna	-1			none
+3263	cysP	mrna	2400	cysP	SL1344_RS12550	exact_lower
+3264	ucpA	mrna	2401	ucpA	SL1344_RS12555	exact_lower
+3265	murR	mrna	-1			none
+3266	yfeX	mrna	2402	yfeX	SL1344_RS12560	exact_lower
+3267	yfeY	mrna	-1			none
+3268	yfeZ	mrna	-1			none
+3269	ypeA	mrna	-1			none
+3270	eutR	mrna	2410	eutR	SL1344_RS12600	exact_lower
+3271	eutK	mrna	2411	eutK	SL1344_RS12605	exact_lower
+3272	eutL	mrna	2412	eutL	SL1344_RS12610	exact_lower
+3273	eutC	mrna	2413	eutC	SL1344_RS12615	exact_lower
+3274	eutB	mrna	2414	eutB	SL1344_RS12620	exact_lower
+3275	eutA	mrna	2415	eutA	SL1344_RS12625	exact_lower
+3276	eutH	mrna	2416	eutH	SL1344_RS12630	exact_lower
+3277	eutG	mrna	2417	eutG	SL1344_RS12635	exact_lower
+3278	eutJ	mrna	2418	eutJ	SL1344_RS12640	exact_lower
+3279	eutE	mrna	-1			none
+3280	eutN	mrna	2420	eutN	SL1344_RS12650	exact_lower
+3281	eutM	mrna	2421	eutM	SL1344_RS12655	exact_lower
+3282	eutD	mrna	-1			none
+3283	eutT	mrna	2423	eutT	SL1344_RS12665	exact_lower
+3284	eutQ	mrna	2424	eutQ	SL1344_RS12670	exact_lower
+3285	eutP	mrna	2425	eutP	SL1344_RS12675	exact_lower
+3286	eutS	mrna	2426	eutS	SL1344_RS12680	exact_lower
+3287	maeB	mrna	2428	maeB	SL1344_RS12690	exact_lower
+3288	ypfG	mrna	-1			none
+3289	nudK	mrna	2433	nudK	SL1344_RS12715	exact_lower
+3290	aegA	mrna	2435	aegA	SL1344_RS12725	exact_lower
+3291	ypfM	mrna	2438	ypfM	SL1344_RS27115	exact_lower
+3292	ypfH	mrna	-1			none
+3293	tmcA	mrna	2442	tmcA	SL1344_RS12755	exact_lower
+3294	ypfJ	mrna	-1			none
+3295	purC	mrna	2444	purC	SL1344_RS12765	exact_lower
+3296	bamC	mrna	2445	bamC	SL1344_RS12770	exact_lower
+3297	dapA	mrna	2446	dapA	SL1344_RS12775	exact_lower
+3298	yfgO	mrna	-1			none
+3299	hda	mrna	-1			none
+3300	uraA	mrna	2453	uraA	SL1344_RS12815	exact_lower
+3301	upp	mrna	2454	upp	SL1344_RS12820	exact_lower
+3302	pdeF	mrna	-1			none
+3303	guaA	mrna	2464	guaA	SL1344_RS12870	exact_lower
+3304	guaB	mrna	2465	guaB	SL1344_RS12875	exact_lower
+3305	yfgJ	mrna	-1			none
+3306	der	mrna	2472	der	SL1344_RS12915	exact_lower
+3307	bamB	mrna	2473	bamB	SL1344_RS12920	exact_lower
+3308	yfgM	mrna	-1			none
+3309	hisS	mrna	2475	hisS	SL1344_RS12930	exact_lower
+3310	ispG	mrna	2476	ispG	SL1344_RS12935	exact_lower
+3311	rodZ	mrna	2477	rodZ	SL1344_RS12940	exact_lower
+3312	rlmN	mrna	-1			none
+3313	ndk	mrna	2479	ndk	SL1344_RS12950	exact_lower
+3314	pbpC	mrna	2484	pbpC	SL1344_RS12975	exact_lower
+3315	yfhM	mrna	-1			none
+3316	sseB	mrna	1321	sseB	SL1344_RS06945	exact_lower
+3317	pepB	mrna	2490	pepB	SL1344_RS13000	exact_lower
+3318	iscX	mrna	2491	iscX	SL1344_RS13005	exact_lower
+3319	fdx	mrna	2492	fdx	SL1344_RS13010	exact_lower
+3320	hscA	mrna	2493	hscA	SL1344_RS13015	exact_lower
+3321	hscB	mrna	2494	hscB	SL1344_RS13020	exact_lower
+3322	iscA	mrna	2495	iscA	SL1344_RS13025	exact_lower
+3323	iscU	mrna	2496	iscU	SL1344_RS13030	exact_lower
+3324	iscS	mrna	2497	iscS	SL1344_RS13035	exact_lower
+3325	iscR	mrna	2498	iscR	SL1344_RS13040	exact_lower
+3326	trmJ	mrna	2499	trmJ	SL1344_RS13045	exact_lower
+3327	hcaT	mrna	-1			none
+3328	hcaR	mrna	-1			none
+3329	yphB	mrna	-1			none
+3330	yphC	mrna	-1			none
+3331	yphD	mrna	-1			none
+3332	yphE	mrna	-1			none
+3333	yphF	mrna	-1			none
+3334	yphG	mrna	-1			none
+3335	glyA	mrna	2509	glyA	SL1344_RS13095	exact_lower
+3336	glnB	mrna	2515	glnB	SL1344_RS13125	exact_lower
+3337	glrR	mrna	2516	glrR	SL1344_RS13130	exact_lower
+3338	qseG	mrna	2517	qseG	SL1344_RS13135	exact_lower
+3339	glrK	mrna	-1			none
+3340	purL	mrna	2519	purL	SL1344_RS13145	exact_lower
+3341	tadA	mrna	2522	tadA	SL1344_RS13160	exact_lower
+3342	pgpC	mrna	-1			none
+3343	shoB	mrna	-1			none
+3344	acpS	mrna	2531	acpS	SL1344_RS13205	exact_lower
+3345	pdxJ	mrna	2532	pdxJ	SL1344_RS13210	exact_lower
+3346	recO	mrna	2533	recO	SL1344_RS13215	exact_lower
+3347	era	mrna	2534	era	SL1344_RS13220	exact_lower
+3348	rnc	mrna	2535	rnc	SL1344_RS13225	exact_lower
+3349	lepB	mrna	2536	lepB	SL1344_RS13230	exact_lower
+3350	lepA	mrna	2537	lepA	SL1344_RS13235	exact_lower
+3351	rseC	mrna	2597	rseC	SL1344_RS13545	exact_lower
+3352	rseB	mrna	2598	rseB	SL1344_RS13550	exact_lower
+3353	rseA	mrna	2599	rseA	SL1344_RS13555	exact_lower
+3354	rpoE	mrna	2600	rpoE	SL1344_RS13560	exact_lower
+3355	rseD	mrna	2601	rseD	SL1344_RS27400	exact_lower
+3356	yfiC	mrna	-1			none
+3357	yfiE	mrna	-1			none
+3358	grcA	mrna	2607	grcA	SL1344_RS13590	exact_lower
+3359	yfiF	mrna	-1			none
+3360	kgtP	mrna	-1			none
+3361	clpB	mrna	2617	clpB	SL1344_RS13660	exact_lower
+3362	yfiH	mrna	2618	yfiH	SL1344_RS13665	exact_lower
+3363	rluD	mrna	2619	rluD	SL1344_RS13670	exact_lower
+3364	tyrA	mrna	2625	tyrA	SL1344_RS13695	exact_lower
+3365	aroF	mrna	2626	aroF	SL1344_RS13700	exact_lower
+3366	rplS	mrna	2644	rplS	SL1344_RS13785	exact_lower
+3367	trmD	mrna	2645	trmD	SL1344_RS13790	exact_lower
+3368	rimM	mrna	2646	rimM	SL1344_RS13795	exact_lower
+3369	rpsP	mrna	2647	rpsP	SL1344_RS13800	exact_lower
+3370	ffh	mrna	2648	ffh	SL1344_RS13805	exact_lower
+3371	grpE	mrna	2652	grpE	SL1344_RS13825	exact_lower
+3372	yfjF	mrna	-1			none
+3373	ratA	mrna	2468	ratA	SL1344_RS12895	exact_lower
+3374	yfjH	mrna	-1			none
+3375	abpB	mrna	-1			none
+3376	abpA	mrna	-1			none
+3377	yfjM	mrna	-1			none
+3378	yfjU	mrna	-1			none
+3379	ypjA	mrna	-1			none
+3380	ypjB	mrna	-1			none
+3381	ypjC	mrna	-1			none
+3382	kbp	mrna	-1			none
+3383	yqaE	mrna	-1			none
+3384	stpA	mrna	2777	stpA	SL1344_RS14495	exact_lower
+3385	ygaC	mrna	-1			none
+3386	luxS	mrna	2795	luxS	SL1344_RS14590	exact_lower
+3387	gshA	mrna	2796	gshA	SL1344_RS14595	exact_lower
+3388	yqaA	mrna	-1			none
+3389	yqaB	mrna	2798	yqaB	SL1344_RS14605	exact_lower
+3390	csrA	mrna	2799	csrA	SL1344_RS14635	exact_lower
+3391	alaS	mrna	2800	alaS	SL1344_RS14640	exact_lower
+3392	recX	mrna	2801	recX	SL1344_RS14645	exact_lower
+3393	recA	mrna	2802	recA	SL1344_RS14650	exact_lower
+3394	pncC	mrna	2803	pncC	SL1344_RS14655	exact_lower
+3395	mltB	mrna	2805	mltB	SL1344_RS14660	exact_lower
+3396	norR	mrna	2813	norR	SL1344_RS14705	exact_lower
+3397	hypF	mrna	2816	hypF	SL1344_RS14720	exact_lower
+3398	hydN	mrna	2817	hydN	SL1344_RS14725	exact_lower
+3399	ascG	mrna	-1			none
+3400	hycI	mrna	2819	hycI	SL1344_RS14735	exact_lower
+3401	hycH	mrna	-1			none
+3402	hycG	mrna	2821	hycG	SL1344_RS14745	exact_lower
+3403	hycF	mrna	2822	hycF	SL1344_RS14750	exact_lower
+3404	hycE	mrna	2823	hycE	SL1344_RS14755	exact_lower
+3405	hycD	mrna	-1			none
+3406	hycC	mrna	2825	hycC	SL1344_RS14765	exact_lower
+3407	hycB	mrna	2826	hycB	SL1344_RS14770	exact_lower
+3408	hycA	mrna	2827	hycA	SL1344_RS14775	exact_lower
+3409	ygbA	mrna	-1			none
+3410	ygbI	mrna	2892	ygbI	SL1344_RS15105	exact_lower
+3411	rpoS	mrna	2897	rpoS	SL1344_RS15130	exact_lower
+3412	nlpD	mrna	2898	nlpD	SL1344_RS15135	exact_lower
+3413	pcm	mrna	-1			none
+3414	umpG	mrna	-1			none
+3415	truD	mrna	2902	truD	SL1344_RS15150	exact_lower
+3416	ispF	mrna	2903	ispF	SL1344_RS15155	exact_lower
+3417	ispD	mrna	2904	ispD	SL1344_RS15160	exact_lower
+3418	ftsB	mrna	2905	ftsB	SL1344_RS15165	exact_lower
+3419	ygbE	mrna	-1			none
+3420	cysC	mrna	2907	cysC	SL1344_RS15175	exact_lower
+3421	cysN	mrna	2908	cysN	SL1344_RS15180	exact_lower
+3422	cysD	mrna	2909	cysD	SL1344_RS15185	exact_lower
+3423	cas2	mrna	-1			none
+3424	cas1	mrna	-1			none
+3425	casE	mrna	-1			none
+3426	casD	mrna	-1			none
+3427	casC	mrna	-1			none
+3428	casB	mrna	2916	casB	SL1344_RS15220	exact_lower
+3429	casA	mrna	2917	casA	SL1344_RS15225	exact_lower
+3430	cas3	mrna	-1			none
+3431	cysH	mrna	2920	cysH	SL1344_RS15240	exact_lower
+3432	cysI	mrna	2921	cysI	SL1344_RS15245	exact_lower
+3433	cysJ	mrna	2922	cysJ	SL1344_RS15250	exact_lower
+3434	ygcQ	mrna	-1			none
+3435	ygcR	mrna	-1			none
+3436	ygcS	mrna	-1			none
+3437	ygcU	mrna	-1			none
+3438	ygcW	mrna	-1			none
+3439	queE	mrna	2925	queE	SL1344_RS15265	exact_lower
+3440	eno	mrna	2926	eno	SL1344_RS15270	exact_lower
+3441	pyrG	mrna	2927	pyrG	SL1344_RS15275	exact_lower
+3442	mazG	mrna	2928	mazG	SL1344_RS15280	exact_lower
+3443	mazF	mrna	-1			none
+3444	mazE	mrna	-1			none
+3445	relA	mrna	2931	relA	SL1344_RS15295	exact_lower
+3446	rlmD	mrna	2932	rlmD	SL1344_RS15300	exact_lower
+3447	gudD	mrna	2935	gudD	SL1344_RS15315	exact_lower
+3448	gudX	mrna	-1			none
+3449	gudP	mrna	2937	gudP	SL1344_RS15325	exact_lower
+3450	yqcA	mrna	-1			none
+3451	truC	mrna	2940	truC	SL1344_RS15335	exact_lower
+3452	yqcC	mrna	-1			none
+3453	syd	mrna	2942	syd	SL1344_RS15350	exact_lower
+3454	fucO	mrna	2948	fucO	SL1344_RS15380	exact_lower
+3455	fucA	mrna	2949	fucA	SL1344_RS15385	exact_lower
+3456	rlmM	mrna	2955	rlmM	SL1344_RS15415	exact_lower
+3457	ygdD	mrna	-1			none
+3458	gcvA	mrna	2957	gcvA	SL1344_RS15425	exact_lower
+3459	ygdI	mrna	-1			none
+3460	tcdA	mrna	2962	tcdA	SL1344_RS15450	exact_lower
+3461	mltA	mrna	2963	mltA	SL1344_RS15455	exact_lower
+3462	amiC	mrna	2964	amiC	SL1344_RS15470	exact_lower
+3463	recD	mrna	2966	recD	SL1344_RS15480	exact_lower
+3464	recB	mrna	2967	recB	SL1344_RS15485	exact_lower
+3465	ptrA	mrna	2968	ptrA	SL1344_RS15490	exact_lower
+3466	recC	mrna	2969	recC	SL1344_RS15495	exact_lower
+3467	ppdC	mrna	-1			none
+3468	ygdB	mrna	-1			none
+3469	ppdB	mrna	-1			none
+3470	ppdA	mrna	-1			none
+3471	thyA	mrna	2974	thyA	SL1344_RS15525	exact_lower
+3472	lgt	mrna	2975	lgt	SL1344_RS15530	exact_lower
+3473	ptsP	mrna	2976	ptsP	SL1344_RS15535	exact_lower
+3474	rppH	mrna	2977	rppH	SL1344_RS15540	exact_lower
+3475	ygdT	mrna	-1			none
+3476	lplT	mrna	2982	lplT	SL1344_RS15570	exact_lower
+3477	aas	mrna	2983	aas	SL1344_RS15575	exact_lower
+3478	lysA	mrna	2986	lysA	SL1344_RS15590	exact_lower
+3479	ygeA	mrna	-1			none
+3480	araE	mrna	2989	araE	SL1344_RS15605	exact_lower
+3481	kduD	mrna	2990	kduD	SL1344_RS15610	exact_lower
+3482	kduI	mrna	2991	kduI	SL1344_RS15615	exact_lower
+3483	yqeF	mrna	-1			none
+3484	yqeL	mrna	-1			none
+3485	yqeK	mrna	-1			none
+3486	insD4	mrna	-1			none
+3487	insC4	mrna	-1			none
+3488	ygeQ	mrna	-1			none
+3489	actS	mrna	3010	actS	SL1344_RS15715	exact_lower
+3490	ygeV	mrna	-1			none
+3491	yqeB	mrna	-1			none
+3492	yqeC	mrna	-1			none
+3493	ygfS	mrna	-1			none
+3494	ygfT	mrna	-1			none
+3495	yqfH	mrna	-1			none
+3496	lysS	mrna	3012	lysS	SL1344_RS15725	exact_lower
+3497	prfB	mrna	3013	prfB	SL1344_RS15730	exact_lower
+3498	recJ	mrna	3014	recJ	SL1344_RS15735	exact_lower
+3499	dsbC	mrna	3015	dsbC	SL1344_RS15740	exact_lower
+3500	xerD	mrna	3016	xerD	SL1344_RS15745	exact_lower
+3501	ygfX	mrna	-1			none
+3502	sdhE	mrna	3019	sdhE	SL1344_RS15760	exact_lower
+3503	yqfA	mrna	-1			none
+3504	yqfB	mrna	3022	yqfB	SL1344_RS15780	exact_lower
+3505	ygfF	mrna	-1			none
+3506	gcvP	mrna	3025	gcvP	SL1344_RS15795	exact_lower
+3507	gcvH	mrna	3026	gcvH	SL1344_RS15800	exact_lower
+3508	gcvT	mrna	3027	gcvT	SL1344_RS15805	exact_lower
+3509	ubiI	mrna	3028	ubiI	SL1344_RS15810	exact_lower
+3510	ubiH	mrna	3029	ubiH	SL1344_RS15815	exact_lower
+3511	pepP	mrna	3030	pepP	SL1344_RS15820	exact_lower
+3512	ygfB	mrna	-1			none
+3513	serA	mrna	3034	serA	SL1344_RS15840	exact_lower
+3514	rpiA	mrna	3035	rpiA	SL1344_RS15845	exact_lower
+3515	ygfI	mrna	-1			none
+3516	yggE	mrna	-1			none
+3517	argO	mrna	3038	argO	SL1344_RS15865	exact_lower
+3518	mscS	mrna	-1			none
+3519	fbaA	mrna	3040	fbaA	SL1344_RS15875	exact_lower
+3520	pgk	mrna	3041	pgk	SL1344_RS15880	exact_lower
+3521	epd	mrna	3042	epd	SL1344_RS15885	exact_lower
+3522	yggC	mrna	-1			none
+3523	fumE	mrna	-1			none
+3524	yggF	mrna	-1			none
+3525	yggP	mrna	-1			none
+3526	cmtA	mrna	-1			none
+3527	cmtB	mrna	-1			none
+3528	tktA	mrna	-1			none
+3529	speB	mrna	3050	speB	SL1344_RS15925	exact_lower
+3530	speA	mrna	3059	speA	SL1344_RS15970	exact_lower
+3531	yqgB	mrna	3060	yqgB	SL1344_RS15975	exact_lower
+3532	yqgG	mrna	-1			none
+3533	yqgD	mrna	-1			none
+3534	yggR	mrna	-1			none
+3535	yggM	mrna	-1			none
+3536	ansB	mrna	3079	ansB	SL1344_RS16065	exact_lower
+3537	yggN	mrna	-1			none
+3538	yggL	mrna	-1			none
+3539	trmB	mrna	3082	trmB	SL1344_RS16080	exact_lower
+3540	speC	mrna	-1			none
+3541	yqgH	mrna	-1			none
+3542	yghD	mrna	-1			none
+3543	yghE	mrna	-1			none
+3544	yghF	mrna	-1			none
+3545	yghG	mrna	-1			none
+3546	pppA	mrna	-1			none
+3547	yghJ	mrna	-1			none
+3548	glcA	mrna	-1			none
+3549	glcB	mrna	-1			none
+3550	glcG	mrna	-1			none
+3551	glcF	mrna	-1			none
+3552	glcE	mrna	-1			none
+3553	glcD	mrna	-1			none
+3554	yghO	mrna	-1			none
+3555	yghQ	mrna	-1			none
+3556	yghR	mrna	-1			none
+3557	yghS	mrna	-1			none
+3558	pitB	mrna	-1			none
+3559	gss	mrna	3111	gss	SL1344_RS16235	exact_lower
+3560	hybG	mrna	3115	hybG	SL1344_RS16255	exact_lower
+3561	hybF	mrna	-1			none
+3562	hybE	mrna	3117	hybE	SL1344_RS16265	exact_lower
+3563	hybD	mrna	1457	hybD	SL1344_RS07635	exact_lower
+3564	hybC	mrna	3119	hybC	SL1344_RS16275	exact_lower
+3565	hybB	mrna	3120	hybB	SL1344_RS16280	exact_lower
+3566	hybA	mrna	3121	hybA	SL1344_RS16285	exact_lower
+3567	hybO	mrna	3122	hybO	SL1344_RS16290	exact_lower
+3568	yghW	mrna	-1			none
+3569	yqhI	mrna	-1			none
+3570	yqhA	mrna	-1			none
+3571	exbD	mrna	3130	exbD	SL1344_RS16330	exact_lower
+3572	exbB	mrna	3131	exbB	SL1344_RS16335	exact_lower
+3573	yqhC	mrna	-1			none
+3574	ygiQ	mrna	-1			none
+3575	ftsP	mrna	3143	ftsP	SL1344_RS16405	exact_lower
+3576	plsC	mrna	3144	plsC	SL1344_RS16410	exact_lower
+3577	parC	mrna	3145	parC	SL1344_RS16415	exact_lower
+3578	ygiS	mrna	-1			none
+3579	mqsA	mrna	-1			none
+3580	mqsR	mrna	-1			none
+3581	ygiV	mrna	-1			none
+3582	ygiW	mrna	-1			none
+3583	ygiZ	mrna	-1			none
+3584	parE	mrna	3152	parE	SL1344_RS16450	exact_lower
+3585	yqiA	mrna	3153	yqiA	SL1344_RS16455	exact_lower
+3586	cpdA	mrna	3154	cpdA	SL1344_RS16460	exact_lower
+3587	yqiB	mrna	-1			none
+3588	nudF	mrna	3156	nudF	SL1344_RS16470	exact_lower
+3589	ygiD	mrna	3160	ygiD	SL1344_RS16490	exact_lower
+3590	yqiD	mrna	-1			none
+3591	ribB	mrna	3166	ribB	SL1344_RS16520	exact_lower
+3592	glgS	mrna	3168	glgS	SL1344_RS16530	exact_lower
+3593	hldE	mrna	3172	hldE	SL1344_RS16545	exact_lower
+3594	glnE	mrna	3173	glnE	SL1344_RS16550	exact_lower
+3595	ygiF	mrna	-1			none
+3596	bacA	mrna	3177	bacA	SL1344_RS16570	exact_lower
+3597	folB	mrna	3178	folB	SL1344_RS16575	exact_lower
+3598	ttdR	mrna	-1			none
+3599	tsaD	mrna	3181	tsaD	SL1344_RS16585	exact_lower
+3600	mug	mrna	3185	mug	SL1344_RS16605	exact_lower
+3601	nfeF	mrna	-1			none
+3602	aer	mrna	-1			none
+3603	ygjH	mrna	-1			none
+3604	higA	mrna	-1			none
+3605	higB	mrna	-1			none
+3606	rlmG	mrna	3192	rlmG	SL1344_RS16645	exact_lower
+3607	ygjV	mrna	-1			none
+3608	uxaA	mrna	-1			none
+3609	uxaC	mrna	3109	uxaC	SL1344_RS16225	exact_lower
+3610	yhaJ	mrna	3207	yhaJ	SL1344_RS16720	exact_lower
+3611	cyuA	mrna	-1			none
+3612	cyuP	mrna	-1			none
+3613	tdcG	mrna	3212	tdcG	SL1344_RS16745	exact_lower
+3614	tdcF	mrna	-1			none
+3615	tdcE	mrna	-1			none
+3616	tdcD	mrna	3214	tdcD	SL1344_RS16755	exact_lower
+3617	tdcC	mrna	3215	tdcC	SL1344_RS16760	exact_lower
+3618	tdcB	mrna	3216	tdcB	SL1344_RS16765	exact_lower
+3619	tdcA	mrna	3217	tdcA	SL1344_RS16770	exact_lower
+3620	garK	mrna	3218	garK	SL1344_RS16775	exact_lower
+3621	garR	mrna	3219	garR	SL1344_RS16780	exact_lower
+3622	garL	mrna	3220	garL	SL1344_RS16785	exact_lower
+3623	garP	mrna	-1			none
+3624	agaR	mrna	-1			none
+3625	rsmI	mrna	3234	rsmI	SL1344_RS16855	exact_lower
+3626	yraQ	mrna	-1			none
+3627	yraR	mrna	-1			none
+3628	yhbP	mrna	-1			none
+3629	yhbS	mrna	-1			none
+3630	ubiT	mrna	3244	ubiT	SL1344_RS16905	exact_lower
+3631	mtr	mrna	3250	mtr	SL1344_RS16935	exact_lower
+3632	deaD	mrna	3251	deaD	SL1344_RS16940	exact_lower
+3633	yrbN	mrna	3252	yrbN	SL1344_RS27420	exact_lower
+3634	nlpI	mrna	3253	nlpI	SL1344_RS16945	exact_lower
+3635	pnp	mrna	3254	pnp	SL1344_RS16950	exact_lower
+3636	rpsO	mrna	3255	rpsO	SL1344_RS16955	exact_lower
+3637	truB	mrna	3256	truB	SL1344_RS16960	exact_lower
+3638	rbfA	mrna	3257	rbfA	SL1344_RS16965	exact_lower
+3639	infB	mrna	3258	infB	SL1344_RS16970	exact_lower
+3640	nusA	mrna	3259	nusA	SL1344_RS16975	exact_lower
+3641	rimP	mrna	3260	rimP	SL1344_RS16980	exact_lower
+3642	yhbX	mrna	-1			none
+3643	secG	mrna	3263	secG	SL1344_RS17005	exact_lower
+3644	glmM	mrna	3264	glmM	SL1344_RS17010	exact_lower
+3645	folP	mrna	3265	folP	SL1344_RS17015	exact_lower
+3646	ftsH	mrna	3267	ftsH	SL1344_RS17025	exact_lower
+3647	rlmE	mrna	3268	rlmE	SL1344_RS17030	exact_lower
+3648	greA	mrna	3270	greA	SL1344_RS17040	exact_lower
+3649	obgE	mrna	-1			none
+3650	yhbE	mrna	-1			none
+3651	rpmA	mrna	3274	rpmA	SL1344_RS17065	exact_lower
+3652	rplU	mrna	3275	rplU	SL1344_RS17070	exact_lower
+3653	murA	mrna	3278	murA	SL1344_RS17085	exact_lower
+3654	ibaG	mrna	3279	ibaG	SL1344_RS17090	exact_lower
+3655	mlaB	mrna	3280	mlaB	SL1344_RS17095	exact_lower
+3656	mlaC	mrna	3281	mlaC	SL1344_RS17100	exact_lower
+3657	mlaD	mrna	3282	mlaD	SL1344_RS17105	exact_lower
+3658	mlaE	mrna	3283	mlaE	SL1344_RS17110	exact_lower
+3659	mlaF	mrna	3284	mlaF	SL1344_RS17115	exact_lower
+3660	mtgA	mrna	3297	mtgA	SL1344_RS17180	exact_lower
+3661	elbB	mrna	3298	elbB	SL1344_RS17185	exact_lower
+3662	arcB	mrna	3299	arcB	SL1344_RS17190	exact_lower
+3663	yhcC	mrna	-1			none
+3664	insH10	mrna	-1			none
+3665	nanQ	mrna	3306	nanQ	SL1344_RS17230	exact_lower
+3666	nanK	mrna	3307	nanK	SL1344_RS17235	exact_lower
+3667	nanE	mrna	-1			none
+3668	nanT	mrna	3309	nanT	SL1344_RS17245	exact_lower
+3669	nanA	mrna	3310	nanA	SL1344_RS17250	exact_lower
+3670	nanR	mrna	3311	nanR	SL1344_RS17255	exact_lower
+3671	sspB	mrna	3312	sspB	SL1344_RS17260	exact_lower
+3672	sspA	mrna	3313	sspA	SL1344_RS17265	exact_lower
+3673	rpsI	mrna	3315	rpsI	SL1344_RS17275	exact_lower
+3674	rplM	mrna	3316	rplM	SL1344_RS17280	exact_lower
+3675	zapE	mrna	3317	zapE	SL1344_RS17285	exact_lower
+3676	mdh	mrna	3330	mdh	SL1344_RS17350	exact_lower
+3677	yhcO	mrna	-1			none
+3678	aaeB	mrna	3335	aaeB	SL1344_RS17375	exact_lower
+3679	aaeA	mrna	3336	aaeA	SL1344_RS17380	exact_lower
+3680	aaeX	mrna	3337	aaeX	SL1344_RS17385	exact_lower
+3681	tldD	mrna	3339	tldD	SL1344_RS17395	exact_lower
+3682	yhdP	mrna	3340	yhdP	SL1344_RS17400	exact_lower
+3683	rng	mrna	3341	rng	SL1344_RS17405	exact_lower
+3684	yhdE	mrna	-1			none
+3685	mreD	mrna	3343	mreD	SL1344_RS17415	exact_lower
+3686	mreC	mrna	3344	mreC	SL1344_RS17420	exact_lower
+3687	mreB	mrna	3345	mreB	SL1344_RS17425	exact_lower
+3688	csrD	mrna	3346	csrD	SL1344_RS17435	exact_lower
+3689	envR	mrna	3360	envR	SL1344_RS17505	exact_lower
+3690	yrdB	mrna	-1			none
+3691	aroE	mrna	3367	aroE	SL1344_RS17565	exact_lower
+3692	tsaC	mrna	3368	tsaC	SL1344_RS17570	exact_lower
+3693	yrdD	mrna	-1			none
+3694	smg	mrna	3370	smg	SL1344_RS17580	exact_lower
+3695	smf	mrna	-1			none
+3696	arfA	mrna	-1			none
+3697	zntR	mrna	3377	zntR	SL1344_RS17620	exact_lower
+3698	yhdN	mrna	-1			none
+3699	rplQ	mrna	3379	rplQ	SL1344_RS17630	exact_lower
+3700	rpoA	mrna	-1			none
+3701	rpsD	mrna	3381	rpsD	SL1344_RS17640	exact_lower
+3702	rpsK	mrna	3382	rpsK	SL1344_RS17645	exact_lower
+3703	rpsM	mrna	3383	rpsM	SL1344_RS17650	exact_lower
+3704	rpmJ	mrna	3384	rpmJ	SL1344_RS17655	exact_lower
+3705	secY	mrna	3385	secY	SL1344_RS17660	exact_lower
+3706	rplO	mrna	3386	rplO	SL1344_RS17665	exact_lower
+3707	rpmD	mrna	3387	rpmD	SL1344_RS17670	exact_lower
+3708	rpsE	mrna	3388	rpsE	SL1344_RS17675	exact_lower
+3709	rplR	mrna	3389	rplR	SL1344_RS17680	exact_lower
+3710	rplF	mrna	3390	rplF	SL1344_RS17685	exact_lower
+3711	rpsH	mrna	3391	rpsH	SL1344_RS17690	exact_lower
+3712	rpsN	mrna	3392	rpsN	SL1344_RS17695	exact_lower
+3713	rplE	mrna	3393	rplE	SL1344_RS17700	exact_lower
+3714	rplX	mrna	3394	rplX	SL1344_RS17705	exact_lower
+3715	rplN	mrna	3395	rplN	SL1344_RS17710	exact_lower
+3716	rpsQ	mrna	3396	rpsQ	SL1344_RS17715	exact_lower
+3717	rpmC	mrna	3397	rpmC	SL1344_RS17720	exact_lower
+3718	rplP	mrna	3398	rplP	SL1344_RS17725	exact_lower
+3719	rpsC	mrna	3399	rpsC	SL1344_RS17730	exact_lower
+3720	rplV	mrna	3400	rplV	SL1344_RS17735	exact_lower
+3721	rpsS	mrna	3401	rpsS	SL1344_RS17740	exact_lower
+3722	rplB	mrna	3402	rplB	SL1344_RS17745	exact_lower
+3723	rplW	mrna	3403	rplW	SL1344_RS17750	exact_lower
+3724	rplD	mrna	3404	rplD	SL1344_RS17755	exact_lower
+3725	rplC	mrna	3405	rplC	SL1344_RS17760	exact_lower
+3726	rpsJ	mrna	3406	rpsJ	SL1344_RS17765	exact_lower
+3727	gspB	mrna	-1			none
+3728	gspA	mrna	-1			none
+3729	bfr	mrna	3408	bfr	SL1344_RS17775	exact_lower
+3730	bfd	mrna	3409	bfd	SL1344_RS17780	exact_lower
+3731	chiA	mrna	-1			none
+3732	tufA	mrna	-1			none
+3733	fusA	mrna	3411	fusA	SL1344_RS17790	exact_lower
+3734	rpsG	mrna	3412	rpsG	SL1344_RS17795	exact_lower
+3735	rpsL	mrna	3413	rpsL	SL1344_RS17800	exact_lower
+3736	tusB	mrna	3414	tusB	SL1344_RS17805	exact_lower
+3737	tusC	mrna	3415	tusC	SL1344_RS17810	exact_lower
+3738	tusD	mrna	3416	tusD	SL1344_RS17815	exact_lower
+3739	yheO	mrna	-1			none
+3740	fkpA	mrna	3418	fkpA	SL1344_RS17825	exact_lower
+3741	slyD	mrna	3420	slyD	SL1344_RS17835	exact_lower
+3742	yheV	mrna	-1			none
+3743	kefB	mrna	3422	kefB	SL1344_RS17845	exact_lower
+3744	kefG	mrna	3423	kefG	SL1344_RS17850	exact_lower
+3745	yhfA	mrna	-1			none
+3746	argD	mrna	3433	argD	SL1344_RS17900	exact_lower
+3747	yrfJ	mrna	-1			none
+3748	pabA	mrna	3434	pabA	SL1344_RS17905	exact_lower
+3749	fic	mrna	-1			none
+3750	yhfG	mrna	-1			none
+3751	ppiA	mrna	3437	ppiA	SL1344_RS17920	exact_lower
+3752	yhfS	mrna	-1			none
+3753	yhfT	mrna	-1			none
+3754	yhfU	mrna	-1			none
+3755	php	mrna	-1			none
+3756	yhfW	mrna	-1			none
+3757	yhfX	mrna	-1			none
+3758	yhfY	mrna	-1			none
+3759	yhfZ	mrna	-1			none
+3760	trpS	mrna	3446	trpS	SL1344_RS17965	exact_lower
+3761	gph	mrna	3447	gph	SL1344_RS17970	exact_lower
+3762	rpe	mrna	3448	rpe	SL1344_RS17975	exact_lower
+3763	dam	mrna	3449	dam	SL1344_RS17980	exact_lower
+3764	damX	mrna	3450	damX	SL1344_RS17985	exact_lower
+3765	aroB	mrna	3451	aroB	SL1344_RS17990	exact_lower
+3766	aroK	mrna	3452	aroK	SL1344_RS17995	exact_lower
+3767	hofQ	mrna	3453	hofQ	SL1344_RS18000	exact_lower
+3768	hofP	mrna	-1			none
+3769	hofO	mrna	-1			none
+3770	hofN	mrna	-1			none
+3771	hofM	mrna	-1			none
+3772	nudE	mrna	3459	nudE	SL1344_RS18030	exact_lower
+3773	yhgE	mrna	-1			none
+3774	envZ	mrna	3466	envZ	SL1344_RS18065	exact_lower
+3775	ompR	mrna	3467	ompR	SL1344_RS18070	exact_lower
+3776	bioH	mrna	3474	bioH	SL1344_RS18105	exact_lower
+3777	malQ	mrna	3478	malQ	SL1344_RS18125	exact_lower
+3778	malP	mrna	3479	malP	SL1344_RS18130	exact_lower
+3779	rtcA	mrna	3483	rtcA	SL1344_RS18150	exact_lower
+3780	rtcB	mrna	3484	rtcB	SL1344_RS18155	exact_lower
+3781	glpG	mrna	3487	glpG	SL1344_RS18175	exact_lower
+3782	glpE	mrna	3488	glpE	SL1344_RS18180	exact_lower
+3783	yzgL	mrna	-1			none
+3784	glgP	mrna	3497	glgP	SL1344_RS18225	exact_lower
+3785	glgA	mrna	3498	glgA	SL1344_RS18230	exact_lower
+3786	glgC	mrna	3499	glgC	SL1344_RS18235	exact_lower
+3787	glgX	mrna	1479	glgX	SL1344_RS07760	exact_lower
+3788	glgB	mrna	3501	glgB	SL1344_RS18245	exact_lower
+3789	yhgO	mrna	-1			none
+3790	yhgP	mrna	-1			none
+3791	asd	mrna	3502	asd	SL1344_RS18250	exact_lower
+3792	gntU	mrna	3504	gntU	SL1344_RS18255	exact_lower
+3793	gntK	mrna	3505	gntK	SL1344_RS18260	exact_lower
+3794	gntR	mrna	3506	gntR	SL1344_RS18265	exact_lower
+3795	yhhW	mrna	-1			none
+3796	yhhX	mrna	-1			none
+3797	ggt	mrna	3514	ggt	SL1344_RS18305	exact_lower
+3798	ugpQ	mrna	3516	ugpQ	SL1344_RS18315	exact_lower
+3799	ugpC	mrna	-1			none
+3800	ugpE	mrna	3518	ugpE	SL1344_RS18325	exact_lower
+3801	ugpA	mrna	3519	ugpA	SL1344_RS18330	exact_lower
+3802	ugpB	mrna	3520	ugpB	SL1344_RS18335	exact_lower
+3803	livF	mrna	3523	livF	SL1344_RS18350	exact_lower
+3804	livG	mrna	3524	livG	SL1344_RS18355	exact_lower
+3805	livM	mrna	3525	livM	SL1344_RS18360	exact_lower
+3806	livH	mrna	3526	livH	SL1344_RS18365	exact_lower
+3807	livK	mrna	3527	livK	SL1344_RS18370	exact_lower
+3808	livJ	mrna	3530	livJ	SL1344_RS18385	exact_lower
+3809	rpoH	mrna	3531	rpoH	SL1344_RS18390	exact_lower
+3810	ftsX	mrna	3532	ftsX	SL1344_RS18395	exact_lower
+3811	ftsE	mrna	3533	ftsE	SL1344_RS18400	exact_lower
+3812	ftsY	mrna	3534	ftsY	SL1344_RS18405	exact_lower
+3813	yhhM	mrna	-1			none
+3814	tusA	mrna	3541	tusA	SL1344_RS18440	exact_lower
+3815	yhhS	mrna	-1			none
+3816	yhhJ	mrna	-1			none
+3817	rbbA	mrna	3549	rbbA	SL1344_RS18480	exact_lower
+3818	yhiI	mrna	-1			none
+3819	yhiY	mrna	-1			none
+3820	yhiJ	mrna	-1			none
+3821	yhiN	mrna	-1			none
+3822	uspB	mrna	3553	uspB	SL1344_RS18500	exact_lower
+3823	yriA	mrna	-1			none
+3824	yriB	mrna	-1			none
+3825	rsmJ	mrna	3556	rsmJ	SL1344_RS18515	exact_lower
+3826	prlC	mrna	3557	prlC	SL1344_RS18520	exact_lower
+3827	dinQ	mrna	-1			none
+3828	insH11	mrna	-1			none
+3829	yhiD	mrna	-1			none
+3830	hdeB	mrna	1483	hdeB	SL1344_RS07780	exact_lower
+3831	hdeA	mrna	-1			none
+3832	gadW	mrna	-1			none
+3833	gadX	mrna	-1			none
+3834	gadA	mrna	-1			none
+3835	ccp	mrna	-1			none
+3836	yhjB	mrna	-1			none
+3837	yhjG	mrna	-1			none
+3838	pdeH	mrna	3574	pdeH	SL1344_RS18605	exact_lower
+3839	yhjJ	mrna	-1			none
+3840	dctA	mrna	3577	dctA	SL1344_RS18620	exact_lower
+3841	pdeK	mrna	-1			none
+3842	bcsC	mrna	3579	bcsC	SL1344_RS18630	exact_lower
+3843	bcsZ	mrna	3580	bcsZ	SL1344_RS18635	exact_lower
+3844	bcsB	mrna	3581	bcsB	SL1344_RS18640	exact_lower
+3845	bcsA	mrna	3582	bcsA	SL1344_RS18645	exact_lower
+3846	yhjR	mrna	-1			none
+3847	ldrD	mrna	-1			none
+3848	dppF	mrna	3590	dppF	SL1344_RS18690	exact_lower
+3849	dppD	mrna	3591	dppD	SL1344_RS18695	exact_lower
+3850	dppC	mrna	3592	dppC	SL1344_RS18700	exact_lower
+3851	dppB	mrna	3593	dppB	SL1344_RS18705	exact_lower
+3852	dppA	mrna	3594	dppA	SL1344_RS18710	exact_lower
+3853	eptB	mrna	3598	eptB	SL1344_RS18740	exact_lower
+3854	yhjX	mrna	-1			none
+3855	yhjY	mrna	-1			none
+3856	bisC	mrna	-1			none
+3857	yiaF	mrna	-1			none
+3858	hokA	mrna	-1			none
+3859	glyS	mrna	3616	glyS	SL1344_RS18835	exact_lower
+3860	glyQ	mrna	3617	glyQ	SL1344_RS18840	exact_lower
+3861	ysaB	mrna	-1			none
+3862	yiaA	mrna	-1			none
+3863	yiaB	mrna	-1			none
+3864	xylB	mrna	3621	xylB	SL1344_RS18860	exact_lower
+3865	xylA	mrna	3622	xylA	SL1344_RS18865	exact_lower
+3866	bax	mrna	-1			none
+3867	baxL	mrna	-1			none
+3868	ysaA	mrna	-1			none
+3869	plaR	mrna	-1			none
+3870	yiaT	mrna	-1			none
+3871	yiaV	mrna	-1			none
+3872	yiaW	mrna	-1			none
+3873	aldB	mrna	3641	aldB	SL1344_RS18965	exact_lower
+3874	yiaY	mrna	-1			none
+3875	selB	mrna	3643	selB	SL1344_RS18975	exact_lower
+3876	selA	mrna	3644	selA	SL1344_RS18980	exact_lower
+3877	yibF	mrna	-1			none
+3878	yibH	mrna	-1			none
+3879	yibI	mrna	-1			none
+3880	yibT	mrna	-1			none
+3881	cysE	mrna	3659	cysE	SL1344_RS19060	exact_lower
+3882	gpsA	mrna	3660	gpsA	SL1344_RS19065	exact_lower
+3883	secB	mrna	3661	secB	SL1344_RS19070	exact_lower
+3884	grxC	mrna	3662	grxC	SL1344_RS19075	exact_lower
+3885	yibN	mrna	-1			none
+3886	waaH	mrna	-1			none
+3887	tdh	mrna	3668	tdh	SL1344_RS19105	exact_lower
+3888	kbl	mrna	3669	kbl	SL1344_RS19110	exact_lower
+3889	htrL	mrna	-1			none
+3890	yibX	mrna	-1			none
+3891	yibY	mrna	-1			none
+3892	waaU	mrna	-1			none
+3893	waaZ	mrna	3675	waaZ	SL1344_RS19140	exact_lower
+3894	waaY	mrna	-1			none
+3895	waaJ	mrna	-1			none
+3896	waaO	mrna	3678	waaO	SL1344_RS19155	exact_lower
+3897	waaB	mrna	3679	waaB	SL1344_RS19160	exact_lower
+3898	waaS	mrna	-1			none
+3899	waaP	mrna	-1			none
+3900	waaG	mrna	-1			none
+3901	waaQ	mrna	-1			none
+3902	mutM	mrna	3685	mutM	SL1344_RS19195	exact_lower
+3903	rpmG	mrna	3686	rpmG	SL1344_RS19200	exact_lower
+3904	rpmB	mrna	3687	rpmB	SL1344_RS19205	exact_lower
+3905	yicR	mrna	-1			none
+3906	pyrE	mrna	3692	pyrE	SL1344_RS19230	exact_lower
+3907	rph	mrna	3693	rph	SL1344_RS19235	exact_lower
+3908	ligB	mrna	3698	ligB	SL1344_RS19260	exact_lower
+3909	gltS	mrna	3705	gltS	SL1344_RS19295	exact_lower
+3910	yicI	mrna	3708	yicI	SL1344_RS19310	exact_lower
+3911	yicJ	mrna	-1			none
+3912	yicU	mrna	-1			none
+3913	nlpA	mrna	-1			none
+3914	nepI	mrna	-1			none
+3915	yicN	mrna	-1			none
+3916	adeQ	mrna	-1			none
+3917	uhpT	mrna	3744	uhpT	SL1344_RS19495	exact_lower
+3918	uhpC	mrna	-1			none
+3919	uhpB	mrna	3746	uhpB	SL1344_RS19505	exact_lower
+3920	uhpA	mrna	3747	uhpA	SL1344_RS19510	exact_lower
+3921	ilvN	mrna	115	ilvN	SL1344_RS00595	exact_lower
+3922	ilvB	mrna	3753	ilvB	SL1344_RS19540	exact_lower
+3923	ivbL	mrna	3754	ivbL	SL1344_RS19545	exact_lower
+3924	ysdE	mrna	-1			none
+3925	yidF	mrna	-1			none
+3926	yidG	mrna	-1			none
+3927	yidH	mrna	-1			none
+3928	yidJ	mrna	-1			none
+3929	yidK	mrna	-1			none
+3930	glvB	mrna	-1			none
+3931	glvC	mrna	-1			none
+3932	yidE	mrna	-1			none
+3933	ibpB	mrna	3765	ibpB	SL1344_RS19605	exact_lower
+3934	ibpA	mrna	3766	ibpA	SL1344_RS19610	exact_lower
+3935	yidR	mrna	-1			none
+3936	dgoT	mrna	-1			none
+3937	dgoD	mrna	3785	dgoD	SL1344_RS19705	exact_lower
+3938	dgoA	mrna	-1			none
+3939	dgoK	mrna	-1			none
+3940	dgoR	mrna	3788	dgoR	SL1344_RS19720	exact_lower
+3941	yidA	mrna	3789	yidA	SL1344_RS19725	exact_lower
+3942	yidB	mrna	-1			none
+3943	gyrB	mrna	3793	gyrB	SL1344_RS19745	exact_lower
+3944	recF	mrna	3794	recF	SL1344_RS19750	exact_lower
+3945	dnaN	mrna	3795	dnaN	SL1344_RS19755	exact_lower
+3946	dnaA	mrna	3796	dnaA	SL1344_RS19760	exact_lower
+3947	adeP	mrna	3809	adeP	SL1344_RS19830	exact_lower
+3948	yieK	mrna	-1			none
+3949	yieL	mrna	-1			none
+3950	bglH	mrna	-1			none
+3951	bglB	mrna	-1			none
+3952	bglF	mrna	-1			none
+3953	bglG	mrna	-1			none
+3954	phoU	mrna	3811	phoU	SL1344_RS19840	exact_lower
+3955	pstB	mrna	3812	pstB	SL1344_RS19845	exact_lower
+3956	pstA	mrna	3813	pstA	SL1344_RS19850	exact_lower
+3957	pstC	mrna	3814	pstC	SL1344_RS19855	exact_lower
+3958	pstS	mrna	3815	pstS	SL1344_RS19860	exact_lower
+3959	glmS	mrna	3819	glmS	SL1344_RS19880	exact_lower
+3960	glmU	mrna	3820	glmU	SL1344_RS19885	exact_lower
+3961	atpC	mrna	-1			none
+3962	atpD	mrna	3823	atpD	SL1344_RS19900	exact_lower
+3963	atpG	mrna	3824	atpG	SL1344_RS19905	exact_lower
+3964	atpA	mrna	3825	atpA	SL1344_RS19910	exact_lower
+3965	atpH	mrna	3826	atpH	SL1344_RS19915	exact_lower
+3966	atpF	mrna	3827	atpF	SL1344_RS19920	exact_lower
+3967	atpE	mrna	3828	atpE	SL1344_RS19925	exact_lower
+3968	atpB	mrna	3829	atpB	SL1344_RS19930	exact_lower
+3969	atpI	mrna	3830	atpI	SL1344_RS19935	exact_lower
+3970	rsmG	mrna	3831	rsmG	SL1344_RS19940	exact_lower
+3971	mnmG	mrna	3832	mnmG	SL1344_RS19945	exact_lower
+3972	mioC	mrna	3833	mioC	SL1344_RS19950	exact_lower
+3973	asnC	mrna	3834	asnC	SL1344_RS19955	exact_lower
+3974	viaA	mrna	3836	viaA	SL1344_RS19965	exact_lower
+3975	ravA	mrna	3837	ravA	SL1344_RS19970	exact_lower
+3976	hsrA	mrna	-1			none
+3977	yieP	mrna	-1			none
+3978	hdfR	mrna	3846	hdfR	SL1344_RS20055	exact_lower
+3979	yifB	mrna	-1			none
+3980	ilvY	mrna	3858	ilvY	SL1344_RS20110	exact_lower
+3981	ppiC	mrna	3860	ppiC	SL1344_RS20120	exact_lower
+3982	gpp	mrna	-1			none
+3983	rhlB	mrna	3863	rhlB	SL1344_RS20140	exact_lower
+3984	aslA	mrna	-1			none
+3985	hemY	mrna	3880	hemY	SL1344_RS20240	exact_lower
+3986	hemX	mrna	3881	hemX	SL1344_RS20245	exact_lower
+3987	hemD	mrna	3882	hemD	SL1344_RS20250	exact_lower
+3988	hemC	mrna	3883	hemC	SL1344_RS20255	exact_lower
+3989	cyaY	mrna	3888	cyaY	SL1344_RS20280	exact_lower
+3990	yigE	mrna	-1			none
+3991	yigF	mrna	3899	yigF	SL1344_RS20325	exact_lower
+3992	yigG	mrna	-1			none
+3993	rarD	mrna	2961	rarD	SL1344_RS15445	exact_lower
+3994	yigI	mrna	3902	yigI	SL1344_RS20340	exact_lower
+3995	rhtB	mrna	3906	rhtB	SL1344_RS20360	exact_lower
+3996	metR	mrna	3910	metR	SL1344_RS20380	exact_lower
+3997	ysgA	mrna	-1			none
+3998	rfaH	mrna	3923	rfaH	SL1344_RS20445	exact_lower
+3999	fadA	mrna	3927	fadA	SL1344_RS20465	exact_lower
+4000	fadB	mrna	3928	fadB	SL1344_RS20470	exact_lower
+4001	mobB	mrna	3933	mobB	SL1344_RS20520	exact_lower
+4002	mobA	mrna	3934	mobA	SL1344_RS20525	exact_lower
+4003	yihG	mrna	-1			none
+4004	yihA	mrna	3940	yihA	SL1344_RS20560	exact_lower
+4005	yshB	mrna	-1			none
+4006	glnG	mrna	3945	glnG	SL1344_RS20580	exact_lower
+4007	glnL	mrna	3946	glnL	SL1344_RS20585	exact_lower
+4008	glnA	mrna	3947	glnA	SL1344_RS20590	exact_lower
+4009	ompL	mrna	3955	ompL	SL1344_RS20630	exact_lower
+4010	yihO	mrna	-1			none
+4011	yihP	mrna	-1			none
+4012	yihQ	mrna	-1			none
+4013	yihR	mrna	-1			none
+4014	yihS	mrna	3960	yihS	SL1344_RS20655	exact_lower
+4015	yihT	mrna	3961	yihT	SL1344_RS20660	exact_lower
+4016	yihU	mrna	3962	yihU	SL1344_RS20665	exact_lower
+4017	fdhE	mrna	3974	fdhE	SL1344_RS20725	exact_lower
+4018	fdoI	mrna	3975	fdoI	SL1344_RS20730	exact_lower
+4019	fdoH	mrna	-1			none
+4020	fdoG	mrna	-1			none
+4021	frvR	mrna	-1			none
+4022	frvX	mrna	-1			none
+4023	frvB	mrna	-1			none
+4024	frvA	mrna	-1			none
+4025	rhaM	mrna	3984	rhaM	SL1344_RS20780	exact_lower
+4026	rhaD	mrna	3986	rhaD	SL1344_RS20790	exact_lower
+4027	rhaA	mrna	3987	rhaA	SL1344_RS20795	exact_lower
+4028	rhaB	mrna	3988	rhaB	SL1344_RS20800	exact_lower
+4029	rhaT	mrna	3991	rhaT	SL1344_RS20815	exact_lower
+4030	cpxA	mrna	3999	cpxA	SL1344_RS20860	exact_lower
+4031	cpxR	mrna	4000	cpxR	SL1344_RS20865	exact_lower
+4032	tpiA	mrna	4020	tpiA	SL1344_RS20970	exact_lower
+4033	yiiQ	mrna	-1			none
+4034	fpr	mrna	4023	fpr	SL1344_RS20985	exact_lower
+4035	glpX	mrna	4024	glpX	SL1344_RS20990	exact_lower
+4036	glpK	mrna	4025	glpK	SL1344_RS20995	exact_lower
+4037	glpF	mrna	-1			none
+4038	rraA	mrna	4028	rraA	SL1344_RS21010	exact_lower
+4039	menA	mrna	4029	menA	SL1344_RS21015	exact_lower
+4040	hslU	mrna	4030	hslU	SL1344_RS21020	exact_lower
+4041	hslV	mrna	4031	hslV	SL1344_RS21025	exact_lower
+4042	ftsN	mrna	4032	ftsN	SL1344_RS21030	exact_lower
+4043	cytR	mrna	4033	cytR	SL1344_RS21035	exact_lower
+4044	priA	mrna	4034	priA	SL1344_RS21040	exact_lower
+4045	yiiX	mrna	-1			none
+4046	metJ	mrna	4038	metJ	SL1344_RS21060	exact_lower
+4047	yijF	mrna	-1			none
+4048	gldA	mrna	4047	gldA	SL1344_RS21110	exact_lower
+4049	fsaB	mrna	-1			none
+4050	ptsA	mrna	-1			none
+4051	yijO	mrna	-1			none
+4052	eptC	mrna	-1			none
+4053	ppc	mrna	4057	ppc	SL1344_RS21160	exact_lower
+4054	argE	mrna	4058	argE	SL1344_RS21165	exact_lower
+4055	sthA	mrna	4063	sthA	SL1344_RS21190	exact_lower
+4056	trmA	mrna	4066	trmA	SL1344_RS21205	exact_lower
+4057	coaA	mrna	4071	coaA	SL1344_RS21255	exact_lower
+4058	thiH	mrna	4086	thiH	SL1344_RS21350	exact_lower
+4059	thiG	mrna	4087	thiG	SL1344_RS21355	exact_lower
+4060	thiS	mrna	4088	thiS	SL1344_RS21360	exact_lower
+4061	thiF	mrna	-1			none
+4062	thiE	mrna	4090	thiE	SL1344_RS21370	exact_lower
+4063	thiC	mrna	4091	thiC	SL1344_RS21375	exact_lower
+4064	rsd	mrna	4092	rsd	SL1344_RS21380	exact_lower
+4065	zraP	mrna	4099	zraP	SL1344_RS21415	exact_lower
+4066	purD	mrna	4102	purD	SL1344_RS21430	exact_lower
+4067	purH	mrna	4103	purH	SL1344_RS21435	exact_lower
+4068	yjaB	mrna	-1			none
+4069	arpA	mrna	-1			none
+4070	iclR	mrna	4110	iclR	SL1344_RS21495	exact_lower
+4071	pepE	mrna	4113	pepE	SL1344_RS21510	exact_lower
+4072	yjbD	mrna	-1			none
+4073	lysC	mrna	2680	lysC	SL1344_RS27735	exact_lower
+4074	yjbT	mrna	-1			none
+4075	xylE	mrna	-1			none
+4076	malG	mrna	4152	malG	SL1344_RS21700	exact_lower
+4077	malF	mrna	4153	malF	SL1344_RS21705	exact_lower
+4078	malE	mrna	4154	malE	SL1344_RS21710	exact_lower
+4079	plsB	mrna	4160	plsB	SL1344_RS21740	exact_lower
+4080	zur	mrna	4166	zur	SL1344_RS21770	exact_lower
+4081	qorA	mrna	-1			none
+4082	uvrA	mrna	4179	uvrA	SL1344_RS21835	exact_lower
+4083	yjcB	mrna	-1			none
+4084	soxS	mrna	4189	soxS	SL1344_RS21890	exact_lower
+4085	yjcF	mrna	-1			none
+4086	actP	mrna	4197	actP	SL1344_RS21930	exact_lower
+4087	yjcH	mrna	-1			none
+4088	acs	mrna	4199	acs	SL1344_RS21940	exact_lower
+4089	yjcO	mrna	4207	yjcO	SL1344_RS21985	exact_lower
+4090	fdhF	mrna	-1			none
+4091	mdtP	mrna	-1			none
+4092	mdtO	mrna	-1			none
+4093	mdtN	mrna	-1			none
+4094	ytcA	mrna	-1			none
+4095	yjcS	mrna	-1			none
+4096	alsK	mrna	-1			none
+4097	alsE	mrna	-1			none
+4098	alsC	mrna	-1			none
+4099	alsA	mrna	-1			none
+4100	alsB	mrna	-1			none
+4101	alsR	mrna	-1			none
+4102	phnP	mrna	-1			none
+4103	phnO	mrna	4210	phnO	SL1344_RS22005	exact_lower
+4104	phnN	mrna	-1			none
+4105	phnM	mrna	-1			none
+4106	phnL	mrna	-1			none
+4107	phnK	mrna	-1			none
+4108	phnJ	mrna	-1			none
+4109	phnI	mrna	-1			none
+4110	phnH	mrna	-1			none
+4111	phnG	mrna	-1			none
+4112	phnF	mrna	-1			none
+4113	phnD	mrna	-1			none
+4114	phnC	mrna	-1			none
+4115	yjdN	mrna	4211	yjdN	SL1344_RS22010	exact_lower
+4116	yjdM	mrna	-1			none
+4117	basS	mrna	-1			none
+4118	basR	mrna	-1			none
+4119	eptA	mrna	4217	eptA	SL1344_RS22040	exact_lower
+4120	adiC	mrna	4218	adiC	SL1344_RS22045	exact_lower
+4121	adiY	mrna	-1			none
+4122	adiA	mrna	4220	adiA	SL1344_RS22060	exact_lower
+4123	melR	mrna	4221	melR	SL1344_RS22065	exact_lower
+4124	yjdF	mrna	-1			none
+4125	fumB	mrna	1389	fumB	SL1344_RS07295	exact_lower
+4126	dcuB	mrna	4225	dcuB	SL1344_RS22085	exact_lower
+4127	dcuR	mrna	4227	dcuR	SL1344_RS22095	exact_lower
+4128	dcuS	mrna	-1			none
+4129	lysU	mrna	-1			none
+4130	dtpC	mrna	-1			none
+4131	cadA	mrna	2513	cadA	SL1344_RS13115	exact_lower
+4132	cadB	mrna	2512	cadB	SL1344_RS13110	exact_lower
+4133	cadC	mrna	2511	cadC	SL1344_RS13105	exact_lower
+4134	yjdC	mrna	-1			none
+4135	dsbD	mrna	-1			none
+4136	cutA	mrna	4247	cutA	SL1344_RS22200	exact_lower
+4137	dcuA	mrna	4248	dcuA	SL1344_RS22205	exact_lower
+4138	aspA	mrna	4249	aspA	SL1344_RS22210	exact_lower
+4139	yjeH	mrna	4251	yjeH	SL1344_RS22225	exact_lower
+4140	yjeJ	mrna	-1			none
+4141	epmB	mrna	4256	epmB	SL1344_RS22250	exact_lower
+4142	blc	mrna	-1			none
+4143	ampC	mrna	-1			none
+4144	frdD	mrna	4263	frdD	SL1344_RS22285	exact_lower
+4145	frdC	mrna	4264	frdC	SL1344_RS22290	exact_lower
+4146	frdB	mrna	4265	frdB	SL1344_RS22295	exact_lower
+4147	frdA	mrna	4266	frdA	SL1344_RS22300	exact_lower
+4148	mscM	mrna	4270	mscM	SL1344_RS22320	exact_lower
+4149	psd	mrna	-1			none
+4150	rsgA	mrna	4272	rsgA	SL1344_RS22330	exact_lower
+4151	queG	mrna	4275	queG	SL1344_RS22360	exact_lower
+4152	yjfN	mrna	4297	yjfN	SL1344_RS22475	exact_lower
+4153	bsmA	mrna	4298	bsmA	SL1344_RS22480	exact_lower
+4154	ulaR	mrna	4300	ulaR	SL1344_RS22490	exact_lower
+4155	ulaG	mrna	4301	ulaG	SL1344_RS22495	exact_lower
+4156	yjfY	mrna	4308	yjfY	SL1344_RS22530	exact_lower
+4157	yjfZ	mrna	-1			none
+4158	ytfB	mrna	-1			none
+4159	ytfE	mrna	4318	ytfE	SL1344_RS22580	exact_lower
+4160	ytfF	mrna	-1			none
+4161	qorB	mrna	-1			none
+4162	cpdB	mrna	-1			none
+4163	ytfJ	mrna	-1			none
+4164	paeA	mrna	-1			none
+4165	msrA	mrna	4327	msrA	SL1344_RS22625	exact_lower
+4166	ppa	mrna	4333	ppa	SL1344_RS22655	exact_lower
+4167	fbp	mrna	4334	fbp	SL1344_RS22660	exact_lower
+4168	yjgA	mrna	4354	yjgA	SL1344_RS22765	exact_lower
+4169	nrdG	mrna	4368	nrdG	SL1344_RS22835	exact_lower
+4170	nrdD	mrna	4369	nrdD	SL1344_RS22840	exact_lower
+4171	treC	mrna	4370	treC	SL1344_RS22850	exact_lower
+4172	treB	mrna	-1			none
+4173	treR	mrna	4371	treR	SL1344_RS22860	exact_lower
+4174	ridA	mrna	4375	ridA	SL1344_RS22875	exact_lower
+4175	pyrI	mrna	4376	pyrI	SL1344_RS22880	exact_lower
+4176	pyrB	mrna	4377	pyrB	SL1344_RS22885	exact_lower
+4177	pyrL	mrna	4378	pyrL	SL1344_RS22890	exact_lower
+4178	yjgH	mrna	-1			none
+4179	bdcA	mrna	1597	bdcA	SL1344_RS08360	exact_lower
+4180	argI	mrna	-1			none
+4181	yjgM	mrna	-1			none
+4182	valS	mrna	-1			none
+4183	holC	mrna	4394	holC	SL1344_RS22960	exact_lower
+4184	pepA	mrna	4395	pepA	SL1344_RS22965	exact_lower
+4185	yjgR	mrna	-1			none
+4186	idnR	mrna	4399	idnR	SL1344_RS22985	exact_lower
+4187	idnT	mrna	4400	idnT	SL1344_RS22990	exact_lower
+4188	idnO	mrna	4401	idnO	SL1344_RS22995	exact_lower
+4189	idnD	mrna	4402	idnD	SL1344_RS23000	exact_lower
+4190	ahr	mrna	4404	ahr	SL1344_RS23010	exact_lower
+4191	insG	mrna	-1			none
+4192	insI3	mrna	-1			none
+4193	fecE	mrna	-1			none
+4194	fecD	mrna	-1			none
+4195	fecC	mrna	-1			none
+4196	fecB	mrna	-1			none
+4197	fecA	mrna	-1			none
+4198	fecR	mrna	-1			none
+4199	fecI	mrna	-1			none
+4200	yjhU	mrna	-1			none
+4201	yjhF	mrna	-1			none
+4202	yjhG	mrna	-1			none
+4203	yjhH	mrna	-1			none
+4204	yjhI	mrna	-1			none
+4205	sgcR	mrna	-1			none
+4206	sgcE	mrna	-1			none
+4207	sgcA	mrna	1538	sgcA	SL1344_RS08055	exact_lower
+4208	sgcQ	mrna	1537	sgcQ	SL1344_RS08050	exact_lower
+4209	sgcC	mrna	1536	sgcC	SL1344_RS08045	exact_lower
+4210	sgcB	mrna	1535	sgcB	SL1344_RS08040	exact_lower
+4211	sgcX	mrna	-1			none
+4212	yjhP	mrna	-1			none
+4213	yjhQ	mrna	-1			none
+4214	topAI	mrna	-1			none
+4215	nanS	mrna	-1			none
+4216	nanM	mrna	-1			none
+4217	nanC	mrna	-1			none
+4218	gntP	mrna	-1			none
+4219	yjiC	mrna	-1			none
+4220	hypT	mrna	4429	hypT	SL1344_RS23145	exact_lower
+4221	iadA	mrna	4430	iadA	SL1344_RS23150	exact_lower
+4222	yjiG	mrna	-1			none
+4223	yjiH	mrna	-1			none
+4224	yjiJ	mrna	-1			none
+4225	yjiK	mrna	-1			none
+4226	ytiA	mrna	-1			none
+4227	yjiL	mrna	-1			none
+4228	yjiM	mrna	-1			none
+4229	yjiN	mrna	-1			none
+4230	mdtM	mrna	4435	mdtM	SL1344_RS23180	exact_lower
+4231	ytiE	mrna	-1			none
+4232	yjiR	mrna	-1			none
+4233	mcrC	mrna	-1			none
+4234	mcrB	mrna	-1			none
+4235	symE	mrna	4440	symE	SL1344_RS23210	exact_lower
+4236	hsdS	mrna	-1			none
+4237	hsdM	mrna	4442	hsdM	SL1344_RS23220	exact_lower
+4238	hsdR	mrna	4443	hsdR	SL1344_RS23225	exact_lower
+4239	yjiA	mrna	4447	yjiA	SL1344_RS23245	exact_lower
+4240	yjiX	mrna	-1			none
+4241	btsT	mrna	4449	btsT	SL1344_RS23255	exact_lower
+4242	lgoT	mrna	-1			none
+4243	lgoR	mrna	-1			none
+4244	opgB	mrna	4458	opgB	SL1344_RS23300	exact_lower
+4245	yjjA	mrna	-1			none
+4246	dnaC	mrna	4460	dnaC	SL1344_RS23310	exact_lower
+4247	dnaT	mrna	4461	dnaT	SL1344_RS23315	exact_lower
+4248	yjjB	mrna	-1			none
+4249	yjjP	mrna	-1			none
+4250	fhuF	mrna	4467	fhuF	SL1344_RS23345	exact_lower
+4251	rsmC	mrna	4470	rsmC	SL1344_RS23375	exact_lower
+4252	yjjW	mrna	-1			none
+4253	yjjI	mrna	-1			none
+4254	lplA	mrna	4490	lplA	SL1344_RS23475	exact_lower
+4255	ytjB	mrna	-1			none
+4256	ettA	mrna	4495	ettA	SL1344_RS23500	exact_lower
+4257	yjjX	mrna	4498	yjjX	SL1344_RS23515	exact_lower
+4258	rob	mrna	-1			none
+4259	arcA	mrna	4384	arcA	SL1344_RS22915	exact_lower
+4260	yqiG	mrna	-1			none
+4261	yrhD	mrna	-1			none
+4262	safA	mrna	291	safA	SL1344_RS01525	exact_lower
+4263	yobI	mrna	-1			none
+4264	speFL	mrna	672	speFL	SL1344_RS27365	exact_lower
+4265	ylcJ	mrna	-1			none
+4266	ibsD	mrna	-1			none
+4267	yhiS	mrna	-1			none
+4268	tpr	mrna	-1			none
+4269	ynfN	mrna	-1			none
+4270	yehC	mrna	-1			none
+4271	ibsC	mrna	-1			none
+4272	ykfO	mrna	-1			none
+4273	dicB	mrna	-1			none
+4274	ibsE	mrna	-1			none
+4275	ykfM	mrna	-1			none
+4276	ybcV	mrna	-1			none
+4277	kilR	mrna	-1			none
+4278	yjbS	mrna	-1			none
+4279	ydbA	mrna	-1			none
+4280	insO	mrna	-1			none
+4281	nmpC	mrna	-1			none
+4282	gatR	mrna	-1			none
+4283	insN	mrna	-1			none
+4284	renD	mrna	-1			none
+4285	tdcR	mrna	-1			none
+4286	yabR	mrna	-1			none
+4287	yddK	mrna	-1			none
+4288	psuK	mrna	-1			none
+4289	ykiC	mrna	-1			none
+4290	yejO	mrna	-1			none
+4291	yaiX	mrna	-1			none
+4292	yqcG	mrna	-1			none
+4293	yddL	mrna	-1			none
+4294	ymgK	mrna	-1			none
+4295	ynbG	mrna	-1			none
+4296	yfdO	mrna	-1			none
+4297	iroK	mrna	-1			none
+4298	wbbL	mrna	-1			none
+4299	lomR	mrna	-1			none
+4300	yrhA	mrna	-1			none
+4301	ibsB	mrna	-1			none
+4302	ibsA	mrna	-1			none
+4303	yhcE	mrna	-1			none
+4304	sokC	srna	-1			none
+4305	sgrS	srna	4758	SgrS	srna-RF00534-128577	exact_lower
+4306	ftsO	srna	-1			none
+4307	tff	srna	-1			none
+4308	ispZ	srna	-1			none
+4309	eyeA	srna	-1			none
+4310	ffs	srna	-1			none
+4311	chiX	srna	-1			none
+4312	allZ	srna	-1			none
+4313	chiZ	srna	-1			none
+4314	sdhX	srna	-1			none
+4315	flgO	srna	-1			none
+4316	sraB	srna	4836	SraB	srna-RF00077-1231211	exact_lower
+4317	bhsB	srna	-1			none
+4318	C0293	srna	-1			none
+4319	rdlA	srna	-1			none
+4320	rdlB	srna	-1			none
+4321	rdlC	srna	-1			none
+4322	narS	srna	-1			none
+4323	fnrS	srna	-1			none
+4324	micC	srna	4880	MicC	srna-RF00121-1702522	exact_lower
+4325	sokB	srna	-1			none
+4326	dicF	srna	-1			none
+4327	rprA	srna	4862	RprA	srna-RF00034-1401683	exact_lower
+4328	ryeA	srna	-1			none
+4329	sdsN	srna	-1			none
+4330	rseX	srna	4904	rseX	srna-RF01401-2034743	exact_lower
+4331	isrC	srna	4841	isrC	srna-RF01387-1286080	exact_lower
+4332	sibA	srna	-1			none
+4333	sibB	srna	-1			none
+4334	cyaR	srna	-1			none
+4335	micF	srna	4935	MicF	srna-RF00033-2364628	exact_lower
+4336	ryfA	srna	4948	ryfA	srna-RF00126-2672649	exact_lower
+4337	ohsC	srna	-1			none
+4338	raiZ	srna	-1			none
+4339	ssrA	srna	-1			none
+4340	micA	srna	4973	MicA	srna-RF00078-2989429	exact_lower
+4341	sokX	srna	-1			none
+4342	gcvB	srna	4983	GcvB	srna-RF00022-3156779	exact_lower
+4343	ssrS	srna	4989	SsrS	SsrS	exact_lower
+4344	sibC	srna	-1			none
+4345	sraG	srna	5005	SraG	srna-RF00082-3472144	exact_lower
+4346	arcZ	srna	5013	ArcZ	srna-RF00081-3511800	exact_lower
+4347	agrA	srna	-1			none
+4348	agrB	srna	4744	AgrB	srna-RF02891-42548	exact_lower
+4349	gadF	srna	-1			none
+4350	gadY	srna	-1			none
+4351	rdlD	srna	4788	rdlD	srna-RF01813-466719	exact_lower
+4352	rbsZ	srna	-1			none
+4353	glmZ	srna	-1			none
+4354	esrE	srna	-1			none
+4355	spf	srna	-1			none
+4356	csrC	srna	5056	CsrC	srna-RF00084-4231593	exact_lower
+4357	cpxQ	srna	-1			none
+4358	aceK-int	srna	-1			none
+4359	pspH	srna	-1			none
+4360	ryjB	srna	-1			none
+4361	symR	srna	5096	symR	srna-RF01809-4797957	exact_lower
+4362	sroA	srna	-1			none
+4363	sokE	srna	-1			none
+4364	sroC	srna	4803	sroC	srna-RF00369-728164	exact_lower
+4365	zbiJ	srna	-1			none
+4366	rybA	srna	-1			none
+4367	rybB	srna	4814	RybB	srna-RF00110-941812	exact_lower
+4368	rttR	srna	-1			none
+4369	mcaS	srna	-1			none
+4370	rydC	srna	4879	RydC	srna-RF00505-1686526	exact_lower
+4371	mgrR	srna	-1			none
+4372	rydB	srna	4863	rydB	srna-RF00118-1407278	exact_lower
+4373	sdsR	srna	-1			none
+4374	micL	srna	4900	MicL	srna-RF02654-1958513	exact_lower
+4375	motR	srna	-1			none
+4376	3'ETS-leuZ	srna	-1			none
+4377	fliX	srna	-1			none
+4378	dsrA	srna	4903	DsrA	srna-RF00014-2026221	exact_lower
+4379	sroE	srna	4946	sroE	srna-RF00371-2653881	exact_lower
+4380	timR	srna	-1			none
+4381	glmY	srna	-1			none
+4382	ryfD	srna	-1			none
+4383	csrB	srna	4982	CsrB	srna-RF00018-3138158	exact_lower
+4384	omrA	srna	-1			none
+4385	omrB	srna	-1			none
+4386	sibD	srna	-1			none
+4387	sibE	srna	-1			none
+4388	rnpB	srna	-1			none
+4389	ryhB	srna	4853	RyhB	srna-RF00057-1309727	exact_lower
+4390	arrS	srna	-1			none
+4391	xylZ	srna	-1			none
+4392	rirA	srna	-1			none
+4393	uhpU	srna	-1			none
+4394	istR	srna	5040	istR	srna-RF01400-4019330	exact_lower
+4395	oxyS	srna	5068	OxyS	srna-RF00035-4364312	exact_lower
+4396	sroH	srna	-1			none
+4397	malH	srna	-1			none
+4398	ryjA	srna	-1			none
+4399	aspX	srna	-1			none
+4400	kilS	srna	-1			none
+4401	ralA	srna	-1			none

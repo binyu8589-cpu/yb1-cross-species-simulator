@@ -8,15 +8,22 @@ New samples:
   dAsd_aer_0526        (Δasd aerobic)
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import csv
 from pathlib import Path
 import pysam
 
-REF_GFF = "/Users/yubin/v2_data/wetlab/references/sl1344.gff"
-FF = "/Users/yubin/v2_data/wetlab/nanopore/v4_full_factorial"
+REF_GFF = _os.environ.get("SL1344_GFF", "/Users/yubin/v2_data/wetlab/references/sl1344.gff")
+FF = _os.environ.get("WETLAB_FACTORIAL", "/Users/yubin/v2_data/wetlab/nanopore/v4_full_factorial")
 IN_TSV = f"{FF}/mrna_counts_v3_with_0521_0522.tsv"
 OUT_TSV = f"{FF}/mrna_counts_v4_with_0525_0526.tsv"
-R = "/Users/yubin/v2_data/wetlab/nanopore/RNA数据（高通量芯片）"
+R = _os.environ.get("WETLAB_RNA_DIR", "/Users/yubin/v2_data/wetlab/nanopore/RNA数据（高通量芯片）")
 NEW = {
     "SL7207_dap_aer_0525": f"{R}/20260525-7207-平板克隆-DAP-MEP/sl7207_dap_aerobic_0525.sorted.bam",
     "SL7207_aer_0525":     f"{R}/20260525-7207-平板克隆-MEP/sl7207_aerobic_0525.sorted.bam",

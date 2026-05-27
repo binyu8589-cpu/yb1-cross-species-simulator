@@ -3,15 +3,22 @@ Reuses run_log2fc_cmp.py mask construction byte-for-byte (seed 42, shared masks,
 sequential YB1 then WT) so numbers are directly comparable to the Table 2 v5/GENIE3/floor rows.
 Usage: python run_log2fc_model_only.py --ckpt <path> [--tag NAME]
 """
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import sys, argparse, torch
 import torch.nn.functional as F
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model
 from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vectors
 import pandas as pd
 
-V5="/home/razer/v5_pathD"
-COMB=f"{V5}/wetlab_data/combined_counts_v1.tsv"
+V5=_REPO
+COMB=_os.path.join(_DATA, "combined_counts_v1.tsv")
 YB1=["YB1_aer_MinION","YB1_aer_0508","YB1_ana_v2","YB1_ana_0507","YB1_ana_0508","YB1_aer_clone_0516","YB1_ana_clone_0516"]
 WT=["SL7207_aer_0507","SL7207_aer_0509","SL7207_ana_0509"]
 YB1_AER=[0,1,5]; YB1_ANA=[2,3,4,6]; WT_AER=[0,1]; WT_ANA=[2]

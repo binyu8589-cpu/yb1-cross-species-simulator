@@ -13,10 +13,17 @@ excludes the in-vivo HeLa/mouse Illumina data in `wetlab/RNA-seq raw data/`
 Output: wetlab/nanopore/GEO_sample_sheet.tsv
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import os, glob, csv
 from pathlib import Path
 
-ROOT = "/Users/yubin/v2_data/wetlab/nanopore"
+ROOT = _os.environ.get("WETLAB_NANOPORE", "/Users/yubin/v2_data/wetlab/nanopore")
 OUT = f"{ROOT}/GEO_sample_sheet.tsv"
 
 # Paper-canonical samples → BAM path (from count_mrna_v3_with_0521_0522.py).

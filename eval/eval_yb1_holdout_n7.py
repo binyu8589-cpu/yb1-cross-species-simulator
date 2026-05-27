@@ -8,6 +8,13 @@ Compares ckpt prediction vs measured on:
 Reads from srna_counts_v3_with_0516.tsv (16 BAMs total).
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import json
 import sys
@@ -17,11 +24,11 @@ import pandas as pd
 import torch
 import torch.nn.functional as F
 
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model
 from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vectors
 
-NEW_INHOUSE_TSV = "/home/razer/v5_pathD/wetlab_data/srna_counts_v3_with_0516.tsv"
+NEW_INHOUSE_TSV = _os.path.join(_DATA, "srna_counts_v3_with_0516.tsv")
 
 ORIG_5 = ["YB1_aer_MinION", "YB1_aer_0508",
           "YB1_ana_v2", "YB1_ana_0507", "YB1_ana_0508"]

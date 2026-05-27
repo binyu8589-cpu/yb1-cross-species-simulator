@@ -13,15 +13,22 @@ Adds (relative to v2):
 Output: mrna_counts_v3_with_0521_0522.tsv (name, count_per_bam, cpm_per_bam).
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import csv
 import math
 from pathlib import Path
 import pysam
 
-REF_GFF = "/Users/yubin/v2_data/wetlab/references/sl1344.gff"
-OUT_TSV = "/Users/yubin/v2_data/wetlab/nanopore/v4_full_factorial/mrna_counts_v3_with_0521_0522.tsv"
+REF_GFF = _os.environ.get("SL1344_GFF", "/Users/yubin/v2_data/wetlab/references/sl1344.gff")
+OUT_TSV = _os.path.join(_os.environ.get("WETLAB_FACTORIAL", "/Users/yubin/v2_data/wetlab/nanopore/v4_full_factorial"), "mrna_counts_v3_with_0521_0522.tsv")
 
-ROOT = "/Users/yubin/v2_data/wetlab/nanopore"
+ROOT = _os.environ.get("WETLAB_NANOPORE", "/Users/yubin/v2_data/wetlab/nanopore")
 BAMS = {
     "YB1_aer_MinION":     f"{ROOT}/YB1_aerobic-MEP/YB1_aerobic-MEP.allreads_v3.sorted.bam",
     "YB1_aer_0508":       f"{ROOT}/RNA数据(高通量芯片)/20260508-YB1-MEP/YB1_aerobic_0508.sorted.bam",

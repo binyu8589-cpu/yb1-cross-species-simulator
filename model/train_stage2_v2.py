@@ -10,15 +10,22 @@ Train task: MLM on full mRNA + sRNA log2(CPM+1) — mask 15% positions, predict
 from rest. Same architecture as Stage 1 (AttnLayer × n_layers).
 
 Inputs:
-  - /home/razer/v5_pathD/master_expression_matrix.parquet (genes × samples)
-  - /home/razer/v5_pathD/sl1344_vocab.tsv (idx, name, locus_tag, type, ...)
-  - /home/razer/v5_pathD/ortholog_lim_to_sl1344.tsv (lim_idx, sl1344_idx, ...)
-  - Stage 1 ckpt: /home/razer/v5_pathD/checkpoints_razer_stage1_S<seed>/best.pt
+  - <data>/master_expression_matrix.parquet (genes × samples)
+  - <data>/sl1344_vocab.tsv (idx, name, locus_tag, type, ...)
+  - <data>/ortholog_lim_to_sl1344.tsv (lim_idx, sl1344_idx, ...)
+  - Stage 1 ckpt: <data>/checkpoints_razer_stage1_S<seed>/best.pt
 
 Output:
   - {ckpt_dir}/best.pt — Stage 2 v2 ckpt (state_dict + vocab + warm-start metadata)
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import os
 import random
@@ -33,13 +40,13 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, Dataset, random_split
 
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model, resolve_srna_edges  # noqa: E402
 
-V5_PATH = Path("/home/razer/v5_pathD")
-VOCAB_TSV = V5_PATH / "sl1344_vocab.tsv"
-ORTHO_TSV = V5_PATH / "ortholog_lim_to_sl1344.tsv"
-MATRIX_PARQUET = V5_PATH / "master_expression_matrix.parquet"
+V5_PATH = Path(_REPO)
+VOCAB_TSV = Path(_REF) / "sl1344_vocab.tsv"
+ORTHO_TSV = Path(_REF) / "ortholog_lim_to_sl1344.tsv"
+MATRIX_PARQUET = Path(_DATA) / "master_expression_matrix.parquet"
 
 
 class SL1344ExpressionDataset(Dataset):
@@ -297,7 +304,7 @@ def main():
     ap.add_argument("--replay-frac", type=float, default=0.20,
                     help="Fraction of each batch drawn from Lim E. coli replay set")
     ap.add_argument("--lim-parquet",
-                    default="/home/razer/v5_pathD/ecoli_data/lim2023_annotated.parquet")
+                    default=_os.environ.get("LIM_PARQUET", _os.path.join(_DATA, "lim2023_annotated.parquet")))
     args = ap.parse_args()
     torch.manual_seed(args.seed)
     random.seed(args.seed)

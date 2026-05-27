@@ -1,4 +1,11 @@
 """Figure 9: (axis, control_circuit) design framework — three strains on the invasion-primed plane."""
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyArrowPatch, Circle, Rectangle
@@ -125,7 +132,7 @@ def main():
     fig.tight_layout()
 
     import os
-    OUT = "/Users/yubin/v2_data/v5_pathD/figures/figure9_axis_control_framework"
+    OUT = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "figures", "figure9_axis_control_framework")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     fig.savefig(OUT + ".png", dpi=300, bbox_inches="tight")
     fig.savefig(OUT + ".pdf", bbox_inches="tight")

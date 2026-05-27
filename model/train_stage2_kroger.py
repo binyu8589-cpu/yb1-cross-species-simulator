@@ -26,6 +26,13 @@ When NCBI Salmonella RNA-seq is processed, replace Kröger with the larger
 mRNA + sRNA Salmonella compendium and re-train.
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import os
 import random
@@ -152,7 +159,7 @@ def main():
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--device", default="cpu")
     ap.add_argument("--ckpt-dir",
-                    default="/Users/yubin/v2_data/v5_pathD/checkpoints_stage2_kroger")
+                    default=_os.path.join(_CKPT, "checkpoints_stage2_kroger"))
     ap.add_argument("--freeze-base", action="store_true",
                     help="Freeze v3 transformer + heads, only train sRNA gate.")
     args = ap.parse_args()

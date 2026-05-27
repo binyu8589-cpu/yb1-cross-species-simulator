@@ -1,7 +1,7 @@
 """ecoli_lim_dataloader.py — Stage 1 (E. coli) expression loader.
 
 Source: Lim et al. 2023 RNA Biology, Harvard Dataverse doi:10.7910/DVN/QBMC9D
-File:   /home/razer/v5_pathD/ecoli_data/lim2023_annotated.parquet
+File:   <data>/ecoli_data/lim2023_annotated.parquet
 
 Schema: 4,510 annotated transcripts (4,304 CDS + 98 ncRNA + 86 tRNA + 22 rRNA)
         x 3,376 SRA Run IDs (Illumina RNA-seq + ncRNA-seq).
@@ -15,6 +15,13 @@ Returns per-sample tensors:
     has_srna_mask : [n_srna]   ; True where original value was not NaN
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 from pathlib import Path
 
 import numpy as np
@@ -23,8 +30,8 @@ import torch
 from torch.utils.data import Dataset
 
 
-PARQUET = "/home/razer/v5_pathD/ecoli_data/lim2023_annotated.parquet"
-META_PARQUET = "/home/razer/v5_pathD/ecoli_data/lim2023_samples.parquet"
+PARQUET = _os.environ.get("LIM_PARQUET", _os.path.join(_DATA, "lim2023_annotated.parquet"))
+META_PARQUET = _os.path.join(_REF, "lim2023_samples.parquet")
 
 META_COLS = ("B#", "Name", "Type", "Start", "Stop", "Strand", "Product")
 

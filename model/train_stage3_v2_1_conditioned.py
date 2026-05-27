@@ -11,6 +11,13 @@ but provide the condition token. Tests whether categorical condition information
 predictive signal beyond pure gene_emb baseline.
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import os
 import random
@@ -25,12 +32,12 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model
 from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vectors
 
 # Use v3 TSV which includes 0516 plate-clone columns
-INHOUSE_TSV = "/home/razer/v5_pathD/wetlab_data/srna_counts_v3_with_0516.tsv"
+INHOUSE_TSV = _os.path.join(_DATA, "srna_counts_v3_with_0516.tsv")
 
 # In-house BAM → (strain, condition_idx) labels
 BAM_LABELS = {

@@ -15,6 +15,13 @@ Two modes:
 Output: best ckpt at {ckpt_dir}/best.pt with state_dict + val_cos metric.
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import os
 import random
@@ -29,7 +36,7 @@ from torch.utils.data import DataLoader, Subset, random_split
 from ecoli_lim_dataloader import LimEcoliExpressionDataset
 from srna_layer import SrnaEdgeBias, register_srna_hooks, SrnaGate
 
-LIM_META_PARQUET = "/home/razer/v5_pathD/ecoli_data/lim2023_samples.parquet"
+LIM_META_PARQUET = _os.path.join(_REF, "lim2023_samples.parquet")
 
 PERTURBATION_KEYWORDS = {
     "hfq":      ["hfq", "Hfq"],
@@ -55,7 +62,7 @@ def get_perturbation_sample_ids() -> set[str]:
                 flag |= s.str.contains(kw, case=False, regex=False)
     return set(meta.loc[flag, "Run"].tolist())
 
-SRNA_EDGES_TSV = "/home/razer/v5_pathD/wetlab_scripts/srna_target_edges_v1.tsv"
+SRNA_EDGES_TSV = _os.path.join(_REF, "srna_target_edges_v1.tsv")
 
 
 class AttnLayer(nn.Module):
@@ -255,7 +262,7 @@ def main():
     ap.add_argument("--n-layers", type=int)
     ap.add_argument("--n-heads", type=int, default=4)
     ap.add_argument("--max-samples", type=int)
-    ap.add_argument("--ckpt-dir", default="/Users/yubin/v2_data/v5_pathD/checkpoints_stage1")
+    ap.add_argument("--ckpt-dir", default=_os.path.join(_CKPT, "checkpoints_stage1"))
     ap.add_argument("--device", default="cpu")
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--no-srna-edges", action="store_true",

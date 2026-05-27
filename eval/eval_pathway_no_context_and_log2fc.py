@@ -7,6 +7,13 @@ B: Model-predicted log2FC(YB1 vs SL7207) vs measured log2FC.
    Honest "model uniquely predicts differential" metric.
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import argparse
 import json
 import sys
@@ -18,11 +25,11 @@ import pandas as pd
 import torch
 import torch.nn.functional as F
 
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model
 from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vectors
 
-COMBINED_TSV = "/home/razer/v5_pathD/wetlab_data/combined_counts_v1.tsv"
+COMBINED_TSV = _os.path.join(_DATA, "combined_counts_v1.tsv")
 YB1_BAMS = ["YB1_aer_MinION", "YB1_aer_0508", "YB1_ana_v2",
             "YB1_ana_0507", "YB1_ana_0508",
             "YB1_aer_clone_0516", "YB1_ana_clone_0516"]

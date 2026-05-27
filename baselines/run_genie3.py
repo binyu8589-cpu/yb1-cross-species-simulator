@@ -12,21 +12,28 @@ Protocol (matches eval_yb1_mrna_n7.py exactly where it matters):
     imputed with corpus mean in log space). cosine(pred_masked, true_masked) per BAM.
   - Also: mean-expression floor (predict masked = corpus gene mean).
 """
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import sys, json, time
 import numpy as np, pandas as pd, torch
 import torch.nn.functional as F
 from joblib import Parallel, delayed
 from sklearn.ensemble import ExtraTreesRegressor
 
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model  # noqa
 from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vectors
 
-V5 = "/home/razer/v5_pathD"
-CKPT = f"{V5}/checkpoints_razer_stage3v2_1_S42/best.pt"
-PARQUET = f"{V5}/master_expression_matrix_v2.parquet"
-VOCAB = f"{V5}/sl1344_vocab.tsv"
-INHOUSE = f"{V5}/wetlab_data/mrna_counts_v1.tsv"
+V5 = _REPO
+CKPT = _os.path.join(_CKPT, "checkpoints_stage3v2_1_cond_S42", "best.pt")
+PARQUET = _os.path.join(_DATA, "master_expression_matrix.parquet")
+VOCAB = _os.path.join(_REF, "sl1344_vocab.tsv")
+INHOUSE = _os.path.join(_DATA, "mrna_counts_v1.tsv")
 ALL_7 = ["YB1_aer_MinION","YB1_aer_0508","YB1_ana_v2","YB1_ana_0507","YB1_ana_0508",
          "YB1_aer_clone_0516","YB1_ana_clone_0516"]
 N_EST = 10
@@ -127,6 +134,6 @@ print(f"  mean-expression floor       : {mm:+.4f} ± {msd:.4f}")
 print(f"  (this work / v5            : +0.944 ± 0.007)")
 json.dump({"genie3_cos": genie_cos, "mean_cos": mean_cos,
            "genie3_mean": gm, "mean_floor": mm, "n_est": N_EST},
-          open(f"{V5}/genie3_baseline_eval.json", "w"), indent=2)
+          open(_os.path.join(_REPO, "genie3_baseline_eval.json"), "w"), indent=2)
 print("  saved genie3_baseline_eval.json")
 print("DONE_GENIE3")

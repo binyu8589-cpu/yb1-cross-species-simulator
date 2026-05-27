@@ -13,12 +13,19 @@ is preserved; PW super-activation is ~1.5× YB1 (not 2-3×) once DAP-matched.
 
 Values computed from this study's primary-norm per_gene_log2fc.csv files.
 """
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-OUT = "/Users/yubin/v2_data/paper_figures/figure5d_dap_matched.png"
+OUT = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "figures", "figure5d_dap_matched.png")
 C_DASD, C_YB1, C_PW = "#8a8a8a", "#1b9e8a", "#e8743b"
 
 PANEL = ["invG","sopB","sipB","sipD","hilA","hilC","fliI","flgJ","fliE","fliG","cheY","motA","motB","siiD","siiA"]

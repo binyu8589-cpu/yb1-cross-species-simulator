@@ -6,16 +6,23 @@ Replicates eval_pathway_no_context_and_log2fc.py Experiment B exactly:
   cosine over informative genes (observed in all + |measured log2FC|>0.5), aer & ana.
 All three methods share the SAME per-BAM masks for fairness.
 """
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import sys, json, numpy as np, pandas as pd, torch
 import torch.nn.functional as F
 from joblib import Parallel, delayed
 from sklearn.ensemble import ExtraTreesRegressor
-sys.path.insert(0, "/home/razer/v5_pathD")
+sys.path.insert(0, _os.path.join(_REPO, "model"))
 from train_stage1_ecoli import Stage1Model
 from train_stage3_inhouse import map_inhouse_to_stage_vocab, build_sample_vectors
 
-V5="/home/razer/v5_pathD"; CKPT=f"{V5}/checkpoints_razer_stage3v2_1_S42/best.pt"
-COMB=f"{V5}/wetlab_data/combined_counts_v1.tsv"; PARQ=f"{V5}/master_expression_matrix_v2.parquet"; VOCAB=f"{V5}/sl1344_vocab.tsv"
+V5=_REPO; CKPT=_os.path.join(_CKPT, "checkpoints_stage3v2_1_cond_S42", "best.pt")
+COMB=_os.path.join(_DATA, "combined_counts_v1.tsv"); PARQ=_os.path.join(_DATA, "master_expression_matrix.parquet"); VOCAB=_os.path.join(_REF, "sl1344_vocab.tsv")
 YB1=["YB1_aer_MinION","YB1_aer_0508","YB1_ana_v2","YB1_ana_0507","YB1_ana_0508","YB1_aer_clone_0516","YB1_ana_clone_0516"]
 WT=["SL7207_aer_0507","SL7207_aer_0509","SL7207_ana_0509"]
 YB1_AER=[0,1,5]; YB1_ANA=[2,3,4,6]; WT_AER=[0,1]; WT_ANA=[2]

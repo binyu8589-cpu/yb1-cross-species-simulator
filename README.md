@@ -46,13 +46,36 @@ pip install --extra-index-url https://download.pytorch.org/whl/cu130 -r requirem
 `requirements-lock.txt` gives a byte-exact lock (all transitive NVIDIA wheels) for GPU reproduction. For CPU-only, drop the index URL and the `+cu130` suffixes (`torch==2.12.0`, `torchvision==0.27.0`).
 
 ## Data and checkpoints
-- **Trained checkpoints** (per curriculum stage × seed, incl. no-graph ablation) and **processed
-  count matrices**: archived on Zenodo, DOI **[10.5281/zenodo.XXXXXXX]** (to be assigned).
-  Place under `checkpoints/` and `data/processed/`.
+- **In-repo** (version-controlled): reference tables under `data/reference/` (gene vocabulary,
+  *E. coli*↔*Salmonella* ortholog map, Kröger sRNA list, sRNA→target edges, *E. coli* sample
+  metadata) and processed count matrices under `data/processed/*.tsv`; the nine Supplementary
+  Data tables under `data/supplementary/`.
+- **From Zenodo** (DOI **[10.5281/zenodo.20411440](https://doi.org/10.5281/zenodo.20411440)**):
+  trained checkpoints (per curriculum stage × seed, incl. no-graph ablation) and the large
+  processed matrix. Extract so that `checkpoints/` and `data/processed/master_expression_matrix.parquet`
+  sit at the repo root.
 - **Raw nanopore RNA-seq** (YB1, SL7207, Δ*asd*, PW): NCBI GEO **[GSE-XXXXXX]** / SRA **[PRJNA-XXXXXX]** (to be assigned).
 - **Public datasets**: *E. coli* compendium — Tjaden, *RNA Biology* 2023 (Harvard Dataverse
   [doi:10.7910/DVN/QBMC9D](https://doi.org/10.7910/DVN/QBMC9D)); *Salmonella* Kröger et al. 2013;
   RegulonDB; iML1515 (BiGG); KEIO; reference genome SL1344 (RefSeq GCF_000210855.2).
+
+### Path configuration
+Scripts resolve inputs relative to the repository by default; no editing is needed once the
+Zenodo archive is extracted at the repo root. Override with environment variables if your data
+live elsewhere:
+
+| Variable | Default | Used for |
+|---|---|---|
+| `YB1_REPO` | repo root | base for all relative paths |
+| `YB1_DATA` | `data/processed` | count matrices, master matrix |
+| `YB1_REF`  | `data/reference` | vocab, ortholog map, sRNA tables |
+| `YB1_CKPT` | `checkpoints` | trained checkpoints |
+| `LIM_PARQUET` | `data/processed/lim2023_annotated.parquet` | Stage-1 *E. coli* compendium (download from Dataverse QBMC9D) |
+| `WETLAB_NANOPORE`, `WETLAB_FACTORIAL`, `SL1344_GFF`, `WETLAB_RNA_DIR` | dev paths | `reproduce/count_*.py` (need the GEO raw BAMs) |
+
+Stage-1 training and `reproduce/count_*.py` use upstream inputs (the public *E. coli* compendium
+and the raw nanopore BAMs deposited at GEO) that are not bundled here; the evaluation scripts that
+regenerate Tables 1–2 and Figures 3–4 run from the in-repo + Zenodo artifacts alone.
 
 ## Script → display-item map
 | Item | Script |

@@ -1,12 +1,19 @@
 """kroger_dataloader.py — load Kröger 2013 mmc3 22-condition sRNA TPM matrix.
 
-Source TSV: /home/razer/v5_pathD/wetlab_scripts/kroger_srnas.tsv
+Source TSV: <data>/wetlab_scripts/kroger_srnas.tsv
 Schema: SL identifier, common gene name, strand, start, end, then 22+ condition
 columns of TPM values (ESP/LSP/InSPI2/Anaerobic/Bile/Cold shock/Peroxide/...).
 
 Used as supervised expression target for sRNA nodes in v5 Path D training.
 """
 from __future__ import annotations
+# --- repository-relative paths (override via env vars; see README) ---
+import os as _os
+_REPO = _os.environ.get("YB1_REPO", _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_DATA = _os.environ.get("YB1_DATA", _os.path.join(_REPO, "data", "processed"))
+_REF  = _os.environ.get("YB1_REF",  _os.path.join(_REPO, "data", "reference"))
+_CKPT = _os.environ.get("YB1_CKPT", _os.path.join(_REPO, "checkpoints"))
+# --- end repo-relative paths ---
 import csv
 import math
 from pathlib import Path
@@ -15,7 +22,7 @@ import torch
 from torch.utils.data import Dataset
 
 
-KROGER_TSV = "/home/razer/v5_pathD/wetlab_scripts/kroger_srnas.tsv"
+KROGER_TSV = _os.path.join(_REF, "kroger_srnas.tsv")
 
 # Numeric condition columns (header text -> short condition id).
 CONDITION_MAP = {
