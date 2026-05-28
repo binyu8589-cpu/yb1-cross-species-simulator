@@ -81,13 +81,14 @@ regenerate Tables 1–2 and Figures 3–4 run from the in-repo + Zenodo artifact
 ## Script → display-item map
 | Item | Script |
 |---|---|
-| Table 1 (absolute-expression benchmark) | `eval/eval_yb1_mrna_n7.py`, `baselines/run_genie3.py` |
-| Table 2 (strain-specific differential) | `baselines/run_log2fc_cmp.py`, `baselines/run_log2fc_model_only.py` |
+| Absolute-expression numbers (in main text) | `eval/eval_yb1_mrna_n7.py`, `baselines/run_genie3.py` |
+| Table 1 (strain-specific differential) | `baselines/run_log2fc_cmp.py`, `baselines/run_log2fc_model_only.py` |
+| Table 2 (per-pathway differential, v5 vs GENIE3 vs floor) | `baselines/per_pathway_baselines.py` |
 | Fig 1 (architectural obedience) | edge-holdout + causal-mask-removal eval |
 | Fig 2 (model-vs-experiment double-blind) | v4 Δ*asd*/YB1 prediction + measured tables |
 | Fig 3 (mRNA–sRNA complementarity) | `eval/eval_pathway_no_context_and_log2fc.py` + sRNA-category eval |
-| Fig 4 (three-strain DAP-matched) | `figures/` (count → log2FC → panel) |
-| no-graph ablation (Table 2, SI S5) | `baselines/run_nograph_seed.sh` + `baselines/run_log2fc_model_only.py` (3 seeds) |
+| Fig 4 (three-strain DAP-matched + phenotype growth curves) | `figures/` (count → log2FC → panel + growth curves) |
+| no-graph ablation (Table 1, SI S5) | `baselines/run_nograph_seed.sh` + `baselines/run_log2fc_model_only.py` (3 seeds) |
 
 ## Reviewer reproduction (quick start)
 End-to-end regeneration of the main quantitative results (Tables 1–2, Fig 3–4) from the
@@ -119,11 +120,14 @@ The script prints results to stdout, writes per-eval JSON next to each checkpoin
 ### Expected key numbers (held-out YB1)
 | Quantity | Value |
 |---|---|
-| Table 1 — absolute mRNA cosine, n=7 BAMs: **v5** / GENIE3 / mean-floor | **+0.948** / +0.917 / +0.934 |
-| Table 2 — strain-specific log2FC cosine (aer / ana): **v5** | **+0.744 / +0.669** |
-| Table 2 — GENIE3 (aer / ana) | +0.653 / +0.600 |
-| Table 2 — mean-floor (aer / ana) | +0.594 / +0.543 |
-| Table 2 — v5 per seed S42 / S0 / S1 (aer) | +0.744 / +0.750 / +0.663 |
+| Absolute mRNA cosine, n=7 BAMs: **v5** / GENIE3 / mean-floor | **+0.948** / +0.917 / +0.934 |
+| **Table 1** — strain-specific log2FC cosine (aer / ana): **v5** | **+0.744 / +0.669** |
+| Table 1 — GENIE3 (aer / ana) | +0.653 / +0.600 |
+| Table 1 — mean-floor (aer / ana) | +0.594 / +0.543 |
+| Table 1 — v5 per seed S42 / S0 / S1 (aer) | +0.744 / +0.750 / +0.663 |
+| **Table 2** — per-pathway differential: **v5 SPI-1 aer** vs GENIE3 vs floor | **+0.879** vs +0.635 vs +0.652 |
+| Table 2 — Flagellar (aer / ana): v5 vs GENIE3 vs floor | +0.793/+0.818 vs +0.828/+0.827 vs +0.856/+0.539 |
+| Table 2 — Chemotaxis (aer / ana): v5 vs GENIE3 vs floor | +0.941/+0.732 vs +0.922/+0.908 vs +0.903/+0.854 |
 | Fig 3 — context-Δ (full − no-context): Flagellar / SPI-2 / SPI-1 / Chemotaxis | +0.13 / +0.08 / +0.04 / +0.04 |
 
 Figures 1 (edge-holdout / causal-mask-removal) and 2 (model-vs-experiment double-blind) are

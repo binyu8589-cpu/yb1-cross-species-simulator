@@ -14,16 +14,19 @@ cd "$(dirname "$0")/.."
 CKPT="${YB1_CKPT:-checkpoints}/checkpoints_stage3v2_1_cond_S42/best.pt"
 PY="${PYTHON:-python}"
 
-echo "== Table 1: absolute-expression benchmark (held-out YB1) =="
+echo "== Absolute-expression numbers (held-out YB1; reported in text) =="
 $PY eval/eval_yb1_mrna_n7.py --ckpt "$CKPT"
 $PY baselines/run_genie3.py                      # GENIE3 + mean-expression floor
 
-echo "== Table 2: strain-specific differential (model vs GENIE3 vs floor) =="
+echo "== Table 1: strain-specific differential (v5 vs GENIE3 vs floor) =="
 $PY baselines/run_log2fc_cmp.py
 for S in 42 0 1; do
   $PY baselines/run_log2fc_model_only.py \
       --ckpt "checkpoints/checkpoints_stage3v2_1_cond_S${S}/best.pt" --tag "S${S}"
 done
+
+echo "== Table 2: per-pathway differential (v5 vs GENIE3 vs floor by regulon) =="
+$PY baselines/per_pathway_baselines.py
 
 echo "== Fig 3: cross-layer context ablation + sRNA categories =="
 $PY eval/eval_pathway_no_context_and_log2fc.py --ckpt "$CKPT"
