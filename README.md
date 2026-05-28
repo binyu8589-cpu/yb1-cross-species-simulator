@@ -55,7 +55,7 @@ pip install --extra-index-url https://download.pytorch.org/whl/cu130 -r requirem
   expression matrices — `master_expression_matrix.parquet` (cross-species training corpus) and
   `master_expression_matrix_v2.parquet` (the curated corpus the GENIE3/floor baselines use).
   Extract so that `checkpoints/` and `data/processed/*.parquet` sit at the repo root.
-- **Raw nanopore RNA-seq** (YB1, SL7207, Δ*asd*, PW): NCBI GEO **[GSE-XXXXXX]** / SRA **[PRJNA-XXXXXX]** (to be assigned).
+- **Raw nanopore RNA-seq** (YB1, SL7207, Δ*asd*, PW): NCBI GEO **[GSE333492](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE333492)** (27 runs; raw reads brokered to SRA; private during peer review, released on publication).
 - **Public datasets**: *E. coli* compendium — Tjaden, *RNA Biology* 2023 (Harvard Dataverse
   [doi:10.7910/DVN/QBMC9D](https://doi.org/10.7910/DVN/QBMC9D)); *Salmonella* Kröger et al. 2013;
   RegulonDB; iML1515 (BiGG); KEIO; reference genome SL1344 (RefSeq GCF_000210855.2).
