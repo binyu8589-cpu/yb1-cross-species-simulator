@@ -1,7 +1,7 @@
-# Cross-species, small-RNA-aware simulation quantifies engineered intelligence in a logic-gated *Salmonella*
+# Small-RNA-aware cross-species models quantify engineered bacterial cell states
 
 Code, baselines, and reproduction scripts for the manuscript
-*"Cross-species, small-RNA-aware simulation quantifies engineered intelligence in a logic-gated *Salmonella*"* (under review).
+*"Small-RNA-aware cross-species models quantify engineered bacterial cell states"* (under review).
 
 A graph-constrained, small-RNA-aware transformer that predicts the transcriptional state of an
 engineered, non-model bacterium across species, trained by an *E. coli* → *Salmonella* → in-house
@@ -136,7 +136,7 @@ from scratch additionally needs the public *E. coli* compendium and the GEO raw 
 **Data and checkpoints**); the reproduction above runs from the in-repo + Zenodo artifacts alone.
 
 ## Citation
-Yubin et al. *Cross-species, small-RNA-aware simulation quantifies engineered intelligence in a logic-gated *Salmonella*.* (under review). [DOI on publication]
+Yubin et al. *Small-RNA-aware cross-species models quantify engineered bacterial cell states.* (under review). [DOI on publication]
 
 ## License
 MIT — see [LICENSE](LICENSE).
