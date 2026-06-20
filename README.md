@@ -1,7 +1,7 @@
-# Small-RNA-aware cross-species models quantify engineered bacterial cell states
+# Mapping the epistemic boundary of engineered bacterial cell-state models
 
 Code, baselines, and reproduction scripts for the manuscript
-*"Small-RNA-aware cross-species models quantify engineered bacterial cell states"* (under review).
+*"Mapping the epistemic boundary of engineered bacterial cell-state models"* (under review).
 
 A graph-constrained, small-RNA-aware transformer that predicts the transcriptional state of an
 engineered, non-model bacterium across species, trained by an *E. coli* → *Salmonella* → in-house
