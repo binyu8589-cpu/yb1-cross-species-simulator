@@ -1,0 +1,7 @@
+strain,module,coherence,n_genes,plus_one_p,BH_q,sig_BH_0.05
+YB1,SPI-1,0.548,31,0.9482,0.9482,False
+YB1,SPI-2,0.967,30,0.0002,0.0004,True
+YB1,Flagellar,0.677,31,0.491,0.5892,False
+PW,SPI-1,1.0,31,0.0001,0.0003,True
+PW,SPI-2,0.767,30,0.0349,0.0524,False
+PW,Flagellar,0.968,31,0.0001,0.0003,True

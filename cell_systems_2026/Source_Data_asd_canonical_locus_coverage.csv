@@ -1,0 +1,11 @@
+library,strain,canonical_asd_cov_per_Mread,canonical_pct_covered,second_asd_paralog_per_Mread
+YB1_ana_v2,YB1,1.184,39.0,0.41
+YB1_ana_0507,YB1,0.725,83.0,1.414
+YB1_ana_0508,YB1,1.495,90.0,1.0
+YB1_ana_0516,YB1,0.993,57.0,0.529
+PW_ana_0515,PW,2.261,100.0,1.394
+PW_ana_0521,PW,1.483,100.0,1.228
+dAsd_ana_0512,dAsd,0.017,0.0,0.748
+dAsd_ana_0514,dAsd,0.011,0.0,0.769
+SL7207_ana_0509,SL7207,2.249,100.0,2.206
+SL7207_ana_0522,SL7207,2.115,100.0,1.596
