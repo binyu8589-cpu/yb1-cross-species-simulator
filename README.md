@@ -1,8 +1,7 @@
-# Mapping the epistemic boundary of engineered bacterial cell-state models
+# Forward-drive dosage shifts a coordinated regulatory state in logic-gated Salmonella
 
-  Code and reproducibility materials for the manuscript *"Mapping the epistemic boundary of
-  engineered bacterial cell-state models"* (Yu, Ge, Cui), under peer review at *Nature 
-  Communications*.
+  Code and reproducibility materials for the manuscript *"Forward-drive dosage shifts a 
+  coordinated regulatory state in logic-gated Salmonella"* (Yu, Ge, Cui)
 
   ## What this is
   A graph-constrained, small-RNA-aware transformer for bacterial transcriptional state, and
